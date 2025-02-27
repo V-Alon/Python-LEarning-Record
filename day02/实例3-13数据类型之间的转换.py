@@ -1,0 +1,14 @@
+x=10
+y=3
+z=x/y
+print(z)#隐式转换
+print(type(z))
+print(int(z))#转换成int
+print(int(1.11111))
+print(float(8))
+print(bool(z))
+print(int('100'))
+print(float('1'))
+print(ord('西'),ord('安'))
+print(chr(23433))
+print(chr(35199))

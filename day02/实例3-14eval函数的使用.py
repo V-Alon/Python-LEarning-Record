@@ -1,0 +1,12 @@
+s='3.14+3'
+print(s,type(s))
+x=eval(s)#使用eval函数去掉字符串中的左右引号
+print(x,type(x))#去掉引号之后执行减法运算
+#eval经常和input函数使用
+age=eval(input('请输入年龄'))#将字符串转换成int
+print(age,type(age))
+height=eval(input('请输入身高'))
+print(height,type(height))
+hello='xa'
+print(hello,type(hello))
+print(eval('hello'))#去掉引号就是hello，就是上面的变量
