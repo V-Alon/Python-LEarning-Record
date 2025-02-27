@@ -1,0 +1,11 @@
+height=187.7
+print(height)
+print(type(height))
+x=10
+y=10.0
+print(type(x))#int
+print(type(y))#float
+x=1.99E1413
+print('科学计数法',x,type(x))
+print(0.1+0.2)#不确定位数问题
+print(round(0.1+0.2,1))#0.3
