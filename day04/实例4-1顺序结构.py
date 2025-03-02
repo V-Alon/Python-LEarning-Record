@@ -1,0 +1,16 @@
+#赋值语句
+name='张三'
+a=b=c=d=100
+a1,b1,c1,d1=1,2,3,4
+print(a)
+print(b)
+print(c)
+print(d)
+print(a1)
+print(b1)
+print(c1)
+print(d1)
+name1=input('请输入你的名字')
+age=input('请输入你的年龄')
+luck_nuber=input('请输入你的幸运数字')
+print(name1,age,luck_nuber)
