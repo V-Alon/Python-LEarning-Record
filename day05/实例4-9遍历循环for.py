@@ -17,8 +17,7 @@ print('---100到999之间的水仙花数---')
 """
 for i in range(100,1000):#1533
     sd=i%10#获取个位上数字
-    tens=i//10%10
-    hs=i//100
-    if sd**3+tens**3+hs**3:
-        print(i)
-    print('水仙花数是',)
+    tens=i//10%10#获取十位数字
+    hs=i//100#获取百位数字
+    if sd**3+tens**3+hs**3==i:
+        print('水仙花数是',i)
