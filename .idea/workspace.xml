@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/实例4-10遍历循环的扩展形式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/实例4-11无限循环while的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/实例4-12无限循环while的扩展.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/实例4-13使用无限循环模拟用户的登录.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/实例4-14长方形，直角三角形输出.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/实例4-15倒三角形和等腰三角形.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/实例4-16菱形.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/实例4-9遍历循环for.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/实例4-9遍历循环for.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +239,7 @@
       <workItem from="1740646728657" duration="4000" />
       <workItem from="1740647088413" duration="11228000" />
       <workItem from="1740916410824" duration="6426000" />
-      <workItem from="1740989853995" duration="9809000" />
+      <workItem from="1740989853995" duration="10017000" />
     </task>
     <servers />
   </component>
