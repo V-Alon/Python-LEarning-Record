@@ -17,7 +17,7 @@ bottom_row=(row)//2
     #直角三角形
 for i in range(1,bottom_row+1):#外循环
     for j in range(1,i+1):
-        print("=", end='')
+        print(" ", end='')
     for z in range(1,bottom_row*2-2*i+2):
         print("*", end='')
     print()
