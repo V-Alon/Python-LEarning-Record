@@ -1,5 +1,5 @@
 score=input('请输入成绩等级')
-match score:
+match score:#相当于swtich
     case 'a':
         print('good')
     case 'b':
