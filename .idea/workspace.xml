@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day07/实例5-3序列的相加相乘操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07/实例5-4序列的相关操作符和函数的使用.pyi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/实例5-2序列的切片操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/实例5-2序列的切片操作.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +257,7 @@
       <workItem from="1740989853995" duration="10017000" />
       <workItem from="1741006156318" duration="95000" />
       <workItem from="1741073708038" duration="8861000" />
-      <workItem from="1741264615757" duration="4594000" />
+      <workItem from="1741264615757" duration="4647000" />
     </task>
     <servers />
   </component>
