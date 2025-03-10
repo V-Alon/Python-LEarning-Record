@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day09/实例5-10 列表生成式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09/实例5-11二维列表的遍历和生成.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09/实例5-12元组的创建和删除.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +87,8 @@
     "Python.实例4-9遍历循环for.executor": "Run",
     "Python.实例5-10 列表生成式.executor": "Run",
     "Python.实例5-11二维列表的遍历和生成.executor": "Run",
+    "Python.实例5-12元租的创建和删除.executor": "Run",
+    "Python.实例5-12元组的创建和删除 (1).executor": "Run",
     "Python.实例5-1使用索引去检索字符串中的元素.executor": "Run",
     "Python.实例5-2序列的切片操作.executor": "Run",
     "Python.实例5-3序列的相加相乘操作.executor": "Run",
@@ -120,7 +120,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例5-11二维列表的遍历和生成">
+  <component name="RunManager" selected="Python.实例5-12元组的创建和删除 (1)">
     <configuration name="实例5-10 列表生成式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -167,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例5-7列表的相关操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例5-12元组的创建和删除 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +181,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09/实例5-7列表的相关操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09/实例5-12元组的创建和删除.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例5-8列表的排序操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例5-12元组的创建和删除" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +204,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09/实例5-8列表的排序操作.py" />
+      <option name="SCRIPT_NAME" value="D:\GitHub-works\Python-LEarning-Record\day09\实例5-12元组的创建和删除.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例5-12元组的创建和删除 (1)" />
+        <item itemvalue="Python.实例5-12元组的创建和删除" />
         <item itemvalue="Python.实例5-11二维列表的遍历和生成" />
         <item itemvalue="Python.实例5-10 列表生成式" />
         <item itemvalue="Python.实例5-9列表的排序（sorted）" />
-        <item itemvalue="Python.实例5-8列表的排序操作" />
-        <item itemvalue="Python.实例5-7列表的相关操作" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,7 @@
       <workItem from="1741264615757" duration="4647000" />
       <workItem from="1741350297285" duration="2000" />
       <workItem from="1741433207585" duration="3695000" />
-      <workItem from="1741593546461" duration="4303000" />
+      <workItem from="1741593546461" duration="5237000" />
     </task>
     <servers />
   </component>
@@ -293,6 +293,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_18breakwhile.coverage" NAME="实例4-18跳转语句break在while循环的使用 覆盖结果" MODIFIED="1741076501041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_5.coverage" NAME="实例5-5列表的创建和删除 覆盖结果" MODIFIED="1741439870432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_5if.coverage" NAME="实例4-5嵌套if的使用 覆盖结果" MODIFIED="1740990607629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12__1_.coverage" NAME="实例5-12元组的创建和删除 (1) 覆盖结果" MODIFIED="1741600153237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_13.coverage" NAME="实例4-13使用无限循环模拟用户的登录 覆盖结果" MODIFIED="1741002439982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_9sorted.coverage" NAME="实例5-9列表的排序（sorted） 覆盖结果" MODIFIED="1741595989100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$_2.coverage" NAME="实战-2 覆盖结果" MODIFIED="1740917591067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
@@ -319,6 +320,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_22pass.coverage" NAME="实例4-22pass的使用 覆盖结果" MODIFIED="1741080063861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12.coverage" NAME="实例3-12布尔类型的使用 覆盖结果" MODIFIED="1740651279862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_9for.coverage" NAME="实例4-9遍历循环for 覆盖结果" MODIFIED="1741000935170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12.coverage" NAME="实例5-12元租的创建和删除 覆盖结果" MODIFIED="1741599353477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_16.coverage" NAME="实例3-16赋值运算符 覆盖结果" MODIFIED="1740660112306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
