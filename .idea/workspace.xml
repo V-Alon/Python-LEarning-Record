@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day11/实例5-23合并字典的运算符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/实例5-24同步迭代.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-10字符串的索引和切片.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-10字符串的索引和切片.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-11常见的字符串操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-11常见的字符串操作.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-12布尔类型的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-12布尔类型的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-13数据类型之间的转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-13数据类型之间的转换.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-14eval函数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-14eval函数的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-15算术运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-15算术运算符的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-16赋值运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-16赋值运算符的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-17比较运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-17比较运算符的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-18逻辑运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-18逻辑运算符的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-19位运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-19位运算.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-1查询Python中的保留字.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-1查询Python中的保留字.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-2保留字严格区分大小写.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-2保留字严格区分大小写.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-3变量的定义和使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-3变量的定义和使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-4常量的定义.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-4常量的定义.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-5整数的四种表示形态.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-5整数的四种表示形态.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-6浮点数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-6浮点数的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-7复数类型的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-7复数类型的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-8字符串类型的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-8字符串类型的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-9转义字符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-9转义字符的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/实例5-22python3.11新特性.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/实例5-22结构的模式匹配.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,7 +284,7 @@
       <workItem from="1741433207585" duration="3695000" />
       <workItem from="1741593546461" duration="5887000" />
       <workItem from="1741678210934" duration="6430000" />
-      <workItem from="1741763873308" duration="3391000" />
+      <workItem from="1741763873308" duration="3959000" />
     </task>
     <servers />
   </component>
