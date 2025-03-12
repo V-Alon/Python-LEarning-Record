@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day11/实例5-21集合的相关操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/实例5-22python3.11新特性.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/实例5-20集合的操作符.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/实例5-20集合的操作符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/实例5-23合并字典的运算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/实例5-24同步迭代.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-10字符串的索引和切片.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-10字符串的索引和切片.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-11常见的字符串操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-11常见的字符串操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-12布尔类型的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-12布尔类型的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-13数据类型之间的转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-13数据类型之间的转换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-14eval函数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-14eval函数的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-15算术运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-15算术运算符的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-16赋值运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-16赋值运算符的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-17比较运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-17比较运算符的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-18逻辑运算符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-18逻辑运算符的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-19位运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-19位运算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-1查询Python中的保留字.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-1查询Python中的保留字.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-2保留字严格区分大小写.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-2保留字严格区分大小写.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-3变量的定义和使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-3变量的定义和使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-4常量的定义.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-4常量的定义.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-5整数的四种表示形态.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-5整数的四种表示形态.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-6浮点数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-6浮点数的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-7复数类型的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-7复数类型的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-8字符串类型的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-8字符串类型的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02andday03/实例3-9转义字符的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02   &amp;    day03/实例3-9转义字符的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/实例5-22python3.11新特性.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/实例5-22结构的模式匹配.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +119,9 @@
     "Python.实例5-1使用索引去检索字符串中的元素.executor": "Run",
     "Python.实例5-20集合的操作符.executor": "Run",
     "Python.实例5-21集合的相关操作.executor": "Run",
+    "Python.实例5-22结构的模式匹配.executor": "Run",
+    "Python.实例5-23合并字典的运算符.executor": "Run",
+    "Python.实例5-24同步迭代.executor": "Run",
     "Python.实例5-2序列的切片操作.executor": "Run",
     "Python.实例5-3序列的相加相乘操作.executor": "Run",
     "Python.实例5-4序列的相关操作符和函数的使用.executor": "Debug",
@@ -131,76 +153,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例5-21集合的相关操作">
-    <configuration name="实例5-17字典的相关操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/实例5-17字典的相关操作.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="实例5-18字典生成式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/实例5-18字典生成式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="实例5-19集合的创建和删除" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-19集合的创建和删除.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例5-24同步迭代">
     <configuration name="实例5-20集合的操作符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -247,13 +200,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例5-22结构的模式匹配" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-22结构的模式匹配.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="实例5-23合并字典的运算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-23合并字典的运算符.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="实例5-24同步迭代" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-24同步迭代.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例5-24同步迭代" />
+        <item itemvalue="Python.实例5-23合并字典的运算符" />
+        <item itemvalue="Python.实例5-22结构的模式匹配" />
         <item itemvalue="Python.实例5-21集合的相关操作" />
         <item itemvalue="Python.实例5-20集合的操作符" />
-        <item itemvalue="Python.实例5-19集合的创建和删除" />
-        <item itemvalue="Python.实例5-18字典生成式" />
-        <item itemvalue="Python.实例5-17字典的相关操作" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +307,7 @@
       <workItem from="1741433207585" duration="3695000" />
       <workItem from="1741593546461" duration="5887000" />
       <workItem from="1741678210934" duration="6430000" />
-      <workItem from="1741763873308" duration="2506000" />
+      <workItem from="1741763873308" duration="3391000" />
     </task>
     <servers />
   </component>
@@ -298,6 +320,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_14.coverage" NAME="实例5-14元组生成式 覆盖结果" MODIFIED="1741679515829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_20continuewhile.coverage" NAME="实例4-20跳转语句continue在while的使用 覆盖结果" MODIFIED="1741079913977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_8Python.coverage" NAME="实例4-8Python新任性——模式匹配 覆盖结果" MODIFIED="1740991439510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_23.coverage" NAME="实例5-23合并字典的运算符 覆盖结果" MODIFIED="1741767342560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_11.coverage" NAME="实例3-11常见的字符串操作 覆盖结果" MODIFIED="1740650711297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
@@ -334,6 +357,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_15.coverage" NAME="实例3-15算术运算符的使用 覆盖结果" MODIFIED="1740659284507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_2.coverage" NAME="实例4-2单分支结构 覆盖结果" MODIFIED="1740924355436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_11while.coverage" NAME="实例4-11无限循环while的使用 覆盖结果" MODIFIED="1741001588256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_24.coverage" NAME="实例5-24同步迭代 覆盖结果" MODIFIED="1741767685415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_21.coverage" NAME="实例5-21集合的相关操作 覆盖结果" MODIFIED="1741765767497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$test.coverage" NAME="test 覆盖结果" MODIFIED="1741080763145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_15.coverage" NAME="实例4-15倒三角形和等腰三角形 覆盖结果" MODIFIED="1741004594186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
@@ -346,6 +370,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_16.coverage" NAME="实例3-16赋值运算符 覆盖结果" MODIFIED="1740660112306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_22.coverage" NAME="实例5-22结构的模式匹配 覆盖结果" MODIFIED="1741767220343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_10.coverage" NAME="实例3-10字符串的索引和切片 覆盖结果" MODIFIED="1740648903452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_8.coverage" NAME="实例5-8列表的排序操作 覆盖结果" MODIFIED="1741595674838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_4.coverage" NAME="实例5-4序列的相关操作符和函数的使用 覆盖结果" MODIFIED="1741439688212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
