@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day10/实例5-16字典元素的遍历和访问.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/实例5-17字典的相关操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/实例5-18字典生成式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +277,7 @@
       <workItem from="1741350297285" duration="2000" />
       <workItem from="1741433207585" duration="3695000" />
       <workItem from="1741593546461" duration="5887000" />
-      <workItem from="1741678210934" duration="6381000" />
+      <workItem from="1741678210934" duration="6430000" />
     </task>
     <servers />
   </component>
