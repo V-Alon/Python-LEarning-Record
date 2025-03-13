@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day12/实战1-什么是千年虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/实战2-模拟JD物流购物流程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/实战3-模拟12306火车票订购流程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/实战4-模拟手机通讯录.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,84 +50,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.work-01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.work-02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.work-03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.work-04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-10字符串的索引和切片.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-11常见的字符串操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-12布尔类型的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-13数据类型之间的转换.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-14eval函数的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-15算术运算符的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-16赋值运算符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-17比较运算符的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-18逻辑运算符的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-19位运算.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例3-9转义字符的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-10遍历循环的扩展形式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-11无限循环while的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-12无限循环while的扩展.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-13使用无限循环模拟用户的登录.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-14长方形，直角三角形输出.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-15倒三角形和等腰三角形.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-16菱形 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-16菱形和空心菱形.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-18跳转语句break在while循环的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-19break在for循环的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-1顺序结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-20跳转语句continue在while的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-22pass的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-2单分支结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-3双分支结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-4多分支结构.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-5嵌套if的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-6使用and连接多个选择条件.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-7使用or连接多个选择条件.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-8Python新任性——模式匹配.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例4-9遍历循环for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-10 列表生成式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-11二维列表的遍历和生成.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-12元租的创建和删除.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-12元组的创建和删除 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-13元组元素的访问.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-14元组生成式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-15字典的创建和删除.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-17字典的相关操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-18字典生成式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-19集合的创建和删除.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-1使用索引去检索字符串中的元素.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-20集合的操作符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-21集合的相关操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-22结构的模式匹配.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-23合并字典的运算符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-24同步迭代.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-2序列的切片操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-3序列的相加相乘操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-4序列的相关操作符和函数的使用.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.实例5-5列表的创建和删除.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-6列表的遍历操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-7列表的相关操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-8列表的排序操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-9列表的排序（sorted）.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实例5-字典元素的遍历和访问.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实战-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实战-2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.test.executor": "Run",
+    "Python.work-01.executor": "Run",
+    "Python.work-02.executor": "Run",
+    "Python.work-03.executor": "Run",
+    "Python.work-04.executor": "Run",
+    "Python.实例3-10字符串的索引和切片.executor": "Run",
+    "Python.实例3-11常见的字符串操作.executor": "Run",
+    "Python.实例3-12布尔类型的使用.executor": "Run",
+    "Python.实例3-13数据类型之间的转换.executor": "Run",
+    "Python.实例3-14eval函数的使用.executor": "Run",
+    "Python.实例3-15算术运算符的使用.executor": "Run",
+    "Python.实例3-16赋值运算符.executor": "Run",
+    "Python.实例3-17比较运算符的使用.executor": "Run",
+    "Python.实例3-18逻辑运算符的使用.executor": "Run",
+    "Python.实例3-19位运算.executor": "Run",
+    "Python.实例3-9转义字符的使用.executor": "Run",
+    "Python.实例4-10遍历循环的扩展形式.executor": "Run",
+    "Python.实例4-11无限循环while的使用.executor": "Run",
+    "Python.实例4-12无限循环while的扩展.executor": "Run",
+    "Python.实例4-13使用无限循环模拟用户的登录.executor": "Run",
+    "Python.实例4-14长方形，直角三角形输出.executor": "Run",
+    "Python.实例4-15倒三角形和等腰三角形.executor": "Run",
+    "Python.实例4-16菱形 (1).executor": "Run",
+    "Python.实例4-16菱形和空心菱形.executor": "Run",
+    "Python.实例4-18跳转语句break在while循环的使用.executor": "Run",
+    "Python.实例4-19break在for循环的使用.executor": "Run",
+    "Python.实例4-1顺序结构.executor": "Run",
+    "Python.实例4-20跳转语句continue在while的使用.executor": "Run",
+    "Python.实例4-22pass的使用.executor": "Run",
+    "Python.实例4-2单分支结构.executor": "Run",
+    "Python.实例4-3双分支结构.executor": "Run",
+    "Python.实例4-4多分支结构.executor": "Run",
+    "Python.实例4-5嵌套if的使用.executor": "Run",
+    "Python.实例4-6使用and连接多个选择条件.executor": "Run",
+    "Python.实例4-7使用or连接多个选择条件.executor": "Run",
+    "Python.实例4-8Python新任性——模式匹配.executor": "Run",
+    "Python.实例4-9遍历循环for.executor": "Run",
+    "Python.实例5-10 列表生成式.executor": "Run",
+    "Python.实例5-11二维列表的遍历和生成.executor": "Run",
+    "Python.实例5-12元租的创建和删除.executor": "Run",
+    "Python.实例5-12元组的创建和删除 (1).executor": "Run",
+    "Python.实例5-13元组元素的访问.executor": "Run",
+    "Python.实例5-14元组生成式.executor": "Run",
+    "Python.实例5-15字典的创建和删除.executor": "Run",
+    "Python.实例5-17字典的相关操作.executor": "Run",
+    "Python.实例5-18字典生成式.executor": "Run",
+    "Python.实例5-19集合的创建和删除.executor": "Run",
+    "Python.实例5-1使用索引去检索字符串中的元素.executor": "Run",
+    "Python.实例5-20集合的操作符.executor": "Run",
+    "Python.实例5-21集合的相关操作.executor": "Run",
+    "Python.实例5-22结构的模式匹配.executor": "Run",
+    "Python.实例5-23合并字典的运算符.executor": "Run",
+    "Python.实例5-24同步迭代.executor": "Run",
+    "Python.实例5-2序列的切片操作.executor": "Run",
+    "Python.实例5-3序列的相加相乘操作.executor": "Run",
+    "Python.实例5-4序列的相关操作符和函数的使用.executor": "Debug",
+    "Python.实例5-5列表的创建和删除.executor": "Run",
+    "Python.实例5-6列表的遍历操作.executor": "Run",
+    "Python.实例5-7列表的相关操作.executor": "Run",
+    "Python.实例5-8列表的排序操作.executor": "Run",
+    "Python.实例5-9列表的排序（sorted）.executor": "Run",
+    "Python.实例5-字典元素的遍历和访问.executor": "Run",
+    "Python.实战-1.executor": "Run",
+    "Python.实战-2.executor": "Run",
+    "Python.实战1-什么是千年虫.executor": "Run",
+    "Python.实战2-模拟JD物流购物流程.executor": "Run",
+    "Python.实战3-模拟12306火车票订购流程.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub-works\Python-LEarning-Record\day06" />
@@ -132,8 +139,8 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例5-24同步迭代">
-    <configuration name="实例5-20集合的操作符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.实战3-模拟12306火车票订购流程">
+    <configuration name="实战1-什么是千年虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,12 +149,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-20集合的操作符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/实战1-什么是千年虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例5-21集合的相关操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实战2-模拟JD物流购物流程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-21集合的相关操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/实战2-模拟JD物流购物流程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例5-22结构的模式匹配" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实战3-模拟12306火车票订购流程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,12 +195,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/实例5-22结构的模式匹配.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/实战3-模拟12306火车票订购流程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实战3-模拟12306火车票订购流程" />
+        <item itemvalue="Python.实战2-模拟JD物流购物流程" />
+        <item itemvalue="Python.实战1-什么是千年虫" />
         <item itemvalue="Python.实例5-24同步迭代" />
         <item itemvalue="Python.实例5-23合并字典的运算符" />
-        <item itemvalue="Python.实例5-22结构的模式匹配" />
-        <item itemvalue="Python.实例5-21集合的相关操作" />
-        <item itemvalue="Python.实例5-20集合的操作符" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +294,7 @@
       <workItem from="1741593546461" duration="5887000" />
       <workItem from="1741678210934" duration="6430000" />
       <workItem from="1741763873308" duration="4112000" />
-      <workItem from="1741846602812" duration="570000" />
+      <workItem from="1741846602812" duration="4496000" />
     </task>
     <servers />
   </component>
@@ -295,16 +302,16 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_20.coverage" NAME="实例5-20集合的操作符 覆盖结果" MODIFIED="1741765389451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_14.coverage" NAME="实例5-14元组生成式 覆盖结果" MODIFIED="1741679515829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_20continuewhile.coverage" NAME="实例4-20跳转语句continue在while的使用 覆盖结果" MODIFIED="1741079913977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_8Python.coverage" NAME="实例4-8Python新任性——模式匹配 覆盖结果" MODIFIED="1740991439510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_23.coverage" NAME="实例5-23合并字典的运算符 覆盖结果" MODIFIED="1741767342560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_8Python.coverage" NAME="实例4-8Python新任性——模式匹配 覆盖结果" MODIFIED="1740991439510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_11.coverage" NAME="实例3-11常见的字符串操作 覆盖结果" MODIFIED="1740650711297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_17.coverage" NAME="实例3-17比较运算符的使用 覆盖结果" MODIFIED="1740660295923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_2.coverage" NAME="实例5-2序列的切片操作 覆盖结果" MODIFIED="1741269849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_4.coverage" NAME="实例4-4多分支结构 覆盖结果" MODIFIED="1740925125666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
@@ -321,9 +328,11 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_13.coverage" NAME="实例5-13元组元素的访问 覆盖结果" MODIFIED="1741679142218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_01.coverage" NAME="work-01 覆盖结果" MODIFIED="1741082218007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16__1_.coverage" NAME="实例4-16菱形 (1) 覆盖结果" MODIFIED="1741006189163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1_.coverage" NAME="实战1-什么是千年虫 覆盖结果" MODIFIED="1741848168840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_7.coverage" NAME="实例5-7列表的相关操作 覆盖结果" MODIFIED="1741595247700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_19.coverage" NAME="实例3-19位运算 覆盖结果" MODIFIED="1740661667545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_12while.coverage" NAME="实例4-12无限循环while的扩展 覆盖结果" MODIFIED="1741001686201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12306.coverage" NAME="实战3-模拟12306火车票订购流程 覆盖结果" MODIFIED="1741852245501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_18.coverage" NAME="实例3-18逻辑运算符的使用 覆盖结果" MODIFIED="1740660828190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$_1.coverage" NAME="实战-1 覆盖结果" MODIFIED="1740917258025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_19breakfor.coverage" NAME="实例4-19break在for循环的使用 覆盖结果" MODIFIED="1741076950335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
@@ -345,6 +354,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12.coverage" NAME="实例3-12布尔类型的使用 覆盖结果" MODIFIED="1740651279862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_9for.coverage" NAME="实例4-9遍历循环for 覆盖结果" MODIFIED="1741000935170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_15.coverage" NAME="实例5-15字典的创建和删除 覆盖结果" MODIFIED="1741680932829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_JD.coverage" NAME="实战2-模拟JD物流购物流程 覆盖结果" MODIFIED="1741848993060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_.coverage" NAME="实例5-字典元素的遍历和访问 覆盖结果" MODIFIED="1741683718856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12.coverage" NAME="实例5-12元租的创建和删除 覆盖结果" MODIFIED="1741599353477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
