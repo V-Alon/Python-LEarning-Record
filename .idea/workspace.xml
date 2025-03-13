@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day12/实例6-1字符串的相关处理方法.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +291,7 @@
       <workItem from="1741678210934" duration="6430000" />
       <workItem from="1741763873308" duration="4112000" />
       <workItem from="1741846602812" duration="5428000" />
-      <workItem from="1741866143110" duration="1219000" />
+      <workItem from="1741866143110" duration="1953000" />
     </task>
     <servers />
   </component>
