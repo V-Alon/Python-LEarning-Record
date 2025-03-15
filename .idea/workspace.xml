@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day13/实例6-6数据的验证.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/实例6-5字符串的编码和解码.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/实例6-5字符串的编码和解码.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +303,7 @@
       <workItem from="1741866143110" duration="1953000" />
       <workItem from="1741911988659" duration="120000" />
       <workItem from="1741939011598" duration="2466000" />
-      <workItem from="1742027019497" duration="5583000" />
+      <workItem from="1742027019497" duration="6852000" />
     </task>
     <servers />
   </component>
