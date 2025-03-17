@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/day14/实例6-12sub函数的split函数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/实例6-12sub函数的split函数的使用.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +115,7 @@
     "Python.实例5-字典元素的遍历和访问.executor": "Run",
     "Python.实例6-10search函数的使用.executor": "Run",
     "Python.实例6-11findall函数的使用.executor": "Run",
-    "Python.实例6-12sub函数的split函数的使用.executor": "Run",
+    "Python.实例6-12sub函数的split函数的使用.executor": "Debug",
     "Python.实例6-1字符串的相关处理方法.executor": "Run",
     "Python.实例6-2字符串的相关处理方法2.executor": "Run",
     "Python.实例6-3格式字符串的操作.executor": "Debug",
@@ -310,6 +312,7 @@
       <workItem from="1741939011598" duration="2466000" />
       <workItem from="1742027019497" duration="6852000" />
       <workItem from="1742111170735" duration="7726000" />
+      <workItem from="1742188987035" duration="611000" />
     </task>
     <servers />
   </component>
