@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day14/实例6-10search函数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/实例6-11findall函数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/实例6-12sub函数的split函数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/实例6-9match函数的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/实例6-9正则表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/实例6-9（0）正则表达式.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +309,7 @@
       <workItem from="1741911988659" duration="120000" />
       <workItem from="1741939011598" duration="2466000" />
       <workItem from="1742027019497" duration="6852000" />
-      <workItem from="1742111170735" duration="7325000" />
+      <workItem from="1742111170735" duration="7726000" />
     </task>
     <servers />
   </component>
@@ -388,7 +382,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12.coverage" NAME="实例5-12元租的创建和删除 覆盖结果" MODIFIED="1741599353477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_12subsplit.coverage" NAME="实例6-12sub函数的split函数的使用 覆盖结果" MODIFIED="1742128774210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_12subsplit.coverage" NAME="实例6-12sub函数的split函数的使用 覆盖结果" MODIFIED="1742128936627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_16.coverage" NAME="实例3-16赋值运算符 覆盖结果" MODIFIED="1740660112306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_22.coverage" NAME="实例5-22结构的模式匹配 覆盖结果" MODIFIED="1741767220343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_22.coverage" NAME="实例6-2字符串的相关处理方法2 覆盖结果" MODIFIED="1742034171909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
