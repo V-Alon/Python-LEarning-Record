@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day15/实例7-11try-except-else结构.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/实例7-12try-except-else-fainally结构.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/实例7-13raise结构的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,7 +318,7 @@
       <workItem from="1741939011598" duration="2466000" />
       <workItem from="1742027019497" duration="6852000" />
       <workItem from="1742111170735" duration="7726000" />
-      <workItem from="1742188987035" duration="6748000" />
+      <workItem from="1742188987035" duration="7378000" />
     </task>
     <servers />
   </component>
