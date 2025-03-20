@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day17/实例8-2位置参数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/实例8-3关键字传参的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/实例8-4默认值参数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/实例8-5可变参数的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/实例8-6函数的返回值.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day17/实例8-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17/实例8-1函数的定义.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day17/实例8-5可变参数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day17/实例8-5可变参数的使用.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +139,8 @@
     "Python.实例8-2位置参数的使用.executor": "Run",
     "Python.实例8-3关键字传参的使用.executor": "Run",
     "Python.实例8-4默认值参数的使用.executor": "Run",
+    "Python.实例8-5可变参数的使用.executor": "Run",
+    "Python.实例8-6函数的返回值.executor": "Run",
     "Python.实战-1.executor": "Run",
     "Python.实战-2.executor": "Run",
     "Python.实战1-什么是千年虫.executor": "Run",
@@ -174,53 +173,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例8-4默认值参数的使用">
-    <configuration name="实战2-编写程序实现三角形的判断" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/实战2-编写程序实现三角形的判断.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="实例8-1函数的定义" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/实例8-1函数的定义.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例8-6函数的返回值">
     <configuration name="实例8-2位置参数的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -290,13 +243,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例8-5可变参数的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/实例8-5可变参数的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="实例8-6函数的返回值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/实例8-6函数的返回值.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例8-6函数的返回值" />
+        <item itemvalue="Python.实例8-5可变参数的使用" />
         <item itemvalue="Python.实例8-4默认值参数的使用" />
         <item itemvalue="Python.实例8-3关键字传参的使用" />
         <item itemvalue="Python.实例8-2位置参数的使用" />
-        <item itemvalue="Python.实例8-1函数的定义" />
-        <item itemvalue="Python.实战2-编写程序实现三角形的判断" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +337,7 @@
       <workItem from="1742188987035" duration="7378000" />
       <workItem from="1742288299197" duration="3368000" />
       <workItem from="1742393994351" duration="95000" />
-      <workItem from="1742455017724" duration="10034000" />
+      <workItem from="1742455017724" duration="11194000" />
     </task>
     <servers />
   </component>
@@ -346,67 +345,29 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_13raise.coverage" NAME="实例7-13raise结构的使用 覆盖结果" MODIFIED="1742291612683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_20.coverage" NAME="实例5-20集合的操作符 覆盖结果" MODIFIED="1741765389451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_14.coverage" NAME="实例5-14元组生成式 覆盖结果" MODIFIED="1741679515829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_20continuewhile.coverage" NAME="实例4-20跳转语句continue在while的使用 覆盖结果" MODIFIED="1741079913977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_8Python.coverage" NAME="实例4-8Python新任性——模式匹配 覆盖结果" MODIFIED="1740991439510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_23.coverage" NAME="实例5-23合并字典的运算符 覆盖结果" MODIFIED="1741767342560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_11.coverage" NAME="实例3-11常见的字符串操作 覆盖结果" MODIFIED="1740650711297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_.coverage" NAME="实战3-格式化输出商品的单价和名称 覆盖结果" MODIFIED="1742199026368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_2.coverage" NAME="实例8-2位置参数的使用 覆盖结果" MODIFIED="1742474748600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_3.coverage" NAME="实例6-3格式字符串的操作 覆盖结果" MODIFIED="1742036100430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_6.coverage" NAME="实例6-6数据的验证 覆盖结果" MODIFIED="1742113744036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_17.coverage" NAME="实例3-17比较运算符的使用 覆盖结果" MODIFIED="1740660295923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_2.coverage" NAME="实例5-2序列的切片操作 覆盖结果" MODIFIED="1741269849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_8.coverage" NAME="实例6-8字符串的去重操作 覆盖结果" MODIFIED="1742114510972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_4.coverage" NAME="实例4-4多分支结构 覆盖结果" MODIFIED="1740925125666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_9.coverage" NAME="实例3-9转义字符的使用 覆盖结果" MODIFIED="1740648483574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_18breakwhile.coverage" NAME="实例4-18跳转语句break在while循环的使用 覆盖结果" MODIFIED="1741076501041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_5.coverage" NAME="实例5-5列表的创建和删除 覆盖结果" MODIFIED="1741439870432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_5if.coverage" NAME="实例4-5嵌套if的使用 覆盖结果" MODIFIED="1740990607629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12__1_.coverage" NAME="实例5-12元组的创建和删除 (1) 覆盖结果" MODIFIED="1741600153237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_13.coverage" NAME="实例4-13使用无限循环模拟用户的登录 覆盖结果" MODIFIED="1741002439982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_19.coverage" NAME="实例5-19集合的创建和删除 覆盖结果" MODIFIED="1741764994064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_9sorted.coverage" NAME="实例5-9列表的排序（sorted） 覆盖结果" MODIFIED="1741595989100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$_2.coverage" NAME="实战-2 覆盖结果" MODIFIED="1740917591067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_4.coverage" NAME="实例8-4默认值参数的使用 覆盖结果" MODIFIED="1742477487521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_1.coverage" NAME="实例4-1顺序结构 覆盖结果" MODIFIED="1740920735889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_13.coverage" NAME="实例5-13元组元素的访问 覆盖结果" MODIFIED="1741679142218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_01.coverage" NAME="work-01 覆盖结果" MODIFIED="1741082218007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16__1_.coverage" NAME="实例4-16菱形 (1) 覆盖结果" MODIFIED="1741006189163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1_.coverage" NAME="实战1-车牌号归属地 覆盖结果" MODIFIED="1742192455517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_4format.coverage" NAME="实例6-4format的格式控制 覆盖结果" MODIFIED="1742036740190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_7.coverage" NAME="实例5-7列表的相关操作 覆盖结果" MODIFIED="1741595247700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_19.coverage" NAME="实例3-19位运算 覆盖结果" MODIFIED="1740661667545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_12while.coverage" NAME="实例4-12无限循环while的扩展 覆盖结果" MODIFIED="1741001686201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12306.coverage" NAME="实战3-模拟12306火车票订购流程 覆盖结果" MODIFIED="1741852245501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_14.coverage" NAME="实例7-14常见异常的产生 覆盖结果" MODIFIED="1742292449129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_7.coverage" NAME="实例7-7输入两个整数并进行除法运算 覆盖结果" MODIFIED="1742200581294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_18.coverage" NAME="实例3-18逻辑运算符的使用 覆盖结果" MODIFIED="1740660828190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_.coverage" NAME="实战4-模拟手机通讯录 覆盖结果" MODIFIED="1741866205024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$_1.coverage" NAME="实战-1 覆盖结果" MODIFIED="1740917258025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_19breakfor.coverage" NAME="实例4-19break在for循环的使用 覆盖结果" MODIFIED="1741076950335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_1.coverage" NAME="实例5-1使用索引去检索字符串中的元素 覆盖结果" MODIFIED="1741268990922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1.coverage" NAME="实战1编写程序接收用户输入分数信息 覆盖结果" MODIFIED="1742460487411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_3.coverage" NAME="实例8-3关键字传参的使用 覆盖结果" MODIFIED="1742477110683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_13.coverage" NAME="实例3-13数据类型之间的转换 覆盖结果" MODIFIED="1740651883888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_02.coverage" NAME="work-02 覆盖结果" MODIFIED="1741265305850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_1.coverage" NAME="实例6-1字符串的相关处理方法 覆盖结果" MODIFIED="1741867347185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_6and.coverage" NAME="实例4-6使用and连接多个选择条件 覆盖结果" MODIFIED="1740990988348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_3.coverage" NAME="实例5-3序列的相加相乘操作 覆盖结果" MODIFIED="1741438180249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_7.coverage" NAME="实例6-7字符串的拼接操作 覆盖结果" MODIFIED="1742113866529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_6.coverage" NAME="实例5-6列表的遍历操作 覆盖结果" MODIFIED="1741440345096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_18.coverage" NAME="实例5-18字典生成式 覆盖结果" MODIFIED="1741764508288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_15.coverage" NAME="实例3-15算术运算符的使用 覆盖结果" MODIFIED="1740659284507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_2.coverage" NAME="实例4-2单分支结构 覆盖结果" MODIFIED="1740924355436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_11while.coverage" NAME="实例4-11无限循环while的使用 覆盖结果" MODIFIED="1741001588256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_.coverage" NAME="实战2-编写程序实现三角形的判断 覆盖结果" MODIFIED="1742460922158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_24.coverage" NAME="实例5-24同步迭代 覆盖结果" MODIFIED="1741767685415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_21.coverage" NAME="实例5-21集合的相关操作 覆盖结果" MODIFIED="1741765767497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$test.coverage" NAME="test 覆盖结果" MODIFIED="1741080763145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_15.coverage" NAME="实例4-15倒三角形和等腰三角形 覆盖结果" MODIFIED="1741004594186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
@@ -414,31 +375,71 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12.coverage" NAME="实例3-12布尔类型的使用 覆盖结果" MODIFIED="1740651279862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_9for.coverage" NAME="实例4-9遍历循环for 覆盖结果" MODIFIED="1741000935170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_15.coverage" NAME="实例5-15字典的创建和删除 覆盖结果" MODIFIED="1741680932829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_JD.coverage" NAME="实战2-模拟JD物流购物流程 覆盖结果" MODIFIED="1741848993060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_9match.coverage" NAME="实例6-9match函数的使用 覆盖结果" MODIFIED="1742127930223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_15.coverage" NAME="实例7-15代码的调试 覆盖结果" MODIFIED="1742457922937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_.coverage" NAME="实例5-字典元素的遍历和访问 覆盖结果" MODIFIED="1741683718856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12.coverage" NAME="实例5-12元租的创建和删除 覆盖结果" MODIFIED="1741599353477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_9try_except.coverage" NAME="实例7-9try-except结构的使用 覆盖结果" MODIFIED="1742201004266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_12try_except_else_fainally.coverage" NAME="实例7-12try-except-else-fainally结构 覆盖结果" MODIFIED="1742201625092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_10.coverage" NAME="实例3-10字符串的索引和切片 覆盖结果" MODIFIED="1740648903452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_10search.coverage" NAME="实例6-10search函数的使用 覆盖结果" MODIFIED="1742128305719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_8.coverage" NAME="实例5-8列表的排序操作 覆盖结果" MODIFIED="1741595674838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_5.coverage" NAME="实例6-5字符串的编码和解码 覆盖结果" MODIFIED="1742037632178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_04.coverage" NAME="work-04 覆盖结果" MODIFIED="1741266994752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_3.coverage" NAME="实例4-3双分支结构 覆盖结果" MODIFIED="1740924625538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_5.coverage" NAME="实例8-5可变参数的使用 覆盖结果" MODIFIED="1742478299815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_14eval.coverage" NAME="实例3-14eval函数的使用 覆盖结果" MODIFIED="1740652371399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_13raise.coverage" NAME="实例7-13raise结构的使用 覆盖结果" MODIFIED="1742291612683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_14.coverage" NAME="实例5-14元组生成式 覆盖结果" MODIFIED="1741679515829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_20continuewhile.coverage" NAME="实例4-20跳转语句continue在while的使用 覆盖结果" MODIFIED="1741079913977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_23.coverage" NAME="实例5-23合并字典的运算符 覆盖结果" MODIFIED="1741767342560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_2.coverage" NAME="实例8-2位置参数的使用 覆盖结果" MODIFIED="1742474748600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_6.coverage" NAME="实例6-6数据的验证 覆盖结果" MODIFIED="1742113744036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_2.coverage" NAME="实例5-2序列的切片操作 覆盖结果" MODIFIED="1741269849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_4.coverage" NAME="实例4-4多分支结构 覆盖结果" MODIFIED="1740925125666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_18breakwhile.coverage" NAME="实例4-18跳转语句break在while循环的使用 覆盖结果" MODIFIED="1741076501041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12__1_.coverage" NAME="实例5-12元组的创建和删除 (1) 覆盖结果" MODIFIED="1741600153237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_13.coverage" NAME="实例4-13使用无限循环模拟用户的登录 覆盖结果" MODIFIED="1741002439982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_19.coverage" NAME="实例5-19集合的创建和删除 覆盖结果" MODIFIED="1741764994064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_9sorted.coverage" NAME="实例5-9列表的排序（sorted） 覆盖结果" MODIFIED="1741595989100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$_2.coverage" NAME="实战-2 覆盖结果" MODIFIED="1740917591067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_13.coverage" NAME="实例5-13元组元素的访问 覆盖结果" MODIFIED="1741679142218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_01.coverage" NAME="work-01 覆盖结果" MODIFIED="1741082218007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1_.coverage" NAME="实战1-车牌号归属地 覆盖结果" MODIFIED="1742192455517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_4format.coverage" NAME="实例6-4format的格式控制 覆盖结果" MODIFIED="1742036740190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_7.coverage" NAME="实例5-7列表的相关操作 覆盖结果" MODIFIED="1741595247700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_19.coverage" NAME="实例3-19位运算 覆盖结果" MODIFIED="1740661667545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12306.coverage" NAME="实战3-模拟12306火车票订购流程 覆盖结果" MODIFIED="1741852245501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_14.coverage" NAME="实例7-14常见异常的产生 覆盖结果" MODIFIED="1742292449129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$_1.coverage" NAME="实战-1 覆盖结果" MODIFIED="1740917258025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_19breakfor.coverage" NAME="实例4-19break在for循环的使用 覆盖结果" MODIFIED="1741076950335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_1.coverage" NAME="实例5-1使用索引去检索字符串中的元素 覆盖结果" MODIFIED="1741268990922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1.coverage" NAME="实战1编写程序接收用户输入分数信息 覆盖结果" MODIFIED="1742460487411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_3.coverage" NAME="实例8-3关键字传参的使用 覆盖结果" MODIFIED="1742477110683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_13.coverage" NAME="实例3-13数据类型之间的转换 覆盖结果" MODIFIED="1740651883888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_1.coverage" NAME="实例6-1字符串的相关处理方法 覆盖结果" MODIFIED="1741867347185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_6and.coverage" NAME="实例4-6使用and连接多个选择条件 覆盖结果" MODIFIED="1740990988348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_7.coverage" NAME="实例6-7字符串的拼接操作 覆盖结果" MODIFIED="1742113866529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_6.coverage" NAME="实例5-6列表的遍历操作 覆盖结果" MODIFIED="1741440345096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_6.coverage" NAME="实例8-6函数的返回值 覆盖结果" MODIFIED="1742478892289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_18.coverage" NAME="实例5-18字典生成式 覆盖结果" MODIFIED="1741764508288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_2.coverage" NAME="实例4-2单分支结构 覆盖结果" MODIFIED="1740924355436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_11while.coverage" NAME="实例4-11无限循环while的使用 覆盖结果" MODIFIED="1741001588256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_.coverage" NAME="实战2-编写程序实现三角形的判断 覆盖结果" MODIFIED="1742460922158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_24.coverage" NAME="实例5-24同步迭代 覆盖结果" MODIFIED="1741767685415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_JD.coverage" NAME="实战2-模拟JD物流购物流程 覆盖结果" MODIFIED="1741848993060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_.coverage" NAME="实例5-字典元素的遍历和访问 覆盖结果" MODIFIED="1741683718856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_9try_except.coverage" NAME="实例7-9try-except结构的使用 覆盖结果" MODIFIED="1742201004266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_12subsplit.coverage" NAME="实例6-12sub函数的split函数的使用 覆盖结果" MODIFIED="1742191377528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_16.coverage" NAME="实例3-16赋值运算符 覆盖结果" MODIFIED="1740660112306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_22.coverage" NAME="实例5-22结构的模式匹配 覆盖结果" MODIFIED="1741767220343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_22.coverage" NAME="实例6-2字符串的相关处理方法2 覆盖结果" MODIFIED="1742034171909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_10.coverage" NAME="实例3-10字符串的索引和切片 覆盖结果" MODIFIED="1740648903452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_10search.coverage" NAME="实例6-10search函数的使用 覆盖结果" MODIFIED="1742128305719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_10except.coverage" NAME="实例7-10多个except结构 覆盖结果" MODIFIED="1742201251543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_8.coverage" NAME="实例5-8列表的排序操作 覆盖结果" MODIFIED="1741595674838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_11findall.coverage" NAME="实例6-11findall函数的使用 覆盖结果" MODIFIED="1742128507308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_5.coverage" NAME="实例6-5字符串的编码和解码 覆盖结果" MODIFIED="1742037632178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_1.coverage" NAME="实例8-1函数的定义 覆盖结果" MODIFIED="1742474165922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_4.coverage" NAME="实例5-4序列的相关操作符和函数的使用 覆盖结果" MODIFIED="1741439688212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_04.coverage" NAME="work-04 覆盖结果" MODIFIED="1741266994752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_3.coverage" NAME="实例4-3双分支结构 覆盖结果" MODIFIED="1740924625538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_11try_except_else.coverage" NAME="实例7-11try-except-else结构 覆盖结果" MODIFIED="1742201515206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_14eval.coverage" NAME="实例3-14eval函数的使用 覆盖结果" MODIFIED="1740652371399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_7or.coverage" NAME="实例4-7使用or连接多个选择条件 覆盖结果" MODIFIED="1740991171993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_11.coverage" NAME="实例5-11二维列表的遍历和生成 覆盖结果" MODIFIED="1741599222338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
   </component>
