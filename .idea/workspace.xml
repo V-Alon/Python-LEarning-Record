@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day20/实战1编写函数实现计算列表中元素最大值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20/实战2编写函数实现提取指定字符串中的数字求和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -350,7 +346,7 @@
       <workItem from="1742393994351" duration="95000" />
       <workItem from="1742455017724" duration="11332000" />
       <workItem from="1742522635268" duration="2739000" />
-      <workItem from="1742718208494" duration="5736000" />
+      <workItem from="1742718208494" duration="6358000" />
     </task>
     <servers />
   </component>
