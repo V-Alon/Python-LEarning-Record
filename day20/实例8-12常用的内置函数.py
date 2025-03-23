@@ -1,0 +1,9 @@
+'''
+bool(obj)获取指定对象的布尔值
+str（obj）将指定对象转换为字符型
+int（x）将x转换为int类型
+float(x)将x转换为float类型
+list(sequence)将序列转换为列表类型
+tuple(sequence)将序列转换为元组类型
+set(sequence)将序列转换成集合类型
+'''
