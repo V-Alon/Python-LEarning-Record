@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day21/实战4编写函数实现操作符in的功能.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day21/实战3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day21/实战3实现将字符串中的字母的大小写转换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21/实例9-1查看数据类型的对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21/实例9-2自定义数据类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21/实例9-3创建自定义类型的对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21/实例9-4类属性和实例属性的定义‘.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day21/实例9-5类的组成.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +153,8 @@
     "Python.实例8-7局部变量的作用域.executor": "Debug",
     "Python.实例8-8全局变量.executor": "Debug",
     "Python.实例8-9匿名函数lambda的使用.executor": "Run",
+    "Python.实例9-1查看数据类型的对象.executor": "Run",
+    "Python.实例9-5类的组成.executor": "Run",
     "Python.实战-1.executor": "Run",
     "Python.实战-2.executor": "Run",
     "Python.实战1-什么是千年虫.executor": "Run",
@@ -185,30 +191,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实战4编写函数实现操作符in的功能">
-    <configuration name="实战1编写函数实现计算列表中元素最大值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20/实战1编写函数实现计算列表中元素最大值.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例9-5类的组成">
     <configuration name="实战2编写函数实现提取指定字符串中的数字求和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -278,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例8-15其他常用内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例9-1查看数据类型的对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,12 +270,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20/实例8-15其他常用内置函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21/实例9-1查看数据类型的对象.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="实例9-5类的组成" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21/实例9-5类的组成.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例9-5类的组成" />
+        <item itemvalue="Python.实例9-1查看数据类型的对象" />
         <item itemvalue="Python.实战4编写函数实现操作符in的功能" />
         <item itemvalue="Python.实战3实现将字符串中的字母的大小写转换" />
         <item itemvalue="Python.实战2编写函数实现提取指定字符串中的数字求和" />
-        <item itemvalue="Python.实战1编写函数实现计算列表中元素最大值" />
-        <item itemvalue="Python.实例8-15其他常用内置函数" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +358,7 @@
       <workItem from="1742455017724" duration="11332000" />
       <workItem from="1742522635268" duration="2739000" />
       <workItem from="1742718208494" duration="6358000" />
-      <workItem from="1742806474159" duration="4701000" />
+      <workItem from="1742806474159" duration="7853000" />
     </task>
     <servers />
   </component>
@@ -409,6 +415,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12.coverage" NAME="实例5-12元租的创建和删除 覆盖结果" MODIFIED="1741599353477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_12try_except_else_fainally.coverage" NAME="实例7-12try-except-else-fainally结构 覆盖结果" MODIFIED="1742201625092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_5.coverage" NAME="实例9-5类的组成 覆盖结果" MODIFIED="1742821286841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_10.coverage" NAME="实例3-10字符串的索引和切片 覆盖结果" MODIFIED="1740648903452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3.coverage" NAME="实战3实现将字符串中的字母的大小写转换 覆盖结果" MODIFIED="1742816878990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_10search.coverage" NAME="实例6-10search函数的使用 覆盖结果" MODIFIED="1742128305719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
@@ -479,6 +486,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_11.coverage" NAME="实例8-11斐波那契数列 覆盖结果" MODIFIED="1742719121292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_7or.coverage" NAME="实例4-7使用or连接多个选择条件 覆盖结果" MODIFIED="1740991171993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_11.coverage" NAME="实例5-11二维列表的遍历和生成 覆盖结果" MODIFIED="1741599222338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_1.coverage" NAME="实例9-1查看数据类型的对象 覆盖结果" MODIFIED="1742819645566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_9lambda.coverage" NAME="实例8-9匿名函数lambda的使用 覆盖结果" MODIFIED="1742527290381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
   </component>
 </project>
