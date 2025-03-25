@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day22/实例9-6.py" beforeDir="false" afterPath="$PROJECT_DIR$/day22/实例9-6使用类模版创建多个对象.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,6 +355,7 @@
       <workItem from="1742522635268" duration="2739000" />
       <workItem from="1742718208494" duration="6358000" />
       <workItem from="1742806474159" duration="8085000" />
+      <workItem from="1742888514099" duration="3761000" />
     </task>
     <servers />
   </component>
