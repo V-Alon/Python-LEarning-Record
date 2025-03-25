@@ -9,9 +9,20 @@ class Student:
 
     # 定义在类中的函数，成为方法，自带一个参数self
     def show(self):
-        print(f'我叫: {self.name},今年: {self.age}岁了')
+        print(f'我叫: {self.name},今年刚满: {self.age}岁了')
 #根据图纸创建n个对象
 stu1=Student('mkk',22)
 stu2=Student('pzh',22)
-stu3=Student('kobe',8)
+stu3=Student('Marry',8)
 stu4=Student('laoda',24)
+print(type(stu1))#<class '__main__.Student'>
+print(type(stu2))# <class '__main__.Student'>
+print(type(stu3))# <class '__main__.Student'>
+print(type(stu4))# <class '__main__.Student'>
+
+
+Student.school='laoda-learning'#给类的属性赋值
+#将四个学生对象，存储在列表中
+lst=[stu1,stu2,stu3,stu4]
+for item in lst:
+    item.show()#对象名打点调用
