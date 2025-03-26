@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day23/实例9-11多继承.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day23/实例9-12方法的重写.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day23/实例9-13多态.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +151,7 @@
     "Python.实例9-10继承.executor": "Debug",
     "Python.实例9-11多继承.executor": "Run",
     "Python.实例9-12方法的重写.executor": "Run",
+    "Python.实例9-13多态.executor": "Run",
     "Python.实例9-1查看数据类型的对象.executor": "Run",
     "Python.实例9-5类的组成.executor": "Debug",
     "Python.实例9-6使用类模版创建多个对象.executor": "Run",
@@ -195,7 +194,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例9-12方法的重写">
+  <component name="RunManager" selected="Python.实例9-13多态">
     <configuration name="实例9-10继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -265,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例9-8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例9-13多态" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,12 +273,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day22/实例9-8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day23/实例9-13多态.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例9-13多态" />
         <item itemvalue="Python.实例9-12方法的重写" />
         <item itemvalue="Python.实例9-11多继承" />
         <item itemvalue="Python.实例9-10继承" />
         <item itemvalue="Python.实例9-9属性的设置" />
-        <item itemvalue="Python.实例9-8" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +363,7 @@
       <workItem from="1742718208494" duration="6358000" />
       <workItem from="1742806474159" duration="8085000" />
       <workItem from="1742888514099" duration="5535000" />
-      <workItem from="1742974337038" duration="7438000" />
+      <workItem from="1742974337038" duration="8569000" />
     </task>
     <servers />
   </component>
@@ -443,6 +442,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_23.coverage" NAME="实例5-23合并字典的运算符 覆盖结果" MODIFIED="1741767342560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_2.coverage" NAME="实例8-2位置参数的使用 覆盖结果" MODIFIED="1742474748600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_6.coverage" NAME="实例6-6数据的验证 覆盖结果" MODIFIED="1742113744036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_13.coverage" NAME="实例9-13多态 覆盖结果" MODIFIED="1742992479618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_2.coverage" NAME="实例5-2序列的切片操作 覆盖结果" MODIFIED="1741269849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_4.coverage" NAME="实例4-4多分支结构 覆盖结果" MODIFIED="1740925125666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_18breakwhile.coverage" NAME="实例4-18跳转语句break在while循环的使用 覆盖结果" MODIFIED="1741076501041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
