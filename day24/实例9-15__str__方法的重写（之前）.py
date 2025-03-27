@@ -3,5 +3,6 @@ class Person(object):
         self.name = name
         self.age = age
 
-    def show(self):
-        print(f'大家好我是:{self.name}今年:{self.age}岁')
+#创建Person对象
+per=Person('laoda',20)
+print(per)

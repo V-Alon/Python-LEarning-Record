@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day24/实例9-15__str__方法的重写.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day23/实例9-14object类.py" beforeDir="false" afterPath="$PROJECT_DIR$/day23/实例9-14object类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day24/实例9-16__str__方法的重写（之后）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day24/实例9-15__str__方法的重写.py" beforeDir="false" afterPath="$PROJECT_DIR$/day24/实例9-15__str__方法的重写（之前）.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +154,7 @@
     "Python.实例9-12方法的重写.executor": "Run",
     "Python.实例9-13多态.executor": "Run",
     "Python.实例9-14object类.executor": "Run",
+    "Python.实例9-16__str__方法的重写（之后）.executor": "Run",
     "Python.实例9-1查看数据类型的对象.executor": "Run",
     "Python.实例9-5类的组成.executor": "Debug",
     "Python.实例9-6使用类模版创建多个对象.executor": "Run",
@@ -178,6 +179,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day24",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -196,30 +198,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例9-14object类">
-    <configuration name="实例9-10继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day23" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day23/实例9-10继承.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例9-16__str__方法的重写（之后）">
     <configuration name="实例9-11多继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -312,13 +291,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例9-16__str__方法的重写（之后）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day24/实例9-16__str__方法的重写（之后）.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例9-16__str__方法的重写（之后）" />
         <item itemvalue="Python.实例9-14object类" />
         <item itemvalue="Python.实例9-13多态" />
         <item itemvalue="Python.实例9-12方法的重写" />
         <item itemvalue="Python.实例9-11多继承" />
-        <item itemvalue="Python.实例9-10继承" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +368,7 @@
       <workItem from="1742806474159" duration="8085000" />
       <workItem from="1742888514099" duration="5535000" />
       <workItem from="1742974337038" duration="9224000" />
-      <workItem from="1743060711867" duration="1749000" />
+      <workItem from="1743060711867" duration="2054000" />
     </task>
     <servers />
   </component>
@@ -396,18 +398,20 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_17.coverage" NAME="实例3-17比较运算符的使用 覆盖结果" MODIFIED="1740660295923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_8.coverage" NAME="实例6-8字符串的去重操作 覆盖结果" MODIFIED="1742114510972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_5.coverage" NAME="实例5-5列表的创建和删除 覆盖结果" MODIFIED="1741439870432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_9.coverage" NAME="实例3-9转义字符的使用 覆盖结果" MODIFIED="1740648483574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_5.coverage" NAME="实例5-5列表的创建和删除 覆盖结果" MODIFIED="1741439870432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_5if.coverage" NAME="实例4-5嵌套if的使用 覆盖结果" MODIFIED="1740990607629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_10.coverage" NAME="实例9-10继承 覆盖结果" MODIFIED="1742981466362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_16__str__.coverage" NAME="实例9-16__str__方法的重写（之后） 覆盖结果" MODIFIED="1743063264981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_4.coverage" NAME="实例8-4默认值参数的使用 覆盖结果" MODIFIED="1742477487521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_1.coverage" NAME="实例4-1顺序结构 覆盖结果" MODIFIED="1740920735889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_8.coverage" NAME="实例9-8 覆盖结果" MODIFIED="1742977647033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16__1_.coverage" NAME="实例4-16菱形 (1) 覆盖结果" MODIFIED="1741006189163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_12while.coverage" NAME="实例4-12无限循环while的扩展 覆盖结果" MODIFIED="1741001686201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_7.coverage" NAME="实例7-7输入两个整数并进行除法运算 覆盖结果" MODIFIED="1742200581294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_.coverage" NAME="实战4-模拟手机通讯录 覆盖结果" MODIFIED="1741866205024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_18.coverage" NAME="实例3-18逻辑运算符的使用 覆盖结果" MODIFIED="1740660828190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_.coverage" NAME="实战4-模拟手机通讯录 覆盖结果" MODIFIED="1741866205024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_14object.coverage" NAME="实例9-14object类 覆盖结果" MODIFIED="1743062994728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_02.coverage" NAME="work-02 覆盖结果" MODIFIED="1741265305850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_9.coverage" NAME="实例9-9属性的设置 覆盖结果" MODIFIED="1742978184456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_3.coverage" NAME="实例5-3序列的相加相乘操作 覆盖结果" MODIFIED="1741438180249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
