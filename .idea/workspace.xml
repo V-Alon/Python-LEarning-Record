@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day25/实战4-设计自定义类，描述出租车和家用轿车的信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/day25/实战4-设计自定义类，描述出租车和家用轿车的信息.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -380,7 +377,7 @@
       <workItem from="1742974337038" duration="9224000" />
       <workItem from="1743060711867" duration="9805000" />
       <workItem from="1743148541194" duration="7485000" />
-      <workItem from="1743160487700" duration="3684000" />
+      <workItem from="1743160487700" duration="3715000" />
     </task>
     <servers />
   </component>
