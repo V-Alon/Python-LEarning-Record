@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day27/实例10-11random模块的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27/实例10-12time模块的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day27/实例10-13datetime模块的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +60,8 @@
     "Python.work-02.executor": "Run",
     "Python.work-03.executor": "Run",
     "Python.work-04.executor": "Run",
+    "Python.实例10-11random模块的使用.executor": "Run",
+    "Python.实例10-12time模块的使用.executor": "Run",
     "Python.实例10-2模块的导入.executor": "Run",
     "Python.实例10-4模块的导入.executor": "Run",
     "Python.实例10-7包的导入.executor": "Run",
@@ -209,8 +216,8 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.module_b">
-    <configuration name="实例10-2模块的导入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.实例10-12time模块的使用">
+    <configuration name="实例10-11random模块的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,12 +226,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day26" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26/实例10-2模块的导入.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27/实例10-11random模块的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="实例10-12time模块的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27/实例10-12time模块的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,29 +309,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实战4-设计自定义类，描述出租车和家用轿车的信息" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day25" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25/实战4-设计自定义类，描述出租车和家用轿车的信息.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="module_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -327,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例10-12time模块的使用" />
+        <item itemvalue="Python.实例10-11random模块的使用" />
         <item itemvalue="Python.module_b" />
         <item itemvalue="Python.实例10-7包的导入" />
         <item itemvalue="Python.实例10-4模块的导入" />
-        <item itemvalue="Python.实例10-2模块的导入" />
-        <item itemvalue="Python.实战4-设计自定义类，描述出租车和家用轿车的信息" />
       </list>
     </recent_temporary>
   </component>
@@ -385,6 +392,7 @@
       <workItem from="1743216067717" duration="5851000" />
       <workItem from="1743256945859" duration="2258000" />
       <workItem from="1743304046504" duration="6036000" />
+      <workItem from="1743327592485" duration="2815000" />
     </task>
     <servers />
   </component>
@@ -414,8 +422,8 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_17.coverage" NAME="实例3-17比较运算符的使用 覆盖结果" MODIFIED="1740660295923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_8.coverage" NAME="实例6-8字符串的去重操作 覆盖结果" MODIFIED="1742114510972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_9.coverage" NAME="实例3-9转义字符的使用 覆盖结果" MODIFIED="1740648483574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_5.coverage" NAME="实例5-5列表的创建和删除 覆盖结果" MODIFIED="1741439870432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_9.coverage" NAME="实例3-9转义字符的使用 覆盖结果" MODIFIED="1740648483574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_5if.coverage" NAME="实例4-5嵌套if的使用 覆盖结果" MODIFIED="1740990607629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_10.coverage" NAME="实例9-10继承 覆盖结果" MODIFIED="1742981466362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_16__str__.coverage" NAME="实例9-16__str__方法的重写（之后） 覆盖结果" MODIFIED="1743063264981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
@@ -425,8 +433,8 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16__1_.coverage" NAME="实例4-16菱形 (1) 覆盖结果" MODIFIED="1741006189163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_12while.coverage" NAME="实例4-12无限循环while的扩展 覆盖结果" MODIFIED="1741001686201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_7.coverage" NAME="实例7-7输入两个整数并进行除法运算 覆盖结果" MODIFIED="1742200581294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_18.coverage" NAME="实例3-18逻辑运算符的使用 覆盖结果" MODIFIED="1740660828190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_.coverage" NAME="实战4-设计自定义类，描述出租车和家用轿车的信息 覆盖结果" MODIFIED="1743162950712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_18.coverage" NAME="实例3-18逻辑运算符的使用 覆盖结果" MODIFIED="1740660828190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$module_b.coverage" NAME="module_b 覆盖结果" MODIFIED="1743315700580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_14object.coverage" NAME="实例9-14object类 覆盖结果" MODIFIED="1743062994728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_02.coverage" NAME="work-02 覆盖结果" MODIFIED="1741265305850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
@@ -515,6 +523,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_12subsplit.coverage" NAME="实例6-12sub函数的split函数的使用 覆盖结果" MODIFIED="1742191377528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4in.coverage" NAME="实战4编写函数实现操作符in的功能 覆盖结果" MODIFIED="1742817326719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_12time.coverage" NAME="实例10-12time模块的使用 覆盖结果" MODIFIED="1743329942097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_16.coverage" NAME="实例3-16赋值运算符 覆盖结果" MODIFIED="1740660112306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_22.coverage" NAME="实例5-22结构的模式匹配 覆盖结果" MODIFIED="1741767220343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_22.coverage" NAME="实例6-2字符串的相关处理方法2 覆盖结果" MODIFIED="1742034171909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
@@ -532,5 +541,6 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_2.coverage" NAME="实例10-2模块的导入 覆盖结果" MODIFIED="1743259159276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_1.coverage" NAME="实例9-1查看数据类型的对象 覆盖结果" MODIFIED="1742819645566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_9lambda.coverage" NAME="实例8-9匿名函数lambda的使用 覆盖结果" MODIFIED="1742527290381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_11random.coverage" NAME="实例10-11random模块的使用 覆盖结果" MODIFIED="1743328576831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
   </component>
 </project>
