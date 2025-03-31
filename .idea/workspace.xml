@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day28/weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28/实例10-15爬取景区的天气预报.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28/实例10-16爬取百度的logo图片.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day28/实例10-18将爬取的景区天气数据存储在excel文件中.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day28/实例10-19从Excel文件中去读取数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day28/景区天气.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/day28/景区天气.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
     "Python.实例10-15爬取景区的天气预报.executor": "Run",
     "Python.实例10-16爬取百度的logo图片.executor": "Run",
     "Python.实例10-18将爬取的景区天气数据存储在excel文件中.executor": "Run",
+    "Python.实例10-19从Excel文件中去读取数据.executor": "Run",
     "Python.实例10-2模块的导入.executor": "Run",
     "Python.实例10-4模块的导入.executor": "Run",
     "Python.实例10-7包的导入.executor": "Run",
@@ -222,30 +220,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例10-18将爬取的景区天气数据存储在excel文件中">
-    <configuration name="实例10-13datetime模块的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day27" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27/实例10-13datetime模块的使用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例10-19从Excel文件中去读取数据">
     <configuration name="实例10-14timedelta的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -338,13 +313,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例10-19从Excel文件中去读取数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day28" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day28/实例10-19从Excel文件中去读取数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例10-19从Excel文件中去读取数据" />
         <item itemvalue="Python.实例10-18将爬取的景区天气数据存储在excel文件中" />
         <item itemvalue="Python.实例10-16爬取百度的logo图片" />
         <item itemvalue="Python.实例10-15爬取景区的天气预报" />
         <item itemvalue="Python.实例10-14timedelta的使用" />
-        <item itemvalue="Python.实例10-13datetime模块的使用" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +397,7 @@
       <workItem from="1743256945859" duration="2258000" />
       <workItem from="1743304046504" duration="6036000" />
       <workItem from="1743327592485" duration="4024000" />
-      <workItem from="1743406371485" duration="5296000" />
+      <workItem from="1743406371485" duration="6472000" />
     </task>
     <servers />
   </component>
@@ -484,6 +482,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_14.coverage" NAME="实例5-14元组生成式 覆盖结果" MODIFIED="1741679515829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_20continuewhile.coverage" NAME="实例4-20跳转语句continue在while的使用 覆盖结果" MODIFIED="1741079913977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_23.coverage" NAME="实例5-23合并字典的运算符 覆盖结果" MODIFIED="1741767342560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_19Excel.coverage" NAME="实例10-19从Excel文件中去读取数据 覆盖结果" MODIFIED="1743426198970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_2.coverage" NAME="实例8-2位置参数的使用 覆盖结果" MODIFIED="1742474748600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_6.coverage" NAME="实例6-6数据的验证 覆盖结果" MODIFIED="1742113744036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_13.coverage" NAME="实例9-13多态 覆盖结果" MODIFIED="1742992479618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
@@ -507,7 +506,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_12306.coverage" NAME="实战3-模拟12306火车票订购流程 覆盖结果" MODIFIED="1741852245501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_14.coverage" NAME="实例7-14常见异常的产生 覆盖结果" MODIFIED="1742292449129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_14.coverage" NAME="实例8-14常用的迭代器操作函数 覆盖结果" MODIFIED="1742722613141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_18excel.coverage" NAME="实例10-18将爬取的景区天气数据存储在excel文件中 覆盖结果" MODIFIED="1743425608671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_18excel.coverage" NAME="实例10-18将爬取的景区天气数据存储在excel文件中 覆盖结果" MODIFIED="1743425720498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$_1.coverage" NAME="实战-1 覆盖结果" MODIFIED="1740917258025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02andday03" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_19breakfor.coverage" NAME="实例4-19break在for循环的使用 覆盖结果" MODIFIED="1741076950335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_1.coverage" NAME="实例5-1使用索引去检索字符串中的元素 覆盖结果" MODIFIED="1741268990922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
