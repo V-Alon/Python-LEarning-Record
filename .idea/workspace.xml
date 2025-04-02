@@ -185,6 +185,7 @@
     "Python.实战-定义学生类录入5个学生信息存储在列表中.executor": "Run",
     "Python.实战1-什么是千年虫.executor": "Run",
     "Python.实战1-定义一个圆的类计算面积和周长.executor": "Run",
+    "Python.实战1-模拟高铁售票系统.executor": "Run",
     "Python.实战1-车牌号归属地.executor": "Run",
     "Python.实战1编写函数实现计算列表中元素最大值.executor": "Run",
     "Python.实战1编写程序接收用户输入分数信息.executor": "Run",
@@ -406,7 +407,7 @@
       <workItem from="1743501182732" duration="1891000" />
       <workItem from="1743504648413" duration="2043000" />
       <workItem from="1743576784237" duration="1236000" />
-      <workItem from="1743588207510" duration="5168000" />
+      <workItem from="1743588207510" duration="5631000" />
     </task>
     <servers />
   </component>
@@ -511,7 +512,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_13.coverage" NAME="实例5-13元组元素的访问 覆盖结果" MODIFIED="1741679142218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_01.coverage" NAME="work-01 覆盖结果" MODIFIED="1741082218007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_13.coverage" NAME="实例8-13常用的数学函数 覆盖结果" MODIFIED="1742720347172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1_.coverage" NAME="实战1-定义一个圆的类计算面积和周长 覆盖结果" MODIFIED="1743153404568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$1_.coverage" NAME="实战1-模拟高铁售票系统 覆盖结果" MODIFIED="1743598272583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day30" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_4format.coverage" NAME="实例6-4format的格式控制 覆盖结果" MODIFIED="1742036740190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_19.coverage" NAME="实例9-19类的深拷贝和浅拷贝 覆盖结果" MODIFIED="1743151124783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_7.coverage" NAME="实例5-7列表的相关操作 覆盖结果" MODIFIED="1741595247700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
