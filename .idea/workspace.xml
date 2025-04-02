@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day30/实例10-25jieba模块的使用-中文分词.py" beforeDir="false" afterPath="$PROJECT_DIR$/day30/实例10-25jieba模块的使用-中文分词.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30/实战1-模拟高铁售票系统.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +406,7 @@
       <workItem from="1743501182732" duration="1891000" />
       <workItem from="1743504648413" duration="2043000" />
       <workItem from="1743576784237" duration="1236000" />
-      <workItem from="1743588207510" duration="4242000" />
+      <workItem from="1743588207510" duration="4801000" />
     </task>
     <servers />
   </component>
