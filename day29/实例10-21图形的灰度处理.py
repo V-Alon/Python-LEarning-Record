@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 #读取图片
-n1=plt.imread('baidu.jpg')
+n1=plt.imread('../day30/baidu.jpg')
 print(n1,type(n1))#三维数组，最高维度表示图像的高后面是宽，最低维颜色
 plt.imshow(n1)
 #编写一个灰度公式
