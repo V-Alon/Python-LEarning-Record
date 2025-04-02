@@ -225,8 +225,8 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day17" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例10-25jieba模块的使用-中文分词">
-    <configuration name="实例10-20从pdf文件中提取数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.实战1-模拟高铁售票系统">
+    <configuration name="实战1-模拟高铁售票系统" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day29" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day30" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day29/实例10-20从pdf文件中提取数据.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day30/实战1-模拟高铁售票系统.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实战1-模拟高铁售票系统" />
         <item itemvalue="Python.实例10-25jieba模块的使用-中文分词" />
         <item itemvalue="Python.实例10-24PIL模块的使用" />
         <item itemvalue="Python.实例10-22pandas和matplotlib绘制饼图" />
         <item itemvalue="Python.实例10-21图形的灰度处理" />
-        <item itemvalue="Python.实例10-20从pdf文件中提取数据" />
       </list>
     </recent_temporary>
   </component>
