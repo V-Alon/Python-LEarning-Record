@@ -8,3 +8,7 @@ def show_ticket(row_num):
     for i in range(1,row_num+1):
         lst=[f'第{i}行','有票','有票','有票','有票','有票']
         tb.add_row(lst)
+    print(tb)
+
+if __name__ == '__main__':
+    show_ticket(6)
