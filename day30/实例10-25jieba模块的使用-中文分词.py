@@ -26,3 +26,5 @@ print(new_lst)
 #列表排序
 new_lst.sort(key=lambda x:x[1],reverse=True)
 print(new_lst[0:11])
+
+input()
