@@ -27,7 +27,7 @@ def order_ticket(row_num,row,column):
         else:
             lst=[f'第{i}行','有票','有票','有票','有票','有票']
             tb.add_row(lst)
-
+    print(tb)
 
 
 
