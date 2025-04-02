@@ -2,7 +2,7 @@ import jieba
 #读取文件
 with open('华为笔记本.txt','r',encoding='utf-8') as file:
     s=file.read()
-print(s)
+# print(s)
 
 lst=jieba.lcut(s)
 # print(lst)
@@ -21,7 +21,7 @@ for item in lst:
 new_lst=[]
 for item in d:
     new_lst.append([[item],d[item]])
-print(new_lst)
+# print(new_lst)
 
 #列表排序
 new_lst.sort(key=lambda x:x[1],reverse=True)
