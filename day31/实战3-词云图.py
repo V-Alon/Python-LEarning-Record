@@ -6,4 +6,12 @@ with open('华为笔记本.txt','r',encoding='utf-8') as file:
 #分词
 lst=jieba.lcut
 #排除词
-stopword=['','','','','']
+stopword=['散热性能','外形外观','轻薄程度','其他特色','屏幕效果']
+
+txt=''.join(lst)
+#绘制词云图
+wordcloud = WordCloud(background_color='white',font_path='mysyh.ttc',stopwords=stopword,width=800,height=600)
+
+wordcloud.generate(txt)
+
+wordcloud.to_file('华为笔记本评价词云图.png')
