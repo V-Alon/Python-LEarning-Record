@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day31/华为笔记本.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day31/实战3-词云图.py" beforeDir="false" afterPath="$PROJECT_DIR$/day31/实战3-词云图.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,6 +215,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day31" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day29" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day24" />
     </key>
@@ -411,7 +409,7 @@
       <workItem from="1743504648413" duration="2043000" />
       <workItem from="1743576784237" duration="1236000" />
       <workItem from="1743588207510" duration="5683000" />
-      <workItem from="1743681145657" duration="1745000" />
+      <workItem from="1743681145657" duration="2029000" />
     </task>
     <servers />
   </component>
@@ -436,7 +434,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_8Python.coverage" NAME="实例4-8Python新任性——模式匹配 覆盖结果" MODIFIED="1740991439510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_11.coverage" NAME="实例3-11常见的字符串操作 覆盖结果" MODIFIED="1740650711297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_.coverage" NAME="实战3-词云图 覆盖结果" MODIFIED="1743684252673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_.coverage" NAME="实战3-词云图 覆盖结果" MODIFIED="1743684373854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_3.coverage" NAME="实例6-3格式字符串的操作 覆盖结果" MODIFIED="1742036100430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
