@@ -23,7 +23,13 @@ def my_write(s):
     file.write(s)
     file.write('\n')
     file.close()
+def my_write_list(file,lst):
+    f=open(file,'a',encoding='utf-8')
+    f.writelines(lst)
+    f.close()
 
 if __name__ == '__main__':
-    my_write('hello')
-    my_write('world')
+    # my_write('hello')
+    # my_write('world')
+    lst=['姓名\t','年龄\t','成绩\n','张三\t','30\t','99']
+    my_write_list(file='c.txt',lst=lst)
