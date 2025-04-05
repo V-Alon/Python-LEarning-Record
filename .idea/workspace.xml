@@ -238,7 +238,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day17" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例11-3文件的读取操作">
+  <component name="RunManager" selected="Python.实例11-4文件的复制">
     <configuration name="实例11-1文件的读写操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -308,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实战2-推算后几天的日期" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例11-4文件的复制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,12 +317,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day31" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day33" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day31/实战2-推算后几天的日期.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day33/实例11-4文件的复制.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,11 +356,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例11-4文件的复制" />
         <item itemvalue="Python.实例11-3文件的读取操作" />
         <item itemvalue="Python.实例11-2文件的写入操作" />
         <item itemvalue="Python.实例11-1文件的读写操作" />
         <item itemvalue="Python.实战3-词云图" />
-        <item itemvalue="Python.实战2-推算后几天的日期" />
       </list>
     </recent_temporary>
   </component>
