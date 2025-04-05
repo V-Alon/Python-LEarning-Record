@@ -13,3 +13,5 @@ def copy(src,new_path):
 if __name__ == '__main__':
     src='./google.jpg'#.代表当前解压目录
     new_path='../day32/copy_google.jpg'
+    copy(src,new_path)
+    print('文件复制完成')
