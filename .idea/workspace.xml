@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day34/实例11-7高维数据的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day34/实例11-7高维数据的使用.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -422,7 +420,7 @@
       <workItem from="1743681145657" duration="2029000" />
       <workItem from="1743771580164" duration="3336000" />
       <workItem from="1743855467600" duration="2172000" />
-      <workItem from="1743945290329" duration="2294000" />
+      <workItem from="1743945290329" duration="2325000" />
     </task>
     <servers />
   </component>
