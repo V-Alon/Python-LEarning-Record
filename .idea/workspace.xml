@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day34/实例11-7高维数据的使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day34/实例11-6一维数据和二维数据的存储.py" beforeDir="false" afterPath="$PROJECT_DIR$/day34/实例11-6一维数据和二维数据的存储.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day34/实例11-7高维数据的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day34/实例11-7高维数据的使用.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +79,7 @@
     "Python.实例11-4文件的复制.executor": "Run",
     "Python.实例11-5with语句.executor": "Run",
     "Python.实例11-6一维数据和二维数据的存储.executor": "Run",
+    "Python.实例11-7高维数据的使用.executor": "Run",
     "Python.实例3-10字符串的索引和切片.executor": "Run",
     "Python.实例3-11常见的字符串操作.executor": "Run",
     "Python.实例3-12布尔类型的使用.executor": "Run",
@@ -422,7 +422,7 @@
       <workItem from="1743681145657" duration="2029000" />
       <workItem from="1743771580164" duration="3336000" />
       <workItem from="1743855467600" duration="2172000" />
-      <workItem from="1743945290329" duration="1839000" />
+      <workItem from="1743945290329" duration="2294000" />
     </task>
     <servers />
   </component>
@@ -522,6 +522,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_4.coverage" NAME="实例4-4多分支结构 覆盖结果" MODIFIED="1740925125666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_18breakwhile.coverage" NAME="实例4-18跳转语句break在while循环的使用 覆盖结果" MODIFIED="1741076501041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12__1_.coverage" NAME="实例5-12元组的创建和删除 (1) 覆盖结果" MODIFIED="1741600153237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$11_7.coverage" NAME="实例11-7高维数据的使用 覆盖结果" MODIFIED="1743947850957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day34" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_7.coverage" NAME="实例8-7局部变量的作用域 覆盖结果" MODIFIED="1742525846751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_13.coverage" NAME="实例4-13使用无限循环模拟用户的登录 覆盖结果" MODIFIED="1741002439982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_19.coverage" NAME="实例5-19集合的创建和删除 覆盖结果" MODIFIED="1741764994064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
