@@ -7,4 +7,17 @@ lst=[
 ]
 #使用dumps
 s=json.dumps(lst,ensure_ascii=False,indent=4)
+print(s)
 
+lst2=json.loads(s)
+print(lst2)
+
+
+with open('student.txt','w') as file:
+    json.dump(lst,file,ensure_ascii=False,indent=4)
+
+
+
+with open('student.txt','r') as file:
+    lst3=json.load(file)
+    print(lst3)
