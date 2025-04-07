@@ -9,3 +9,10 @@ print('当前路径下所有文件目录',os.listdir('D:\GitHub-works\Python-LEa
 #删除（空）目录
 # os.rmdir('hello')#要删除的目录不存在也报错
 # os.removedirs('./aa/bb/cc')
+#修改
+# os.chdir('')
+#遍历目录树
+for dirs,dirlst,filelst in os.walk('D:\GitHub-works\Python-LEarning-Record'):
+     print(dirs)
+    # print(dirlst)
+    # print(filelst)
