@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day37/实例12-2客户端代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/day37/实例12-2客户端代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/实例12-3多次通信服务器端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day37/实例12-1服务器端代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/day37/实例12-1服务器端代码.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +247,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例12-1服务器端代码">
+  <component name="RunManager">
     <configuration name="实战1批量创建文件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -434,7 +435,7 @@
       <workItem from="1743945290329" duration="2325000" />
       <workItem from="1744010296499" duration="5184000" />
       <workItem from="1744101890671" duration="9558000" />
-      <workItem from="1744186144761" duration="7380000" />
+      <workItem from="1744186144761" duration="8365000" />
     </task>
     <servers />
   </component>
