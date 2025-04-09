@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day37/replay.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day37/实战4模拟客服自动回复.py" beforeDir="false" afterPath="$PROJECT_DIR$/day37/实战4模拟客服自动回复.py" afterDir="false" />
     </list>
@@ -434,7 +433,7 @@
       <workItem from="1743945290329" duration="2325000" />
       <workItem from="1744010296499" duration="5184000" />
       <workItem from="1744101890671" duration="9558000" />
-      <workItem from="1744186144761" duration="2827000" />
+      <workItem from="1744186144761" duration="4011000" />
     </task>
     <servers />
   </component>
