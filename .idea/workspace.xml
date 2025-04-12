@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day40/实例12-8咨询者.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +84,7 @@
     "Python.实例12-1服务器端代码.executor": "Run",
     "Python.实例12-3多次通信服务器端.executor": "Run",
     "Python.实例12-5 UDP发送方.executor": "Run",
+    "Python.实例12-8咨询者.executor": "Run",
     "Python.实例3-10字符串的索引和切片.executor": "Run",
     "Python.实例3-11常见的字符串操作.executor": "Run",
     "Python.实例3-12布尔类型的使用.executor": "Run",
@@ -439,7 +437,7 @@
       <workItem from="1744101890671" duration="9558000" />
       <workItem from="1744186144761" duration="9967000" />
       <workItem from="1744450935111" duration="1120000" />
-      <workItem from="1744452071671" duration="1799000" />
+      <workItem from="1744452071671" duration="2196000" />
     </task>
     <servers />
   </component>
@@ -465,6 +463,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_11.coverage" NAME="实例3-11常见的字符串操作 覆盖结果" MODIFIED="1740650711297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_.coverage" NAME="实战3-词云图 覆盖结果" MODIFIED="1743684373854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$12_8.coverage" NAME="实例12-8咨询者 覆盖结果" MODIFIED="1744453990517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_3.coverage" NAME="实例6-3格式字符串的操作 覆盖结果" MODIFIED="1742036100430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
