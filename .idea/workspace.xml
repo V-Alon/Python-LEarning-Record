@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day40/实例13-4使用子类的方式创建进程.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/实例13-5使用Pool进程池.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day40/实例13-3Process中的常用属性和方法2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day40/实例13-3Process中的常用属性和方法2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day40/实例13-6使用Pool进程池-阻塞方式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day40/实例13-5使用Pool进程池.py" beforeDir="false" afterPath="$PROJECT_DIR$/day40/实例13-5使用Pool进程池-非阻塞方式.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +92,7 @@
     "Python.实例13-2Process中常用的属性和方法.executor": "Run",
     "Python.实例13-3Process中的常用属性和方法2.executor": "Run",
     "Python.实例13-4使用子类的方式创建进程.executor": "Run",
+    "Python.实例13-5使用Pool进程池-非阻塞方式.executor": "Run",
     "Python.实例3-10字符串的索引和切片.executor": "Run",
     "Python.实例3-11常见的字符串操作.executor": "Run",
     "Python.实例3-12布尔类型的使用.executor": "Run",
@@ -236,6 +236,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "two.files.diff.last.used.file": "D:/GitHub-works/Python-LEarning-Record/day40/实例13-5使用Pool进程池-非阻塞方式.py",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -255,30 +256,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例13-4使用子类的方式创建进程">
-    <configuration name="实例12-8咨询者" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例12-8咨询者.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例13-5使用Pool进程池-非阻塞方式">
     <configuration name="实例13-1使用multiprocessing模块创建进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -371,13 +349,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例13-5使用Pool进程池-非阻塞方式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例13-5使用Pool进程池-非阻塞方式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例13-5使用Pool进程池-非阻塞方式" />
         <item itemvalue="Python.实例13-4使用子类的方式创建进程" />
         <item itemvalue="Python.实例13-3Process中的常用属性和方法2" />
         <item itemvalue="Python.实例13-2Process中常用的属性和方法" />
         <item itemvalue="Python.实例13-1使用multiprocessing模块创建进程" />
-        <item itemvalue="Python.实例12-8咨询者" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +446,7 @@
       <workItem from="1744101890671" duration="9558000" />
       <workItem from="1744186144761" duration="9967000" />
       <workItem from="1744450935111" duration="1120000" />
-      <workItem from="1744452071671" duration="6823000" />
+      <workItem from="1744452071671" duration="7236000" />
     </task>
     <servers />
   </component>
@@ -520,6 +521,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_15.coverage" NAME="实例7-15代码的调试 覆盖结果" MODIFIED="1742457922937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_12.coverage" NAME="实例5-12元租的创建和删除 覆盖结果" MODIFIED="1741599353477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_10.coverage" NAME="实例4-10遍历循环的扩展形式 覆盖结果" MODIFIED="1741001066724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_5Pool_.coverage" NAME="实例13-5使用Pool进程池-非阻塞方式 覆盖结果" MODIFIED="1744460448337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_5.coverage" NAME="实例9-5类的组成 覆盖结果" MODIFIED="1742821500991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_12try_except_else_fainally.coverage" NAME="实例7-12try-except-else-fainally结构 覆盖结果" MODIFIED="1742201625092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_10.coverage" NAME="实例3-10字符串的索引和切片 覆盖结果" MODIFIED="1740648903452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
