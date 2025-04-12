@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day40/实例13-6使用Pool进程池-阻塞方式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day40/实例13-5使用Pool进程池.py" beforeDir="false" afterPath="$PROJECT_DIR$/day40/实例13-5使用Pool进程池-非阻塞方式.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,30 +253,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例13-5使用Pool进程池-非阻塞方式">
-    <configuration name="实例13-1使用multiprocessing模块创建进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例13-1使用multiprocessing模块创建进程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例13-6使用Pool进程池-阻塞方式">
     <configuration name="实例13-2Process中常用的属性和方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -372,13 +346,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例13-6使用Pool进程池-阻塞方式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例13-6使用Pool进程池-阻塞方式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例13-6使用Pool进程池-阻塞方式" />
         <item itemvalue="Python.实例13-5使用Pool进程池-非阻塞方式" />
         <item itemvalue="Python.实例13-4使用子类的方式创建进程" />
         <item itemvalue="Python.实例13-3Process中的常用属性和方法2" />
         <item itemvalue="Python.实例13-2Process中常用的属性和方法" />
-        <item itemvalue="Python.实例13-1使用multiprocessing模块创建进程" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +443,7 @@
       <workItem from="1744101890671" duration="9558000" />
       <workItem from="1744186144761" duration="9967000" />
       <workItem from="1744450935111" duration="1120000" />
-      <workItem from="1744452071671" duration="7236000" />
+      <workItem from="1744452071671" duration="7257000" />
     </task>
     <servers />
   </component>
