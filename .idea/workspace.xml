@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day40/实例13-1使用multiprocessing模块创建进程.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +87,7 @@
     "Python.实例12-3多次通信服务器端.executor": "Run",
     "Python.实例12-5 UDP发送方.executor": "Run",
     "Python.实例12-8咨询者.executor": "Run",
+    "Python.实例13-1使用multiprocessing模块创建进程.executor": "Run",
     "Python.实例3-10字符串的索引和切片.executor": "Run",
     "Python.实例3-11常见的字符串操作.executor": "Run",
     "Python.实例3-12布尔类型的使用.executor": "Run",
@@ -247,7 +250,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例12-8咨询者">
+  <component name="RunManager" selected="Python.实例13-1使用multiprocessing模块创建进程">
     <configuration name="实例12-1服务器端代码" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -340,7 +343,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实战4模拟客服自动回复" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例13-1使用multiprocessing模块创建进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,12 +352,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day37" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day37/实战4模拟客服自动回复.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例13-1使用multiprocessing模块创建进程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例13-1使用multiprocessing模块创建进程" />
         <item itemvalue="Python.实例12-8咨询者" />
         <item itemvalue="Python.实例12-5 UDP发送方" />
         <item itemvalue="Python.实例12-3多次通信服务器端" />
         <item itemvalue="Python.实例12-1服务器端代码" />
-        <item itemvalue="Python.实战4模拟客服自动回复" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +440,7 @@
       <workItem from="1744101890671" duration="9558000" />
       <workItem from="1744186144761" duration="9967000" />
       <workItem from="1744450935111" duration="1120000" />
-      <workItem from="1744452071671" duration="2196000" />
+      <workItem from="1744452071671" duration="4108000" />
     </task>
     <servers />
   </component>
@@ -514,6 +517,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_12try_except_else_fainally.coverage" NAME="实例7-12try-except-else-fainally结构 覆盖结果" MODIFIED="1742201625092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_10.coverage" NAME="实例3-10字符串的索引和切片 覆盖结果" MODIFIED="1740648903452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3.coverage" NAME="实战3记录用户日志并且查看 覆盖结果" MODIFIED="1744111322456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_1multiprocessing.coverage" NAME="实例13-1使用multiprocessing模块创建进程 覆盖结果" MODIFIED="1744456659620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_10search.coverage" NAME="实例6-10search函数的使用 覆盖结果" MODIFIED="1742128305719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_15.coverage" NAME="实例10-15爬取景区的天气预报 覆盖结果" MODIFIED="1743424108694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_8.coverage" NAME="实例5-8列表的排序操作 覆盖结果" MODIFIED="1741595674838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
