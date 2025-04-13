@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day41/实例13-15线程共享数据带来的数据安全问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day41/实例13-16使用Lock锁.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day41/实例13-17生产者和消费者模式.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day41/实例13-14线程之间的数据共享.py" beforeDir="false" afterPath="$PROJECT_DIR$/day41/实例13-14线程之间的数据共享.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +95,7 @@
     "Python.实例13-13使用thread子类创建线程.executor": "Run",
     "Python.实例13-14线程之间的数据共享.executor": "Run",
     "Python.实例13-15线程共享数据带来的数据安全问题.executor": "Run",
+    "Python.实例13-16使用Lock锁.executor": "Run",
     "Python.实例13-1使用multiprocessing模块创建进程.executor": "Run",
     "Python.实例13-2Process中常用的属性和方法.executor": "Run",
     "Python.实例13-3Process中的常用属性和方法2.executor": "Run",
@@ -267,30 +268,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例13-15线程共享数据带来的数据安全问题">
-    <configuration name="实例13-11使用队列实现进程之间的通信" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/实例13-11使用队列实现进程之间的通信.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例13-16使用Lock锁">
     <configuration name="实例13-12函数式创建线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -383,13 +361,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例13-16使用Lock锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/实例13-16使用Lock锁.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例13-16使用Lock锁" />
         <item itemvalue="Python.实例13-15线程共享数据带来的数据安全问题" />
         <item itemvalue="Python.实例13-14线程之间的数据共享" />
         <item itemvalue="Python.实例13-13使用thread子类创建线程" />
         <item itemvalue="Python.实例13-12函数式创建线程" />
-        <item itemvalue="Python.实例13-11使用队列实现进程之间的通信" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +461,7 @@
       <workItem from="1744452071671" duration="10371000" />
       <workItem from="1744508166061" duration="3978000" />
       <workItem from="1744533743719" duration="4171000" />
-      <workItem from="1744539936076" duration="877000" />
+      <workItem from="1744539936076" duration="2559000" />
     </task>
     <servers />
   </component>
@@ -564,6 +565,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_6Pool_.coverage" NAME="实例13-6使用Pool进程池-阻塞方式 覆盖结果" MODIFIED="1744460497343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_13raise.coverage" NAME="实例7-13raise结构的使用 覆盖结果" MODIFIED="1742291612683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_16Lock.coverage" NAME="实例13-16使用Lock锁 覆盖结果" MODIFIED="1744541287500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_14.coverage" NAME="实例5-14元组生成式 覆盖结果" MODIFIED="1741679515829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_20continuewhile.coverage" NAME="实例4-20跳转语句continue在while的使用 覆盖结果" MODIFIED="1741079913977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_14.coverage" NAME="实例13-14线程之间的数据共享 覆盖结果" MODIFIED="1744540311343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
