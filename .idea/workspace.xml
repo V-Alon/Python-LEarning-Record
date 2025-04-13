@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day41/实例13-16使用Lock锁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day41/实例13-17生产者和消费者模式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +92,7 @@
     "Python.实例13-14线程之间的数据共享.executor": "Run",
     "Python.实例13-15线程共享数据带来的数据安全问题.executor": "Run",
     "Python.实例13-16使用Lock锁.executor": "Run",
+    "Python.实例13-17生产者和消费者模式.executor": "Run",
     "Python.实例13-1使用multiprocessing模块创建进程.executor": "Run",
     "Python.实例13-2Process中常用的属性和方法.executor": "Run",
     "Python.实例13-3Process中的常用属性和方法2.executor": "Run",
@@ -247,7 +244,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "preferences.remoteExternalTools",
     "two.files.diff.last.used.file": "D:/GitHub-works/Python-LEarning-Record/day40/实例13-5使用Pool进程池-非阻塞方式.py",
     "vue.rearranger.settings.migration": "true"
   }
@@ -268,30 +265,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例13-16使用Lock锁">
-    <configuration name="实例13-12函数式创建线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/实例13-12函数式创建线程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.实例13-17生产者和消费者模式">
     <configuration name="实例13-13使用thread子类创建线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -384,13 +358,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="实例13-17生产者和消费者模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/实例13-17生产者和消费者模式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例13-17生产者和消费者模式" />
         <item itemvalue="Python.实例13-16使用Lock锁" />
         <item itemvalue="Python.实例13-15线程共享数据带来的数据安全问题" />
         <item itemvalue="Python.实例13-14线程之间的数据共享" />
         <item itemvalue="Python.实例13-13使用thread子类创建线程" />
-        <item itemvalue="Python.实例13-12函数式创建线程" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +458,8 @@
       <workItem from="1744452071671" duration="10371000" />
       <workItem from="1744508166061" duration="3978000" />
       <workItem from="1744533743719" duration="4171000" />
-      <workItem from="1744539936076" duration="2559000" />
+      <workItem from="1744539936076" duration="2591000" />
+      <workItem from="1744550030911" duration="1198000" />
     </task>
     <servers />
   </component>
@@ -488,9 +486,9 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_.coverage" NAME="实战3-词云图 覆盖结果" MODIFIED="1743684373854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$12_8.coverage" NAME="实例12-8咨询者 覆盖结果" MODIFIED="1744453990517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_3.coverage" NAME="实例6-3格式字符串的操作 覆盖结果" MODIFIED="1742036100430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_10_.coverage" NAME="实例5-10 列表生成式 覆盖结果" MODIFIED="1741598735431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_17.coverage" NAME="实例5-17字典的相关操作 覆盖结果" MODIFIED="1741684501693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$11_4.coverage" NAME="实例11-4文件的复制 覆盖结果" MODIFIED="1743857911088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_11.coverage" NAME="实例13-11使用队列实现进程之间的通信 覆盖结果" MODIFIED="1744534356899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_17.coverage" NAME="实例3-17比较运算符的使用 覆盖结果" MODIFIED="1740660295923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
@@ -514,6 +512,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_.coverage" NAME="实战4-设计自定义类，描述出租车和家用轿车的信息 覆盖结果" MODIFIED="1743162950712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_14timedelta.coverage" NAME="实例10-14timedelta的使用 覆盖结果" MODIFIED="1743422578202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_3Process2.coverage" NAME="实例13-3Process中的常用属性和方法2 覆盖结果" MODIFIED="1744459287131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_17.coverage" NAME="实例13-17生产者和消费者模式 覆盖结果" MODIFIED="1744550856419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$module_b.coverage" NAME="module_b 覆盖结果" MODIFIED="1743315700580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$12_1.coverage" NAME="实例12-1服务器端代码 覆盖结果" MODIFIED="1744194718305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day37" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_14object.coverage" NAME="实例9-14object类 覆盖结果" MODIFIED="1743062994728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
