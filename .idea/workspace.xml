@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -27,6 +35,9 @@
     &quot;assignee&quot;: &quot;V-Alon&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f5782ba8-3dc3-41f3-baa3-53f1d498a085" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/V-Alon/Python-LEarning-Record.git&quot;,
@@ -459,7 +470,7 @@
       <workItem from="1744508166061" duration="3978000" />
       <workItem from="1744533743719" duration="4171000" />
       <workItem from="1744539936076" duration="2591000" />
-      <workItem from="1744550030911" duration="1198000" />
+      <workItem from="1744550030911" duration="2603000" />
     </task>
     <servers />
   </component>
