@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day41/实例13-12函数式创建线程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day41/实例13-13使用thread子类创建线程.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +91,7 @@
     "Python.实例12-8咨询者.executor": "Run",
     "Python.实例13-10设置put方法的参数.executor": "Run",
     "Python.实例13-11使用队列实现进程之间的通信.executor": "Run",
+    "Python.实例13-12函数式创建线程.executor": "Run",
     "Python.实例13-1使用multiprocessing模块创建进程.executor": "Run",
     "Python.实例13-2Process中常用的属性和方法.executor": "Run",
     "Python.实例13-3Process中的常用属性和方法2.executor": "Run",
@@ -261,7 +264,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day27\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.实例13-11使用队列实现进程之间的通信">
+  <component name="RunManager" selected="Python.实例13-13使用thread子类创建线程">
     <configuration name="实例13-10设置put方法的参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -308,7 +311,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例13-7多个进程之间数据是否共享" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例13-12函数式创建线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,12 +320,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例13-7多个进程之间数据是否共享.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/实例13-12函数式创建线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,7 +334,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="实例13-8队列的基本使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="实例13-13使用thread子类创建线程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,12 +343,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day40" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day41" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day40/实例13-8队列的基本使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day41/实例13-13使用thread子类创建线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.实例13-13使用thread子类创建线程" />
+        <item itemvalue="Python.实例13-12函数式创建线程" />
         <item itemvalue="Python.实例13-11使用队列实现进程之间的通信" />
         <item itemvalue="Python.实例13-10设置put方法的参数" />
         <item itemvalue="Python.实例13-9向已满的队列中添加元素" />
-        <item itemvalue="Python.实例13-8队列的基本使用" />
-        <item itemvalue="Python.实例13-7多个进程之间数据是否共享" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +456,7 @@
       <workItem from="1744450935111" duration="1120000" />
       <workItem from="1744452071671" duration="10371000" />
       <workItem from="1744508166061" duration="3978000" />
-      <workItem from="1744533743719" duration="1522000" />
+      <workItem from="1744533743719" duration="3286000" />
     </task>
     <servers />
   </component>
@@ -492,6 +495,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_9.coverage" NAME="实例3-9转义字符的使用 覆盖结果" MODIFIED="1740648483574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_5if.coverage" NAME="实例4-5嵌套if的使用 覆盖结果" MODIFIED="1740990607629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_10.coverage" NAME="实例9-10继承 覆盖结果" MODIFIED="1742981466362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_12.coverage" NAME="实例13-12函数式创建线程 覆盖结果" MODIFIED="1744538160687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_16__str__.coverage" NAME="实例9-16__str__方法的重写（之后） 覆盖结果" MODIFIED="1743063264981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_4.coverage" NAME="实例8-4默认值参数的使用 覆盖结果" MODIFIED="1742477487521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_24PIL.coverage" NAME="实例10-24PIL模块的使用 覆盖结果" MODIFIED="1743595543613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day30" />
