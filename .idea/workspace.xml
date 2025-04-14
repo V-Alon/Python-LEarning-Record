@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day42_多人聊天/client1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_多人聊天/day42-改/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day42_多人聊天/day42-改/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day42_多人聊天/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_多人聊天/client.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -479,7 +473,7 @@
       <workItem from="1744539936076" duration="2591000" />
       <workItem from="1744550030911" duration="2603000" />
       <workItem from="1744616971386" duration="5178000" />
-      <workItem from="1744632988338" duration="6528000" />
+      <workItem from="1744632988338" duration="6828000" />
     </task>
     <servers />
   </component>
