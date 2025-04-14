@@ -33,7 +33,7 @@ class KkClient(wx.Frame):
         box.Add(self.show_text,1,wx.ALIGN_CENTER)
 
         #创建聊天框内容的文本框
-        self.chat_text = wx.TextCtrl(pl, size=wx.Size(400,120), style=wx.TE_MULTILINE)
+        self.chat_text = wx.TextCtrl(pl, size=wx.Size(400,120), style=wx.TE_MULTILINE | wx.TE_READONLY)
         box.Add(self.chat_text, 1, wx.ALIGN_CENTER)
 
         # 可伸缩的网格布局
@@ -56,18 +56,6 @@ class KkClient(wx.Frame):
         self.client_name=client_name
         self.isConnected=False#存储客户端连接服务器的状态，默认为False
         self.client_socket=None#设置客户端的socket为空
-        #给发送按钮绑定事件
-        self.Bind(wx.EVT_BUTTON, self.send_to_server,send_btn)
-        # 给断开按钮绑定事件
-        self.Bind(wx.EVT_BUTTON, self.send_to_server, dis_conn_btn)
-
-    def send_to_server(self,event):
-        if self.isConnected:
-            input_data=self.chat_text.GetValue()
-            if input_data!='':
-                self.client_socket.send(input_data.encode('utf-8'))
-                #发完数据清空文本框
-                self.chat_text.SetValue('')
 
 
 
@@ -101,7 +89,7 @@ if __name__ == '__main__':
     app=wx.App()
 #创建自己的客户端界面对象
     name=input('请输入客户端的名称:')
-    # client=KkClient('V-Alon')
+    # client=KkClient('X-Alon')
     client=KkClient(name)
     client.Show()
 

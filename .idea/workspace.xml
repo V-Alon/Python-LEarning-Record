@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day42_多人聊天/client1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_多人聊天/day42-改/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day42_多人聊天/day42-改/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day42_多人聊天/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_多人聊天/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day42_多人聊天/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_多人聊天/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.client.executor": "Run",
+    "Python.client1.executor": "Run",
     "Python.module_b.executor": "Run",
     "Python.server.executor": "Run",
     "Python.test.executor": "Run",
@@ -253,7 +256,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day40",
+    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day42_多人聊天",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -266,11 +269,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day42_多人聊天" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day40" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day37" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day33" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day31" />
-      <recent name="D:\GitHub-works\Python-LEarning-Record\day29" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub-works\Python-LEarning-Record\day37" />
@@ -476,7 +479,7 @@
       <workItem from="1744539936076" duration="2591000" />
       <workItem from="1744550030911" duration="2603000" />
       <workItem from="1744616971386" duration="5178000" />
-      <workItem from="1744632988338" duration="3522000" />
+      <workItem from="1744632988338" duration="6528000" />
     </task>
     <servers />
   </component>
@@ -534,6 +537,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_8.coverage" NAME="实例9-8 覆盖结果" MODIFIED="1742977647033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16__1_.coverage" NAME="实例4-16菱形 (1) 覆盖结果" MODIFIED="1741006189163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$11_10os_path.coverage" NAME="实例11-10os.path模块 覆盖结果" MODIFIED="1744103772976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$client1.coverage" NAME="client1 覆盖结果" MODIFIED="1744636855359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day42_多人聊天" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_12while.coverage" NAME="实例4-12无限循环while的扩展 覆盖结果" MODIFIED="1741001686201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_7.coverage" NAME="实例7-7输入两个整数并进行除法运算 覆盖结果" MODIFIED="1742200581294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_18.coverage" NAME="实例3-18逻辑运算符的使用 覆盖结果" MODIFIED="1740660828190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
@@ -657,7 +661,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_.coverage" NAME="实例5-字典元素的遍历和访问 覆盖结果" MODIFIED="1741683718856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_9try_except.coverage" NAME="实例7-9try-except结构的使用 覆盖结果" MODIFIED="1742201004266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_16.coverage" NAME="实例4-16菱形和空心菱形 覆盖结果" MODIFIED="1741005850825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$client.coverage" NAME="client 覆盖结果" MODIFIED="1744635420869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day42_多人聊天" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$client.coverage" NAME="client 覆盖结果" MODIFIED="1744639337821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day42_多人聊天/day42-1" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_12subsplit.coverage" NAME="实例6-12sub函数的split函数的使用 覆盖结果" MODIFIED="1742191377528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4in.coverage" NAME="实战4编写函数实现操作符in的功能 覆盖结果" MODIFIED="1742817326719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_12time.coverage" NAME="实例10-12time模块的使用 覆盖结果" MODIFIED="1743329942097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
@@ -677,7 +681,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_11.coverage" NAME="实例5-11二维列表的遍历和生成 覆盖结果" MODIFIED="1741599222338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_11.coverage" NAME="实例9-11多继承 覆盖结果" MODIFIED="1742982018021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_2.coverage" NAME="实例10-2模块的导入 覆盖结果" MODIFIED="1743259159276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$server.coverage" NAME="server 覆盖结果" MODIFIED="1744635409742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day42_多人聊天" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$server.coverage" NAME="server 覆盖结果" MODIFIED="1744639333328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day42_多人聊天/day42-1" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_1.coverage" NAME="实例9-1查看数据类型的对象 覆盖结果" MODIFIED="1742819645566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_9lambda.coverage" NAME="实例8-9匿名函数lambda的使用 覆盖结果" MODIFIED="1742527290381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_11random.coverage" NAME="实例10-11random模块的使用 覆盖结果" MODIFIED="1743328576831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
