@@ -1,4 +1,7 @@
 #coding:utf-8
+import threading
+from socket import socket,AF_INET,SOCK_STREAM
+
 import wx
 class KkClient(wx.Frame):
     def __init__(self, client_name):
@@ -45,6 +48,38 @@ class KkClient(wx.Frame):
         box.Add(fgz2,1,wx.ALIGN_RIGHT)
         #将盒子放在面板当中
         pl.SetSizer(box)
+
+
+        '''-------------以上代码是客户端的绘制----------------'''
+        self.Bind(wx.EVT_BUTTON,self.connect_to_server,conn_btn)
+        #实例属性的设置
+        self.client_name=client_name
+        self.isConnected=False#存储客户端连接服务器的状态，默认为False
+        self.client_socket=None#设置客户端的socket为空
+
+
+
+    def connect_to_server(self,event):
+        print(f'客户端{self.client_name}连接服务器成功')
+        if  not self.isConnected:
+            #tcp编程的步骤
+            server_host_port=('127.0.0.1',8888)
+            #创建socket对象
+            self.client_socket = socket(AF_INET,SOCK_STREAM)
+            #发送连接请求
+            self.client_socket.connect(server_host_port)
+            #只要连接成功，发送一条数据
+            self.client_socket.send(self.client_name.encode('utf-8'))
+            #启动一个线程，客户端线程和服务器端进行对话
+            client_thread = threading.Thread(target=self.recv_data)
+            #设置守护线程
+            client_thread.daemon=True
+            self.isConnected=True
+            client_thread.start()
+    def recv_data(self):
+        pass
+
+
 
 if __name__ == '__main__':
 #初始化app
