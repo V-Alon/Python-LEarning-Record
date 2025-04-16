@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day44/http协议.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day44/web请求过程剖析.py" beforeDir="false" afterPath="$PROJECT_DIR$/day44/web请求过程剖析.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -474,7 +476,7 @@
       <workItem from="1744632988338" duration="6828000" />
       <workItem from="1744702061844" duration="7375000" />
       <workItem from="1744788508793" duration="806000" />
-      <workItem from="1744789533513" duration="3996000" />
+      <workItem from="1744789533513" duration="6900000" />
     </task>
     <servers />
   </component>
