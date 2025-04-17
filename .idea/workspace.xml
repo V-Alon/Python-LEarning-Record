@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day44/http协议.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45/requests模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45/requests模块2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day45/requests模块3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day44/web请求过程剖析.py" beforeDir="false" afterPath="$PROJECT_DIR$/day44/web请求过程剖析.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,9 @@
     "Python.client.executor": "Run",
     "Python.client1.executor": "Run",
     "Python.module_b.executor": "Run",
+    "Python.requests模块.executor": "Run",
+    "Python.requests模块2.executor": "Run",
+    "Python.requests模块3.executor": "Run",
     "Python.server.executor": "Run",
     "Python.test.executor": "Run",
     "Python.web.executor": "Run",
@@ -276,7 +280,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
     "two.files.diff.last.used.file": "D:/GitHub-works/Python-LEarning-Record/day40/实例13-5使用Pool进程池-非阻塞方式.py",
     "vue.rearranger.settings.migration": "true"
   }
@@ -297,7 +301,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day29" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.mybaidu.html">
+  <component name="RunManager" selected="Python.requests模块3">
     <configuration name="mybaidu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python-LEarning-Record/day44/mybaidu.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -324,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requests模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -333,12 +337,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day42_多人聊天" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day45" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day42_多人聊天/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day45/requests模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,7 +351,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requests模块2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -356,12 +360,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day42_多人聊天" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day45" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day42_多人聊天/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day45/requests模块2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,7 +374,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requests模块3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -379,12 +383,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day43web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day45" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day43web/web.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day45/requests模块3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.requests模块3" />
+        <item itemvalue="Python.requests模块2" />
+        <item itemvalue="Python.requests模块" />
         <item itemvalue="JavaScript 调试.mybaidu.html" />
         <item itemvalue="Python.第一个爬虫程序" />
-        <item itemvalue="Python.web" />
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -477,6 +481,7 @@
       <workItem from="1744702061844" duration="7375000" />
       <workItem from="1744788508793" duration="806000" />
       <workItem from="1744789533513" duration="6911000" />
+      <workItem from="1744873103704" duration="6963000" />
     </task>
     <servers />
   </component>
@@ -589,6 +594,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_13datetime.coverage" NAME="实例10-13datetime模块的使用 覆盖结果" MODIFIED="1743422448885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_16logo.coverage" NAME="实例10-16爬取百度的logo图片 覆盖结果" MODIFIED="1743425604785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_22pandasmatplotlib.coverage" NAME="实例10-22pandas和matplotlib绘制饼图 覆盖结果" MODIFIED="1743506001428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$requests2.coverage" NAME="requests模块2 覆盖结果" MODIFIED="1744880227103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day45" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$11_3.coverage" NAME="实例11-3文件的读取操作 覆盖结果" MODIFIED="1743856096108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_6Pool_.coverage" NAME="实例13-6使用Pool进程池-阻塞方式 覆盖结果" MODIFIED="1744460497343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_13raise.coverage" NAME="实例7-13raise结构的使用 覆盖结果" MODIFIED="1742291612683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
@@ -651,11 +657,13 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_6.coverage" NAME="实例8-6函数的返回值 覆盖结果" MODIFIED="1742478892289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_18.coverage" NAME="实例5-18字典生成式 覆盖结果" MODIFIED="1741764508288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_4.coverage" NAME="实例13-4使用子类的方式创建进程 覆盖结果" MODIFIED="1744459925518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$requests.coverage" NAME="requests模块 覆盖结果" MODIFIED="1744879564520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day45" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_2.coverage" NAME="实例4-2单分支结构 覆盖结果" MODIFIED="1740924355436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_11while.coverage" NAME="实例4-11无限循环while的使用 覆盖结果" MODIFIED="1741001588256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_.coverage" NAME="实战2-推算后几天的日期 覆盖结果" MODIFIED="1743681805497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day31" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_24.coverage" NAME="实例5-24同步迭代 覆盖结果" MODIFIED="1741767685415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$web.coverage" NAME="web 覆盖结果" MODIFIED="1744722027763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day43web" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$requests3.coverage" NAME="requests模块3 覆盖结果" MODIFIED="1744881392256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day45" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$2_JD.coverage" NAME="实战2-模拟JD物流购物流程 覆盖结果" MODIFIED="1741848993060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_.coverage" NAME="实例5-字典元素的遍历和访问 覆盖结果" MODIFIED="1741683718856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_9try_except.coverage" NAME="实例7-9try-except结构的使用 覆盖结果" MODIFIED="1742201004266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15" />
