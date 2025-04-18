@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day46/正则表达式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day46/豆瓣top250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day46/页面源代码.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,6 +272,7 @@
     "Python.实战4模拟客服自动回复.executor": "Run",
     "Python.实战4编写函数实现操作符in的功能.executor": "Run",
     "Python.第一个爬虫程序.executor": "Run",
+    "Python.豆瓣top250.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -297,10 +303,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day29" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.re正则表达式02">
-    <configuration name="mybaidu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python-LEarning-Record/day44/mybaidu.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.豆瓣top250">
     <configuration name="re正则表达式02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -393,13 +396,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="豆瓣top250" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day46" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day46/豆瓣top250.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.豆瓣top250" />
         <item itemvalue="Python.re正则表达式02" />
         <item itemvalue="Python.requests模块3" />
         <item itemvalue="Python.requests模块2" />
         <item itemvalue="Python.requests模块" />
-        <item itemvalue="JavaScript 调试.mybaidu.html" />
       </list>
     </recent_temporary>
   </component>
@@ -479,6 +505,7 @@
       <workItem from="1744789533513" duration="6911000" />
       <workItem from="1744873103704" duration="11048000" />
       <workItem from="1744946564847" duration="4877000" />
+      <workItem from="1744967489631" duration="4531000" />
     </task>
     <servers />
   </component>
@@ -594,7 +621,8 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$requests2.coverage" NAME="requests模块2 覆盖结果" MODIFIED="1744880227103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day45" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$11_3.coverage" NAME="实例11-3文件的读取操作 覆盖结果" MODIFIED="1743856096108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_6Pool_.coverage" NAME="实例13-6使用Pool进程池-阻塞方式 覆盖结果" MODIFIED="1744460497343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$re02.coverage" NAME="re正则表达式02 覆盖结果" MODIFIED="1744955691462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day46" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$re02.coverage" NAME="re正则表达式02 覆盖结果" MODIFIED="1744981901579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day46" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$top250.coverage" NAME="豆瓣top250 覆盖结果" MODIFIED="1744984569949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day46" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_13raise.coverage" NAME="实例7-13raise结构的使用 覆盖结果" MODIFIED="1742291612683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$13_16Lock.coverage" NAME="实例13-16使用Lock锁 覆盖结果" MODIFIED="1744541287500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
