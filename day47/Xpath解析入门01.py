@@ -1,0 +1,13 @@
+#xpath是在xml文档中搜索内容的一门语言
+#html是xml的一个子集
+'''
+<book>
+    <id>1</id>
+    <name>11111</name>
+    <price>20.00</price>
+    <author>
+        <nickname><NAME></nickname>
+        <email><EMAIL></email>
+    </author>
+</book>
+'''
