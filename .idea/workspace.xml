@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day46/电影天堂电影下载链接.py" beforeDir="false" afterPath="$PROJECT_DIR$/day46/电影天堂电影下载链接.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,11 +292,11 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day31" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day47" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day43web\templates" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day43web" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day37" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day30" />
-      <recent name="D:\GitHub-works\Python-LEarning-Record\day29" />
     </key>
   </component>
   <component name="RunManager" selected="Python.电影天堂电影下载链接">
@@ -505,7 +502,7 @@
       <workItem from="1744873103704" duration="11048000" />
       <workItem from="1744946564847" duration="4877000" />
       <workItem from="1744967489631" duration="6495000" />
-      <workItem from="1745039116582" duration="4911000" />
+      <workItem from="1745039116582" duration="5060000" />
     </task>
     <servers />
   </component>
