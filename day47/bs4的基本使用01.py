@@ -26,3 +26,10 @@ for tr in trs:#每一行
     kind=tds[4].text
     date=tds[5].text
     print(name,low,avg,high,kind,date)
+
+
+
+
+
+
+resp.close()
