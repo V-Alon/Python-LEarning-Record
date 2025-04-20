@@ -13,4 +13,6 @@ for li in ol_li_list:
     result2=li.xpath('./a/@href')#@拿到属性值，@属性
     print(result2)
 
-
+print(tree.xpath('/html/body/ol/li/a/@href'))
+print(tree.xpath('/html/body/div[1]/text()'))
+print(tree.xpath('/html/body/ol/li[2]/a/text()'))
