@@ -1,6 +1,5 @@
 #拿到页面源代码
 #提取和解析数据
-from http.cookiejar import request_path
 
 import requests
 from lxml import etree
