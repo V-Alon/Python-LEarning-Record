@@ -17,5 +17,13 @@ resp=requests.get(videoStatusUrl,headers=headers)
 dic=resp.json()
 srcUrl=dic['videoInfo']['videos']['srcUrl']
 systemTime=dic['systemTime']
+srcUrl=srcUrl.replace(systemTime,f'cont-{contId}')
 real='https://video.pearvideo.com/mp4/short/20250421/cont-1799616-16050084-hd.mp4'
 #     https://video.pearvideo.com/mp4/short/20250421/1745411177877-16050084-hd.mp4
+#     https://video.pearvideo.com/mp4/short/20250421/cont-1799616-16050084-hd.mp4
+print(srcUrl)
+
+#下载视频
+with open("a.mp4","wb") as f:
+    f.write(requests.get(srcUrl).content)
+
