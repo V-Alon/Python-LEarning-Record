@@ -26,17 +26,17 @@ f="00e0b509f6259df8642dbc35662901477df22677ec152b5ff68ace615bb7b725152b3ab17a876
 
 g="0CoJUm6Qyw8W8jud"
 e="010001"
-i="cxToWzewSnjLkgFF"
+i="cxToWzewSnjLkgFF"   #手动固定的i，原网页中i是变化的随机的，i固定，ensecText就是固定的，c()函数就是固定的
 def get_encSecKey():
     return "df64522bb8abc80a6ee9b73fa8ce51fb1c759d76b67c3f3fc99cb9b62a5c23bd9b4182d4cb9bafe7e9f5c4e8d6a70159fe1f2255e0c41f98e51298bf89d285998e746f846c8d6daa9c2af8e6ed7a4671af0b1f0a93f69f4caaf642020bf6955009327e333ecaddc61207e3913bf46b44b4c9cb7895fb954862e4fd6d2286603b"
 
-
+#把参数进行加密
 def get_params(data):#默认收到字符串
     first = enc_params(data,g)
     second = enc_params(first,i)
     return second#返回的就是params
 
-#
+#转化成16的倍数，为下方的加密算法做准备
 def to_16(data):
     pad = 16 - len(data)%16
     data += chr(pad) * pad
