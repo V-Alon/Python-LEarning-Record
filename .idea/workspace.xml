@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52/加密方式.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day52/加密方式.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day52/爬取网易云的音乐热评.py" beforeDir="false" afterPath="$PROJECT_DIR$/day52/爬取网易云的音乐热评.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -523,7 +519,7 @@
       <workItem from="1745322116895" duration="4743000" />
       <workItem from="1745408265147" duration="4251000" />
       <workItem from="1745494932739" duration="4545000" />
-      <workItem from="1745583954727" duration="3383000" />
+      <workItem from="1745583954727" duration="3572000" />
     </task>
     <servers />
   </component>
