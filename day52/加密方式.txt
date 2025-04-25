@@ -6,13 +6,13 @@
             c += b.charAt(e);  #取字符串的xxx位置
         return c
     }
-    function b(a, b) {
-        var c = CryptoJS.enc.Utf8.parse(b)
+    function b(a, b) {  #a是要加密的内容
+        var c = CryptoJS.enc.Utf8.parse(b)加密的密钥
           , d = CryptoJS.enc.Utf8.parse("0102030405060708")
           , e = CryptoJS.enc.Utf8.parse(a)
-          , f = CryptoJS.AES.encrypt(e, c, {
-            iv: d,
-            mode: CryptoJS.mode.CBC
+          , f = CryptoJS.AES.encrypt(e, c, {   #   c   加密的密钥
+            iv: d,#偏移量
+            mode: CryptoJS.mode.CBC #模式是cbc
         });
         return f.toString()
     }
@@ -29,6 +29,10 @@
         h.encText = b(h.encText, i),  #返回的就是params
         h.encSecKey = c(i, e, f),  #得到的就是encSecKey   e,f定值   i 变量  如果i固定
         return
+
+
+       #两次加密
+       #数据+g=>b=>第一次加密+i=>b=>params
     }
     function e(a, b, d, e) {
         var f = {};
