@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day46/豆瓣top250.py" beforeDir="false" afterPath="$PROJECT_DIR$/day46/豆瓣top250.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day54/线程池01.py" beforeDir="false" afterPath="$PROJECT_DIR$/day54/线程池01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -597,7 +596,7 @@
       <workItem from="1745494932739" duration="4545000" />
       <workItem from="1745583954727" duration="3572000" />
       <workItem from="1745673128957" duration="4305000" />
-      <workItem from="1745738061119" duration="5041000" />
+      <workItem from="1745738061119" duration="5310000" />
     </task>
     <servers />
   </component>
