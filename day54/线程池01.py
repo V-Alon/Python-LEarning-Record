@@ -1,9 +1,11 @@
 #如何提取单页数据
 #上线程池，多个页面同时抓取
-import requests
+import requests,csv
 from lxml import etree
 
-
+from day46.豆瓣top250 import csv_writer
+f=open('datacsv.csv',mode='w',encoding='utf-8')
+csvwriter=csv.writer(f)
 
 
 def download_one_page(url):
@@ -14,7 +16,8 @@ def download_one_page(url):
     trs=table.xpath('./tr')#/html/body/div[3]/table/tbody/tr[1]
     for tr in trs:
         txt=tr.xpath('./td/text()')
-        print(txt)
+        txt=(item.replace('\\','').replace('/','') for item in txt)
+        csvwriter.writerow(txt)
 
 
 if __name__ == '__main__':
