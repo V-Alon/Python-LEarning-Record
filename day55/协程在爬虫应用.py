@@ -15,4 +15,14 @@ async def main():
         'https://www.jd.com/',
         'https://www.163.com',
     ]
+    tasks=[
 
+    ]
+    for url in urls:
+        d=download(url)
+        tasks.append(d)
+
+    await asyncio.gather(*tasks)
+
+if __name__ == '__main__':
+    asyncio.run(main())
