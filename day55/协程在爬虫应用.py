@@ -11,7 +11,7 @@ async def main():
     urls=[
         'https://www.baidu.com/',
         'https://www.taobao.com/',
-        'https://www.pdd.com/',
+        'https://www.pdd.com/', 
         'https://www.jd.com/',
         'https://www.163.com',
     ]
