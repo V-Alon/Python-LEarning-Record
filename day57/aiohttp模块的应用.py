@@ -19,9 +19,9 @@ async def aiodownload(url):
             with open(name,mode='wb')as f:
                 f.write(await resp.content.read())  #读取内容是异步的需要挂起
     print(name,'完成')
-    #s = aiohttp.ClientSession().get(url)#<----->相当于之前的requests模块     requests.session()
-    #requests。get()    .post()
-    #s.get()     .post()
+    s = aiohttp.ClientSession().get(url)#<----->相当于之前的requests模块     requests.session()
+    # requestsget()    .post()
+    # s.get()     .post()
 
     #发送请求
     #得到图片的内容
