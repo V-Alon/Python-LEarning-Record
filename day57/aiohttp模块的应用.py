@@ -23,16 +23,16 @@ async def aiodownload(url):
     # requestsget()    .post()
     # s.get()     .post()
 
-    #发送请求
-    #得到图片的内容
-    #保存的到文件
+
 async def main():
     tasks=[]
     for url in urls:
         tasks.append(asyncio.create_task(aiodownload(url)))
     await asyncio.gather(*tasks)
 
-
+  #发送请求
+    #得到图片的内容
+    #保存的到文件
 
 if __name__ == '__main__':
     asyncio.run(main())
