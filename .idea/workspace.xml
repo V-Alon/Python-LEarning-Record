@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python-LEarning-Record.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-LEarning-Record.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day60/简单练手爬取视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/day60/简单练手爬取视频.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -777,7 +773,7 @@
       <workItem from="1746277937256" duration="89000" />
       <workItem from="1746335935296" duration="10387000" />
       <workItem from="1746427050548" duration="8750000" />
-      <workItem from="1746523600856" duration="3459000" />
+      <workItem from="1746523600856" duration="3829000" />
     </task>
     <servers />
   </component>
