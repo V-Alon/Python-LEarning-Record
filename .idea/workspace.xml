@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day61/简单练手爬取视频.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day62/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +297,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day42_多人聊天",
+    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day61",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -307,11 +311,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day61" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day42_多人聊天" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day40" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day37" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day33" />
-      <recent name="D:\GitHub-works\Python-LEarning-Record\day31" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub-works\Python-LEarning-Record\day59\novel" />
@@ -321,7 +325,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day43web" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.简单练手爬取视频">
+  <component name="RunManager" selected="Python.aiohttp模块的应用">
     <configuration name="代理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -669,7 +673,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.简单练手爬取视频" />
         <item itemvalue="Python.爬取一本小说（1）" />
         <item itemvalue="Python.aiohttp模块的应用" />
         <item itemvalue="Python.代理" />
@@ -774,6 +777,7 @@
       <workItem from="1746335935296" duration="10387000" />
       <workItem from="1746427050548" duration="8750000" />
       <workItem from="1746523600856" duration="3829000" />
+      <workItem from="1746608687868" duration="2496000" />
     </task>
     <servers />
   </component>
