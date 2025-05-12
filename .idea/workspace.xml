@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day66/first_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,7 @@
         <option value="Python Stub" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -321,7 +325,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day43web" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.aiohttp模块的应用">
     <configuration name="代理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -779,6 +783,7 @@
       <workItem from="1746767103307" duration="186000" />
       <workItem from="1746969780864" duration="3126000" />
       <workItem from="1747031582606" duration="9831000" />
+      <workItem from="1747050582856" duration="2695000" />
     </task>
     <servers />
   </component>
