@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day67/天气随机温度显示.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67/sig_size.png" beforeDir="false" afterPath="$PROJECT_DIR$/day67/sig_size.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day67/设置及图片大小.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day67/设置及图片大小.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day67/天气随机温度显示.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day67/天气随机温度显示.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -785,7 +784,7 @@
       <workItem from="1746969780864" duration="3126000" />
       <workItem from="1747031582606" duration="9831000" />
       <workItem from="1747050582856" duration="3571000" />
-      <workItem from="1747125016826" duration="3329000" />
+      <workItem from="1747125016826" duration="5275000" />
     </task>
     <servers />
   </component>
