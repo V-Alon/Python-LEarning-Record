@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day68/折线图02.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day68/查看那些字体可以使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day68/统计折线图.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day68/绘制散点图.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day68/折线图02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day68/折线图02.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -812,7 +811,7 @@
       <workItem from="1747031582606" duration="9831000" />
       <workItem from="1747050582856" duration="3571000" />
       <workItem from="1747125016826" duration="6305000" />
-      <workItem from="1747209760665" duration="3627000" />
+      <workItem from="1747209760665" duration="6037000" />
     </task>
     <servers />
   </component>
