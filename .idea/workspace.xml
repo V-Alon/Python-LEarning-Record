@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day72/01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day72/numpy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day72/数组的形状.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -812,7 +813,7 @@
       <workItem from="1747292779571" duration="8645000" />
       <workItem from="1747401016212" duration="1116000" />
       <workItem from="1747470426628" duration="3737000" />
-      <workItem from="1747574756828" duration="2817000" />
+      <workItem from="1747574756828" duration="3980000" />
     </task>
     <servers />
   </component>
