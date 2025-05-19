@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day73/UK_video_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day73/US_video_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day73/numpy读取文件内容.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day73/数据处理.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +21,8 @@
       <list>
         <option value="Python Stub" />
         <option value="HTML File" />
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -838,7 +844,7 @@
       <workItem from="1747401016212" duration="1116000" />
       <workItem from="1747470426628" duration="3737000" />
       <workItem from="1747574756828" duration="3980000" />
-      <workItem from="1747637352309" duration="12044000" />
+      <workItem from="1747637352309" duration="17329000" />
     </task>
     <servers />
   </component>
@@ -966,7 +972,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$8_9lambda.coverage" NAME="实例8-9匿名函数lambda的使用 覆盖结果" MODIFIED="1742527290381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_11random.coverage" NAME="实例10-11random模块的使用 覆盖结果" MODIFIED="1743328576831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_25jieba_.coverage" NAME="实例10-25jieba模块的使用-中文分词 覆盖结果" MODIFIED="1743596445544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day30" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3d_heart.coverage" NAME="3d_heart 覆盖结果" MODIFIED="1747655696615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day73" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$3d_heart.coverage" NAME="3d_heart 覆盖结果" MODIFIED="1747655870360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day73" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_8Python.coverage" NAME="实例4-8Python新任性——模式匹配 覆盖结果" MODIFIED="1740991439510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_11.coverage" NAME="实例3-11常见的字符串操作 覆盖结果" MODIFIED="1740650711297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$work_03.coverage" NAME="work-03 覆盖结果" MODIFIED="1741265616127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
