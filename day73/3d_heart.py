@@ -1,50 +1,236 @@
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib import cm
-from matplotlib.ticker import LinearLocator, FormatStrFormatter
-import matplotlib.pyplot as plt
-import numpy as np
+import random
+from math import sin, cos, pi, log
+from tkinter import *
+
+CANVAS_WIDTH = 640
+CANVAS_HEIGHT = 480
+CANVAS_CENTER_X = CANVAS_WIDTH / 2
+CANVAS_CENTER_Y = CANVAS_HEIGHT / 2
+IMAGE_ENLARGE = 11
+# 设置颜色
+HEART_COLOR = "#FF99CC"
 
 
-def heart_3d(x,y,z):
- return (x**2+(9/4)*y**2+z**2-1)**3-x**2*z**3-(9/80)*y**2*z**3
+def center_window(root, width, height):
+    screenwidth = root.winfo_screenwidth()  # 获取显示屏宽度
+
+    screenheight = root.winfo_screenheight()  # 获取显示屏高度
+
+    size = '%dx%d+%d+%d' % (width, height, (screenwidth - width) /
+
+                            2, (screenheight - height) / 2)  # 设置窗口居中参数
+
+    root.geometry(size)  # 让窗口居中显示
 
 
-def plot_implicit(fn, bbox=(-1.5, 1.5)):
- ''' create a plot of an implicit function
- fn ...implicit function (plot where fn==0)
- bbox ..the x,y,and z limits of plotted interval'''
- xmin, xmax, ymin, ymax, zmin, zmax = bbox*3
- fig = plt.figure()
- ax = fig.add_subplot(111, projection='3d')
- A = np.linspace(xmin, xmax, 100) # resolution of the contour
- B = np.linspace(xmin, xmax, 40) # number of slices
- A1, A2 = np.meshgrid(A, A) # grid on which the contour is plotted
+def heart_function(t, shrink_ratio: float = IMAGE_ENLARGE):
+    x = 16 * (sin(t) ** 3)
 
- for z in B: # plot contours in the XY plane
-  X, Y = A1, A2
-  Z = fn(X, Y, z)
-  cset = ax.contour(X, Y, Z+z, [z], zdir='z', colors=('r',))
-  # [z] defines the only level to plot
-  # for this contour for this value of z
+    y = -(13 * cos(t) - 5 * cos(2 * t) - 2 * cos(3 * t) - cos(4 * t))
 
- for y in B: # plot contours in the XZ plane
-  X, Z = A1, A2
-  Y = fn(X, y, Z)
-  cset = ax.contour(X, Y+y, Z, [y], zdir='y', colors=('red',))
+    # 放大
 
- for x in B: # plot contours in the YZ plane
-  Y, Z = A1, A2
-  X = fn(x, Y, Z)
-  cset = ax.contour(X+x, Y, Z, [x], zdir='x',colors=('red',))
+    x *= shrink_ratio
+    y *= shrink_ratio
+    # 移到画布中央
 
- # must set plot limits because the contour will likely extend
- # way beyond the displayed level. Otherwise matplotlib extends the plot limits
- # to encompass all values in the contour.
- ax.set_zlim3d(zmin, zmax)
- ax.set_xlim3d(xmin, xmax)
- ax.set_ylim3d(ymin, ymax)
+    x += CANVAS_CENTER_X
 
- plt.show()
+    y += CANVAS_CENTER_Y
+
+    return int(x), int(y)
+
+
+def scatter_inside(x, y, beta=0.15):
+    ratio_x = - beta * log(random.random())
+
+    ratio_y = - beta * log(random.random())
+
+    dx = ratio_x * (x - CANVAS_CENTER_X)
+
+    dy = ratio_y * (y - CANVAS_CENTER_Y)
+
+    return x - dx, y - dy
+
+
+def shrink(x, y, ratio):
+    force = -1 / (((x - CANVAS_CENTER_X) ** 2 +
+
+                   (y - CANVAS_CENTER_Y) ** 2) ** 0.6)
+
+    dx = ratio * force * (x - CANVAS_CENTER_X)
+
+    dy = ratio * force * (y - CANVAS_CENTER_Y)
+
+    return x - dx, y - dy
+
+
+def curve(p):
+    return 2 * (2 * sin(4 * p)) / (2 * pi)
+
+
+class Heart:
+
+    def __init__(self, generate_frame=20):
+
+        self._points = set()  # 原始爱心坐标集合
+
+        self._edge_diffusion_points = set()  # 边缘扩散效果点坐标集合
+
+        self._center_diffusion_points = set()  # 中心扩散效果点坐标集合
+
+        self.all_points = {}  # 每帧动态点坐标
+
+        self.build(2000)
+
+        self.random_halo = 1000
+
+        self.generate_frame = generate_frame
+
+        for frame in range(generate_frame):
+            self.calc(frame)
+
+    def build(self, number):
+
+        for _ in range(number):
+            t = random.uniform(0, 2 * pi)
+
+            x, y = heart_function(t)
+
+            self._points.add((x, y))
+
+        # 爱心内扩散
+
+        for _x, _y in list(self._points):
+
+            for _ in range(3):
+                x, y = scatter_inside(_x, _y, 0.05)
+
+                self._edge_diffusion_points.add((x, y))
+
+        # 爱心内再次扩散
+
+        point_list = list(self._points)
+
+        for _ in range(4000):
+            x, y = random.choice(point_list)
+
+            x, y = scatter_inside(x, y, 0.17)
+
+            self._center_diffusion_points.add((x, y))
+
+    @staticmethod
+    def calc_position(x, y, ratio):
+
+        force = 1 / (((x - CANVAS_CENTER_X) ** 2 +
+
+                      (y - CANVAS_CENTER_Y) ** 2) ** 0.520)
+
+        dx = ratio * force * (x - CANVAS_CENTER_X) + random.randint(-1, 1)
+
+        dy = ratio * force * (y - CANVAS_CENTER_Y) + random.randint(-1, 1)
+
+        return x - dx, y - dy
+
+    def calc(self, generate_frame):
+
+        ratio = 10 * curve(generate_frame / 10 * pi)
+
+        halo_radius = int(4 + 6 * (1 + curve(generate_frame / 10 * pi)))
+
+        halo_number = int(
+
+            3000 + 4000 * abs(curve(generate_frame / 10 * pi) ** 2))
+
+        all_points = []
+
+        # 光环
+
+        heart_halo_point = set()
+
+        for _ in range(halo_number):
+
+            t = random.uniform(0, 2 * pi)
+
+            x, y = heart_function(t, shrink_ratio=11.6)
+
+            x, y = shrink(x, y, halo_radius)
+
+            if (x, y) not in heart_halo_point:
+                heart_halo_point.add((x, y))
+
+                x += random.randint(-14, 14)
+
+                y += random.randint(-14, 14)
+
+                size = random.choice((1, 2, 2))
+
+                all_points.append((x, y, size))
+
+        # 轮廓
+
+        for x, y in self._points:
+            x, y = self.calc_position(x, y, ratio)
+
+            size = random.randint(1, 3)
+
+            all_points.append((x, y, size))
+
+        # 内容
+
+        for x, y in self._edge_diffusion_points:
+            x, y = self.calc_position(x, y, ratio)
+
+            size = random.randint(1, 2)
+
+            all_points.append((x, y, size))
+
+        self.all_points[generate_frame] = all_points
+
+        for x, y in self._center_diffusion_points:
+            x, y = self.calc_position(x, y, ratio)
+
+            size = random.randint(1, 2)
+
+            all_points.append((x, y, size))
+
+        self.all_points[generate_frame] = all_points
+
+    def render(self, render_canvas, render_frame):
+
+        for x, y, size in self.all_points[render_frame % self.generate_frame]:
+            render_canvas.create_rectangle(
+
+                x, y, x + size, y + size, width=0, fill=HEART_COLOR)
+
+
+def draw(main: Tk, render_canvas: Canvas, render_heart: Heart, render_frame=0):
+    render_canvas.delete('all')
+
+    render_heart.render(render_canvas, render_frame)
+
+    main.after(160, draw, main, render_canvas, render_heart, render_frame + 1)
+
 
 if __name__ == '__main__':
- plot_implicit(heart_3d)
+    root = Tk()
+
+    root.title("爱心")
+
+    center_window(root, CANVAS_WIDTH, CANVAS_HEIGHT)  # 窗口居中显示
+
+    canvas = Canvas(root, bg='black', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
+
+    canvas.pack()
+
+    heart = Heart()
+
+    draw(root, canvas, heart)
+
+    Label(root, text=" ", bg="black", fg="#FF99CC", font="Helvetic 20 bold").place(
+
+        relx=.5, rely=.5, anchor=CENTER)
+
+    root.mainloop()
+
+
