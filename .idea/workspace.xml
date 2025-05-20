@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day74/绘图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day74/数组的拼接.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day74/数组的拼接.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day74/数组的拼接和分割.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -841,7 +841,7 @@
       <workItem from="1747470426628" duration="3737000" />
       <workItem from="1747574756828" duration="3980000" />
       <workItem from="1747637352309" duration="18307000" />
-      <workItem from="1747726120008" duration="5318000" />
+      <workItem from="1747726120008" duration="6181000" />
     </task>
     <servers />
   </component>
