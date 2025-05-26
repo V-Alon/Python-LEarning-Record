@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day79/pandas.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day79/dog.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day79/绘制散点图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day79/绘制散点图.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day79/pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day79/pandas.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -827,7 +827,7 @@
       <workItem from="1747912172282" duration="910000" />
       <workItem from="1747965370531" duration="604000" />
       <workItem from="1748157188442" duration="1565000" />
-      <workItem from="1748242382276" duration="7949000" />
+      <workItem from="1748242382276" duration="9514000" />
     </task>
     <servers />
   </component>
