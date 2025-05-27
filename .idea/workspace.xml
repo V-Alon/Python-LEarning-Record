@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day80/dataframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day80/dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/day80/dataframe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -804,7 +804,7 @@
       <workItem from="1747965370531" duration="604000" />
       <workItem from="1748157188442" duration="1565000" />
       <workItem from="1748242382276" duration="9514000" />
-      <workItem from="1748332774346" duration="4648000" />
+      <workItem from="1748332774346" duration="5679000" />
     </task>
     <servers />
   </component>
@@ -966,7 +966,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_15.coverage" NAME="实例10-15爬取景区的天气预报 覆盖结果" MODIFIED="1743424108694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_8.coverage" NAME="实例5-8列表的排序操作 覆盖结果" MODIFIED="1741595674838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$6_5.coverage" NAME="实例6-5字符串的编码和解码 覆盖结果" MODIFIED="1742037632178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$dataframe.coverage" NAME="dataframe 覆盖结果" MODIFIED="1748349137941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day80" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$dataframe.coverage" NAME="dataframe 覆盖结果" MODIFIED="1748349955611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day80" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$aiohttp.coverage" NAME="aiohttp模块的应用 覆盖结果" MODIFIED="1746101820017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day57" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$3_14eval.coverage" NAME="实例3-14eval函数的使用 覆盖结果" MODIFIED="1740652371399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$10_13datetime.coverage" NAME="实例10-13datetime模块的使用 覆盖结果" MODIFIED="1743422448885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
