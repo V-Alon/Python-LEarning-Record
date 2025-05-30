@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/day82/.ipynb_checkpoints/ones()函数-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day82/.ipynb_checkpoints/ones()函数-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day82/ones()函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day82/ones()函数.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -810,7 +807,7 @@
       <workItem from="1748433845177" duration="898000" />
       <workItem from="1748479679236" duration="84000" />
       <workItem from="1748485068509" duration="2329000" />
-      <workItem from="1748502295940" duration="1880000" />
+      <workItem from="1748502295940" duration="2631000" />
     </task>
     <servers />
   </component>
