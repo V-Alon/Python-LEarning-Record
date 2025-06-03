@@ -6,7 +6,7 @@ import os
 #转换时间格式
 import time
 def date_format(longtime):
-    s=time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(longtime))
+    s=time.strftime("%Y-%m-%day86 %H:%M:%S",time.localtime(longtime))
     return s
 #获取文件信息
 info=os.stat('./new_aa.txt')

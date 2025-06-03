@@ -1,5 +1,5 @@
 import re
-pattern='\\d\\.\\d+'
+pattern='\\day86\\.\\day86+'
 s='I study python 3.12 everday 2.7'#待匹配字符串
 s2='4.10 python I study everday'
 s3='I study python everday'

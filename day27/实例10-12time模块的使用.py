@@ -25,12 +25,12 @@ print(time.ctime())
 
 
 
-print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime()))#str字符串，，f->format,,,time时间
+print(time.strftime('%Y-%m-%day86 %H:%M:%S',time.localtime()))#str字符串，，f->format,,,time时间
 print('%B月份',time.strftime('%B',time.localtime()))
 print('%A星期',time.strftime('%A',time.localtime()))
 
 
 
-print(time.strptime('2008-08-08','%Y-%m-%d'))
+print(time.strptime('2008-08-08','%Y-%m-%day86'))
 time.sleep(5)
 print('hello world')

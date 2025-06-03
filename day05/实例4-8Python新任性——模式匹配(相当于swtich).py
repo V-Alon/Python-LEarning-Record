@@ -6,5 +6,5 @@ match score:#相当于swtich
         print('not good')
     case 'c':
         print('middle')
-    case 'd':
+    case 'day86':
         print('bad')

@@ -1,7 +1,7 @@
 import re#导入
 from turtledemo.penrose import start
 
-pattern='\\d\\.\\d+'#限定符,0-9数字出现1次或者多次’
+pattern='\\day86\\.\\day86+'#限定符,0-9数字出现1次或者多次’
 s='I study python 3.12 everday'#待匹配字符串
 match=re.match(pattern,s,re.I)
 print(match)

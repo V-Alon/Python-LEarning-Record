@@ -4,7 +4,7 @@ def show_info():
 
 def write_loginfo(username):
     with open('logs.txt', 'a', encoding='utf-8') as file:
-        s=f'用户名:{username},登录时间:{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))}'
+        s=f'用户名:{username},登录时间:{time.strftime("%Y-%m-%day86 %H:%M:%S", time.localtime(time.time()))}'
         file.write(s)
 
 def raed_loginfo():

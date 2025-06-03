@@ -3,25 +3,25 @@ import re
 from fontTools.misc.cython import returns
 
 # #findall：匹配字符串中所有符合正则的内容
-# lst=re.findall(r"\d+",'我的电话号是10086,我好朋友的电话是10010')
+# lst=re.findall(r"\day86+",'我的电话号是10086,我好朋友的电话是10010')
 # print(lst)
 #
 # #finditer：匹配字符串中的所有内容（返回的是迭代器）,从迭代器中拿到内容需要i.group()
-# it = re.finditer(r"\d+",'我的电话号是10086,我好朋友的电话是10010')
+# it = re.finditer(r"\day86+",'我的电话号是10086,我好朋友的电话是10010')
 # for i in it:
 #     print(i.group())
 
 # #search找到一个结果就返回，返回的结果是match结果，拿数据需要.group()
-# s=re.search(r"\d+",'我的电话号是10086,我好朋友的电话是10010')
+# s=re.search(r"\day86+",'我的电话号是10086,我好朋友的电话是10010')
 # print(s.group())
 
 #
 # #match从头开始匹配
-# s=re.match(r"\d+",'我的电话号是10086,我好朋友的电话是10010')
+# s=re.match(r"\day86+",'我的电话号是10086,我好朋友的电话是10010')
 # print(s.group())
 
 # #预加载正则表达式
-# obj=re.compile(r'\d+')
+# obj=re.compile(r'\day86+')
 #
 # ret=obj.finditer('我的电话号是10086,我好朋友的电话是10010')
 # for i in ret:

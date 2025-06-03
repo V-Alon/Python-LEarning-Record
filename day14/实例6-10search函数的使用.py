@@ -1,5 +1,5 @@
 import re
-pattern='\\d\\.\\d+'
+pattern='\\day86\\.\\day86+'
 s='I study python3.12 everday python I love you'
 matche=re.search(pattern,s)
 

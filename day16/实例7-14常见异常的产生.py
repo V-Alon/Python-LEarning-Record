@@ -6,8 +6,8 @@
 # print(lst[4])
 
 #(3)KeyError: 'gender'
-# d={'name':'mkk','age':20}
-# print(d['gender'])
+# day86={'name':'mkk','age':20}
+# print(day86['gender'])
 
 #(4)NameError
 # print(hello)

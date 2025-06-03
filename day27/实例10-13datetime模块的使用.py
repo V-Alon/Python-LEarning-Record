@@ -14,7 +14,7 @@ print(labor_day<national_day)
 
 #datetime--->str
 nowdt=datetime.now()
-nowdt_str=nowdt.strftime('%Y-%m-%d %H:%M:%S')
+nowdt_str=nowdt.strftime('%Y-%m-%day86 %H:%M:%S')
 print(type(nowdt_str),nowdt_str)
 print(type(nowdt),nowdt)
 

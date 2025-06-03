@@ -4,7 +4,7 @@ def input_date():
     inputdate=input('请输入开始日期（20030815）:')
     datestr=inputdate[0:4]+'-'+inputdate[4:6]+'-'+inputdate[6:]#切出年月日
 
-    dt=datetime.datetime.strptime(datestr, '%Y-%m-%d')
+    dt=datetime.datetime.strptime(datestr, '%Y-%m-%day86')
     return dt
 
 

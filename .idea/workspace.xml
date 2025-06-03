@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/实例4-8Python新任性——模式匹配(相当于swtich).py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/实例4-8Python新任性——模式匹配(相当于swtich).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/实例5-16字典元素的遍历和访问.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/实例5-16字典元素的遍历和访问.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/实例5-17字典的相关操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/实例5-17字典的相关操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/实例5-23合并字典的运算符.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/实例5-23合并字典的运算符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/实例6-10search函数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/实例6-10search函数的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/实例6-11findall函数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/实例6-11findall函数的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/实例6-9match函数的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/实例6-9match函数的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/实例7-14常见异常的产生.py" beforeDir="false" afterPath="$PROJECT_DIR$/day16/实例7-14常见异常的产生.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20/实例8-13常用的数学函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20/实例8-13常用的数学函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20/实例8-14常用的迭代器操作函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20/实例8-14常用的迭代器操作函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day27/实例10-12time模块的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day27/实例10-12time模块的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day27/实例10-13datetime模块的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/day27/实例10-13datetime模块的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day30/实例10-25jieba模块的使用-中文分词.py" beforeDir="false" afterPath="$PROJECT_DIR$/day30/实例10-25jieba模块的使用-中文分词.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day31/实战2-推算后几天的日期.py" beforeDir="false" afterPath="$PROJECT_DIR$/day31/实战2-推算后几天的日期.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day35/实例11-9os模块的操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/day35/实例11-9os模块的操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day36/实战3记录用户日志并且查看.py" beforeDir="false" afterPath="$PROJECT_DIR$/day36/实战3记录用户日志并且查看.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day42_多人聊天/day42-改/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_多人聊天/day42-改/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day42_多人聊天/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day42_多人聊天/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day46/re正则表达式02.py" beforeDir="false" afterPath="$PROJECT_DIR$/day46/re正则表达式02.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -421,6 +442,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="简单练手爬取视频" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-LEarning-Record" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/简单练手爬取视频.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="爬取一个本小说" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -574,29 +618,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day68/查看那些字体可以使用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="简单练手爬取视频" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-LEarning-Record" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day60" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day60/简单练手爬取视频.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -813,6 +834,7 @@
       <workItem from="1748758473306" duration="410000" />
       <workItem from="1748779464808" duration="1514000" />
       <workItem from="1748863760470" duration="1361000" />
+      <workItem from="1748933713030" duration="1952000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,7 @@ max(sequence)获取sequence的最大值
 min(sequence)获取sequence的最小值
 sum(iter)对可迭代对象进行求和
 pow(x, y)获取x的y次幂
-round(x,d)对x进行保留d位小数，结果四舍五入
+round(x,day86)对x进行保留d位小数，结果四舍五入
 '''
 print(abs(-2))
 print(abs(2))

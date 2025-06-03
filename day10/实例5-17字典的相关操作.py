@@ -19,8 +19,8 @@ lst=list(d.items())
 print(lst)
 
 #
-# d=dict()
-# print(d)
+# day86=dict()
+# print(day86)
 
 #使用pop（）
 print(d.pop(1001))

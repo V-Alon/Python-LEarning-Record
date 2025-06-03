@@ -2,9 +2,9 @@ d={'hello':10,'world':20,'python':30}
 #访问字典中元素
 #1》使用d[key]
 print(d['hello'])
-#2，d.get()
-print(d.get('hello'))#二者之间有区别，如果key不存在，d[key]报错，d.get[key]可以指定默认值
-# print(d['java'])
+#2，day86.get()
+print(d.get('hello'))#二者之间有区别，如果key不存在，day86[key]报错，day86.get[key]可以指定默认值
+# print(day86['java'])
 print(d.get('java'))#None
 print(d.get('java','不存在'))
 

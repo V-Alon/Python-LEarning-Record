@@ -22,7 +22,7 @@ print(list(new_lst))
 
 
 #zip
-x=['a','b','c','d']
+x=['a','b','c','day86']
 y=[10,20,30,40,50]
 zipobj=zip(x,y)
 print(type(zipobj))

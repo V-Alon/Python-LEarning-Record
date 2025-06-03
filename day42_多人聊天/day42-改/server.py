@@ -74,7 +74,7 @@ class KkServer(wx.Frame):
             # 启动会话线程
             session_thread.start()
             # 输出服务器的提示信息
-            self.show_info_and_show_client('服务器通知', f'欢迎{user_name}进入聊天群！', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            self.show_info_and_show_client('服务器通知', f'欢迎{user_name}进入聊天群！', time.strftime("%Y-%m-%day86 %H:%M:%S", time.localtime()))
         # 当self.isOn的值为False的时候，执行关闭socket对象
         self.server_socket.close()
 
@@ -109,7 +109,7 @@ class SesstionThread(threading.Thread):
                 self.server.show_info_and_show_client(
                     self.user_name,
                     data,
-                    time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+                    time.strftime("%Y-%m-%day86 %H:%M:%S", time.localtime())
                 )
         self.client_socket.close()
 

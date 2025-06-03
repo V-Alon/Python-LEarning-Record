@@ -13,11 +13,11 @@ d={}
 for item in set1:
     if len(item)>=2:
         d[item]=0
-# print(d)
+# print(day86)
 for item in lst:
     if item in d:
         d[item]=d.get(item)+1
-# print(d)
+# print(day86)
 new_lst=[]
 for item in d:
     new_lst.append([[item],d[item]])
