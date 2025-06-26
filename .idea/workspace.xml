@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day106抓取小说/抓取小说.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day106/106.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -813,7 +811,7 @@
       <workItem from="1750608006370" duration="47000" />
       <workItem from="1750659600397" duration="1000" />
       <workItem from="1750834210421" duration="494000" />
-      <workItem from="1750904184700" duration="2152000" />
+      <workItem from="1750904184700" duration="3103000" />
     </task>
     <servers />
   </component>
@@ -962,7 +960,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_9.coverage" NAME="实例9-9属性的设置 覆盖结果" MODIFIED="1742978184456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_3.coverage" NAME="实例5-3序列的相加相乘操作 覆盖结果" MODIFIED="1741438180249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$xpath01.coverage" NAME="xpath实战01 覆盖结果" MODIFIED="1745156524826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day48" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$resquest01.coverage" NAME="resquest进阶01 覆盖结果" MODIFIED="1745327143403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day50" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$resquest01.coverage" NAME="resquest进阶01 覆盖结果" MODIFIED="1750906483926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day50" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$12_3.coverage" NAME="实例12-3多次通信服务器端 覆盖结果" MODIFIED="1744203233706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day37" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_7.coverage" NAME="实例9-7动态绑定属性和方法 覆盖结果" MODIFIED="1742909214272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_21.coverage" NAME="实例5-21集合的相关操作 覆盖结果" MODIFIED="1741765767497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
