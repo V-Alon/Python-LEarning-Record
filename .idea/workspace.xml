@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day111/11.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day111/111.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -810,6 +813,7 @@
       <workItem from="1750834210421" duration="494000" />
       <workItem from="1750904184700" duration="3103000" />
       <workItem from="1751096210479" duration="622000" />
+      <workItem from="1751466838389" duration="176000" />
     </task>
     <servers />
   </component>
