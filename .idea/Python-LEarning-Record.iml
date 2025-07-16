@@ -14,6 +14,7 @@
       <list>
         <option value="$MODULE_DIR$/day121/templates" />
         <option value="$MODULE_DIR$/day122/templates" />
+        <option value="$MODULE_DIR$/day122/static" />
       </list>
     </option>
   </component>
