@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day122/static/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day122/static/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day122/static/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day122/static/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day122/templates/getNews.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day122/templates/good_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day122/templates/href.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-LEarning-Record.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-LEarning-Record.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day122/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/day122/web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day122/templates/href.html" beforeDir="false" afterPath="$PROJECT_DIR$/day122/templates/href.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -858,7 +850,7 @@
       <workItem from="1752417412370" duration="291000" />
       <workItem from="1752552927416" duration="596000" />
       <workItem from="1752568996816" duration="4769000" />
-      <workItem from="1752632423069" duration="6025000" />
+      <workItem from="1752632423069" duration="6882000" />
     </task>
     <servers />
   </component>
@@ -941,7 +933,7 @@
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$12_5_UDP.coverage" NAME="实例12-5 UDP发送方 覆盖结果" MODIFIED="1744452566548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$7_13raise.coverage" NAME="实例7-13raise结构的使用 覆盖结果" MODIFIED="1742291612683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_14.coverage" NAME="实例4-14长方形，直角三角形输出 覆盖结果" MODIFIED="1741003836459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python_LEarning_Record$web__2_.coverage" NAME="web (2) 覆盖结果" MODIFIED="1752638613157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day122" />
+    <SUITE FILE_PATH="coverage/Python_LEarning_Record$web__2_.coverage" NAME="web (2) 覆盖结果" MODIFIED="1752640557363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day122" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$9_13.coverage" NAME="实例9-13多态 覆盖结果" MODIFIED="1742992479618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$5_2.coverage" NAME="实例5-2序列的切片操作 覆盖结果" MODIFIED="1741269849561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python_LEarning_Record$4_4.coverage" NAME="实例4-4多分支结构 覆盖结果" MODIFIED="1740925125666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
