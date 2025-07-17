@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day123/static/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/static/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/static/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/static/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/templates/getNews.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/templates/good_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/templates/href.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/templates/user_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day123/web.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -858,7 +848,7 @@
       <workItem from="1752552927416" duration="596000" />
       <workItem from="1752568996816" duration="4769000" />
       <workItem from="1752632423069" duration="9933000" />
-      <workItem from="1752715451050" duration="2283000" />
+      <workItem from="1752715451050" duration="2878000" />
     </task>
     <servers />
   </component>
