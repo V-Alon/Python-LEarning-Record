@@ -10,7 +10,7 @@ app=Flask(__name__,template_folder='templates')
 @app.route('/show/info')
 def index():
     # return "Hello World!"
-    return render_template('href.html')
+    return render_template('index.html')
 
 @app.route('/get/news')
 def get_news():
