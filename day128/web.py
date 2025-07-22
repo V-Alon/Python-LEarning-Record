@@ -17,6 +17,8 @@ def get_news():
     # return "Hello World!"
     return render_template('getNews.html')
 
+
+
 @app.route('/goods/list')
 def goods_list():
     # return "Hello World!"
@@ -26,6 +28,13 @@ def goods_list():
 def user_list():
     # return "Hello World!"
     return render_template('user_list.html')
+
+
+
+@app.route('/register')
+def register():
+    # return "Hello World!"
+    return render_template("register.html")
 
 # <img src="https://img-home.csdnimg.cn/images/20241216100640.jpg" alt="" data-v-dcd98fa0="">
 
