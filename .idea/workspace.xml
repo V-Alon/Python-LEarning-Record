@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day128/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/day128/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day130/130.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
       <list>
         <option value="Python Stub" />
         <option value="Python Script" />
-        <option value="Jupyter Notebook" />
         <option value="HTML File" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
     <option name="SCHEME" value="项目" />
@@ -839,6 +838,7 @@
       <workItem from="1753096954617" duration="2425000" />
       <workItem from="1753167912967" duration="8410000" />
       <workItem from="1753260010141" duration="2804000" />
+      <workItem from="1753371872863" duration="32000" />
     </task>
     <servers />
   </component>
