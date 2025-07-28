@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day133/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day133/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day133/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/day134_1/1.选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/day134_1/2.多个和覆盖.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/static/commons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day134/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/day134/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day134/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/day134/templates/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -856,7 +845,7 @@
       <workItem from="1753534114242" duration="54000" />
       <workItem from="1753601573031" duration="4933000" />
       <workItem from="1753615087313" duration="22000" />
-      <workItem from="1753668469607" duration="4381000" />
+      <workItem from="1753668469607" duration="4977000" />
     </task>
     <servers />
   </component>
