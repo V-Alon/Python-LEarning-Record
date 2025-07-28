@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day134/day134_1/3.高度和宽度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/day134_1/4.行内和块级.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/day134_1/5.字体.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day134/day134_1/6.文字对齐方式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -853,7 +847,7 @@
       <workItem from="1753601573031" duration="4933000" />
       <workItem from="1753615087313" duration="22000" />
       <workItem from="1753668469607" duration="4977000" />
-      <workItem from="1753686125228" duration="4733000" />
+      <workItem from="1753686125228" duration="5500000" />
     </task>
     <servers />
   </component>
