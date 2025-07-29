@@ -7,29 +7,50 @@
 		body{
 			margin: 0;
 		}
+
 		.header {
-			height: 100px;
-			background-color: black;
+			height: 50px;
+			background-color: #191919;
+        }
+		.container{
+			width: 1220px;
+			margin: 0 auto;
         }
 		.header .menu{
 			float: left;
 			color: white;
-			height: 38px;
-			line-height: 38px;
+
 		}
 		.header .account{
 			float: right;
 			color: white;
-			height: 38px;
-			line-height: 38px;
+
 		}
+		.header  a{
+			color: #494747;
+			line-height: 40px;
+			display: inline-block;
+			margin-right: 10px;
+        }
 	</style>
 </head>
 <body>
 	<div class="header">
-		<div class="menu">left</div>
-		<div class="account">right</div>
-		<div style="clear:both;"></div>
+		<div class="container">
+			<div class="menu">
+				<a>小米商城</a>
+				<a>MIUI</a>
+				<a>云服务</a>
+				<a>优品</a>
+				<a>开放平台</a>
+			</div>
+			<div class="account">
+				<a>登录</a>
+				<a>注册</a>
+				<a>消息</a>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
 	</div>
 </body>
 </html>
