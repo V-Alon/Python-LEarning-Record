@@ -7,6 +7,42 @@
 		body{
 			margin: 0;
 		}
+		.header {
+			height: 50px;
+			background-color: #191919;
+        }
+		.container{
+			width: 1220px;
+			margin: 0 auto;
+        }
+		.header .menu{
+			float: left;
+			color: white;
+
+		}
+		.header .menu a{
+			text-decoration: none;
+        }
+		.header .menu a:hover{
+			color: white;
+        }
+		.header .account{
+			float: right;
+			color: white;
+
+		}
+		.header .account a{
+			text-decoration: none;
+        }
+		.header .account a:hover{
+			color: white;
+        }
+		.header  a{
+			color: #494747;
+			line-height: 40px;
+			display: inline-block;
+			margin-right: 10px;
+        }
 		.container{
 			width: 1128px;
 			margin: 0 auto;
@@ -53,7 +89,24 @@
 	</style>
 </head>
 <body>
-<div class="sub-header">
+	<div class="header">
+		<div class="container">
+			<div class="menu">
+				<a href="http://www.mi.com">小米商城</a>
+				<a href="http://www.mi.com">MIUI</a>
+				<a href="http://www.mi.com">云服务</a>
+				<a href="http://www.mi.com">优品</a>
+				<a href="http://www.mi.com">开放平台</a>
+			</div>
+			<div class="account">
+				<a>登录</a>
+				<a>注册</a>
+				<a>消息</a>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	<div class="sub-header">
 	<div class="container">
 		<div class="logo ht">
 			<a href="https://www.mi.com/">
@@ -72,5 +125,6 @@
 		<div style="clear:both"></div>
 	</div>
 </div>
+
 </body>
 </html>
