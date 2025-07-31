@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day137/day137_1/案例4：整合.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day137/images/001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day137/images/002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day137/images/003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day137/images/004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day137/images/MI-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day137/day137_1/11.hover.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day136/day136_1/案例3：整合.html" beforeDir="false" afterPath="$PROJECT_DIR$/day136/day136_1/案例3：整合.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -861,7 +855,7 @@
       <workItem from="1753778239934" duration="1308000" />
       <workItem from="1753842823524" duration="1303000" />
       <workItem from="1753860543607" duration="7721000" />
-      <workItem from="1753925933176" duration="5144000" />
+      <workItem from="1753925933176" duration="6220000" />
     </task>
     <servers />
   </component>
