@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day140/BootStrap/0.BootStrap.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/BootStrap/1.初始化BootStrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/BootStrap/2.导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/BootStrap/3.栅格系统.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/BootStrap/4.博客.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day140/static/plugins/bootstrap-3.4.1-dist/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day140/BootStrap/4.博客.html" beforeDir="false" afterPath="$PROJECT_DIR$/day140/BootStrap/4.博客.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -879,7 +858,7 @@
       <workItem from="1753925933176" duration="8375000" />
       <workItem from="1753946495439" duration="5715000" />
       <workItem from="1754234611227" duration="748000" />
-      <workItem from="1754267446448" duration="6128000" />
+      <workItem from="1754267446448" duration="6556000" />
     </task>
     <servers />
   </component>
