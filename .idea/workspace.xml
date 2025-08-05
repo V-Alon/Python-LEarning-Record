@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day141/1.初识JavaScript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day141/2.javascript位置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day141/3.javascript存在形式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day141/4.变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day141/5.案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day141/static/my01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day140/BootStrap/4.博客.html" beforeDir="false" afterPath="$PROJECT_DIR$/day140/BootStrap/4.博客.html" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -868,7 +859,7 @@
       <workItem from="1754234611227" duration="748000" />
       <workItem from="1754267446448" duration="13882000" />
       <workItem from="1754355251274" duration="9046000" />
-      <workItem from="1754378073787" duration="6335000" />
+      <workItem from="1754378073787" duration="6602000" />
     </task>
     <servers />
   </component>
