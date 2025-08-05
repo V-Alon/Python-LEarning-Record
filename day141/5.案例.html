@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+<span id="txt">pyecharts 支持 Python2.7+ 和 Ptyhon3.5+。</span>
+
+
+<script type="text/javascript">
+    function show() {
+        //去html标签内获取内容
+        var tag = document.getElementById("txt");
+        var dataString = tag.innerText;
+
+        //动态起来，把文本中第一个字符放在字符串最后面
+        var firstChar = dataString[0];
+        var otherChar = dataString.substring(1, dataString.length);
+        var newText = otherChar + firstChar;
+
+        //在html标签中更新内容
+        tag.innerText = newText;
+
+    }
+
+    setInterval(show, 100);
+</script>
+</body>
+</html>
