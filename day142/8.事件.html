@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+<input id="input" placeholder="请输入内容" type="text">
+<input onclick="myFunction2()" type="button" value="click me">
+<ul id="city">
+
+</ul>
+<script type="text/javascript">
+    // function myFunction() {
+    //     var newTag = document.createElement("li");
+    //     newTag.innerText='aaa'
+    //
+    // 	var parentTag = document.getElementById("city");
+    //     parentTag.appendChild(newTag);
+    // }
+
+    function myFunction2() {
+        //获取输入的数据
+        var inputTag = document.getElementById("input");
+
+        //获取input用户输入的内容
+        var newString = inputTag.value
+
+        //判断用户的输入是否为空
+        if (newString.length > 0) {
+
+            //创建标签
+            var newTag = document.createElement("li");
+            newTag.innerText = newString;
+
+            //把标签添加到ul中
+            var parentTag = document.getElementById("city");
+            parentTag.appendChild(newTag);
+
+            //将input框内重新设置为空
+            inputTag.value = "";
+        }
+
+    }
+</script>
+</body>
+</html>

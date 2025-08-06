@@ -5,7 +5,29 @@
 	<title>Title</title>
 </head>
 <body>
-<script></script>
-<ul></ul>
+
+<ul id="city">
+<!--	<li>1</li>-->
+<!--	<li>2</li>-->
+<!--	<li>3</li>-->
+</ul>
+<script type="text/javascript">
+
+	//发送网络请求，获取数据
+	var cityList = ['西安','广州','深圳'];
+    for(var idx in cityList){
+        var text = cityList[idx];
+
+        //文本添加
+	    var tag = document.createElement('li');
+
+        //在li标签中写入内容
+	    tag.innerText = text;
+
+        //添加id到city的标签里   DOM
+	    var parentTagDocument=document.getElementById('city').appendChild(tag);
+
+    }
+</script>
 </body>
 </html>
