@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.menus{
+			height: 800px;
+			width: 200px;
+			border: 1px solid red;
+
+		}
+		.menus .header{
+			background-color: pink;
+			padding: 10px 5px;
+
+			cursor:pointer;
+        }
+		.menus .content a{
+			display: block;
+			padding: 10px 5px;
+			border-bottom: 1px dotted red;
+        }
+		.hide{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="menus">
+		<div class="item">
+			<div class="header" onclick="clickMe(this);">西安</div>
+			<div class="content hide">
+				<a>未央区</a>
+				<a>新城区</a>
+				<a>雁塔区</a>
+				<a>灞桥区</a>
+				<a>碑林区</a>
+				<a>莲湖区</a>
+			</div>
+		</div>
+
+
+		<div class="item">
+			<div class="header" onclick="clickMe(this);">北京</div>
+			<div class="content hide">
+				<a>海淀区</a>
+				<a>朝阳区</a>
+				<a>昌平区</a>
+				<a>大兴区</a>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="static/jquery-3.7.1.min.js "></script>
+<script>
+	function clickMe(self){
+        //hasclass 参数判断是否有hide这个class
+        var hasclass = $(self).next().hasClass('hide');
+        if(hasclass){
+            $(self).next().removeClass("hide");
+        }else{
+            $(self).next().addClass("hide");
+        }
+
+    }
+</script>
+</body>
+</html>
