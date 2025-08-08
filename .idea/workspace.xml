@@ -5,11 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day143/3案例：输入内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day143/4案例：绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day143/5案例：绑定事件,删除.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day143/6案例：框架，但页面加载完成后执行绑定事件,删除.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day143/7.删除表格内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/js/jquery-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/bootstrap-3.4.1-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day144/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -321,7 +371,7 @@
     "database.data.extractors.current.export.id": "XML-Groovy.xml.groovy",
     "database.data.extractors.current.id": "XML-Groovy.xml.groovy",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day143",
+    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day144/static/plugins",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -336,11 +386,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day144\static\plugins" />
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day144\static\js" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day143" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day143\static" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day142" />
-      <recent name="D:\GitHub-works\Python-LEarning-Record\day141" />
-      <recent name="D:\GitHub-works\Python-LEarning-Record\day140\static\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub-works\Python-LEarning-Record\day140\static" />
@@ -872,6 +922,7 @@
       <workItem from="1754476155040" duration="1594000" />
       <workItem from="1754532065043" duration="5652000" />
       <workItem from="1754554120699" duration="3999000" />
+      <workItem from="1754617167954" duration="2787000" />
     </task>
     <servers />
   </component>
