@@ -17,8 +17,8 @@
         <option value="Python Script" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Jupyter Notebook" />
         <option value="HTML File" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
     <option name="SCHEME" value="项目" />
@@ -868,6 +868,7 @@
       <workItem from="1754617167954" duration="5665000" />
       <workItem from="1754642767649" duration="5139000" />
       <workItem from="1754706084328" duration="692000" />
+      <workItem from="1754739095068" duration="45000" />
     </task>
     <servers />
   </component>
