@@ -10,6 +10,6 @@ cursor.execute(sql,["123456",1,])
 
 conn.commit()
 
-# 3关闭
+
 cursor.close()
 conn.close()
