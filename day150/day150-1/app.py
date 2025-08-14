@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/add/user',methods=['POST','GET'])
 def adduser():
     if request.method == 'GET':
-        return render_template("adduser.html")
+        return render_template("templates/adduser.html")
 
     username = request.form.get('username')
     password = request.form.get('password')
@@ -42,7 +42,7 @@ def showuser():
     conn.close()
 
 
-    return render_template("showuser.html",data_list=data_list)
+    return render_template("templates/showuser.html", data_list=data_list)
 
 
 

@@ -7,7 +7,7 @@
     "datepicker",
     "bootstrap"
   ],
-  "main": "./dist/js/bootstrap-datepicker.js",
+  "main": "dist/js/bootstrap-datepicker.js",
   "files": [
     "build",
     "dist",
