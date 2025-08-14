@@ -541,7 +541,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -555,7 +555,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day150/app.py" />
+      <option name="SCRIPT_NAME" value="D:\GitHub-works\Python-LEarning-Record\day150\day150-1\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -819,6 +819,7 @@
       <workItem from="1755070911721" duration="6315000" />
       <workItem from="1755134324964" duration="4505000" />
       <workItem from="1755154331603" duration="5773000" />
+      <workItem from="1755173353166" duration="313000" />
     </task>
     <servers />
   </component>
