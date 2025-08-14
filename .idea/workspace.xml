@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/my001/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/my001/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/my001/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/my001/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -819,7 +822,7 @@
       <workItem from="1755134324964" duration="4505000" />
       <workItem from="1755154331603" duration="5773000" />
       <workItem from="1755173353166" duration="674000" />
-      <workItem from="1755174222200" duration="756000" />
+      <workItem from="1755174222200" duration="1358000" />
     </task>
     <servers />
   </component>
