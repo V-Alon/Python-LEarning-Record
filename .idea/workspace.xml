@@ -16,9 +16,9 @@
         <option value="Python Stub" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Jupyter Notebook" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
     <option name="SCHEME" value="项目" />
@@ -818,7 +818,7 @@
       <workItem from="1755154331603" duration="5773000" />
       <workItem from="1755173353166" duration="674000" />
       <workItem from="1755174222200" duration="1358000" />
-      <workItem from="1755266692350" duration="320000" />
+      <workItem from="1755266692350" duration="389000" />
     </task>
     <servers />
   </component>
