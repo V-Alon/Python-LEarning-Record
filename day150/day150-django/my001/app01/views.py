@@ -31,3 +31,13 @@ def tpl(request):
         'tpl.html',
         {'n1':name,'n2':roles,'n3':user_info,'n4':data_list},
     )
+
+def news(request):
+    #定义新闻（字典或者列表），或者去数据库   网络请求去获取新闻
+    
+
+
+
+
+
+    return render(request,"news.html")

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/app01/templates/tpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/app01/templates/tpl.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/my001/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/my001/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
