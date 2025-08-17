@@ -33,11 +33,9 @@ def tpl(request):
     )
 
 def news(request):
-    #定义新闻（字典或者列表），或者去数据库   网络请求去获取新闻
-    
-
-
-
-
-
+#定义新闻（字典或者列表），或者去数据库   网络请求去获取新闻
     return render(request,"news.html")
+
+def something(request):
+
+    return HttpResponse("返回内容")
