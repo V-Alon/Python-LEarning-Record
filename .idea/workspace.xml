@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/app01/templates/tpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/app01/templates/tpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day150/day150-django/my001/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/day150/day150-django/my001/app01/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -354,7 +358,7 @@
       <recent name="D:\GitHub-works\Python-LEarning-Record\day131" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1创建数据">
+  <component name="RunManager">
     <configuration name="抓取小说" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-LEarning-Record" />
       <option name="ENV_FILES" value="" />
@@ -820,6 +824,7 @@
       <workItem from="1755174222200" duration="1358000" />
       <workItem from="1755266692350" duration="389000" />
       <workItem from="1755311411604" duration="4018000" />
+      <workItem from="1755392648061" duration="1932000" />
     </task>
     <servers />
   </component>

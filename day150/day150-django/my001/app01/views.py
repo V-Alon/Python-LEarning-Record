@@ -20,8 +20,14 @@ def tpl(request):
     roles=['rooter','CEO','keeper']
     user_info={'name':11,'salary':10000,'roles':'CTO'}
 
+    data_list = [
+        {'name': '11', 'salary': 10000, 'roles': 'CTO'},
+        {'name': '22', 'salary': 9999, 'roles': 'CEO'},
+        {'name': '33', 'salary': 8888, 'roles': 'OOO'},
+    ]
+
     return render(
         request,
         'tpl.html',
-        {'n1':name,'n2':roles,'n3':user_info},
+        {'n1':name,'n2':roles,'n3':user_info,'n4':data_list},
     )
