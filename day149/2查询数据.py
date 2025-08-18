@@ -15,10 +15,6 @@ for data in data_list:
 #data = cursor.fetchone()
 
 
-
-
-
-
 # 3关闭
 cursor.close()
 conn.close()
