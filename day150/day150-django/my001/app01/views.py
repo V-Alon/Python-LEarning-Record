@@ -43,8 +43,32 @@ def something(request):
 from app01.models import Department,UserInfo
 def orm(request):
     #测试orm
-    Department.objects.create(title='研发部')
-    Department.objects.create(title='优化部门')
-    Department.objects.create(title='运维部')
+    # Department.objects.create(title='研发部')
+    # Department.objects.create(title='优化部门')
+    # Department.objects.create(title='运维部')
+
+
+    # UserInfo.objects.create(name='mkk',password='2003815',age=21)
+    # UserInfo.objects.create(name='smy',password='2007622',age=19)
+    # UserInfo.objects.create(name='XXX',password='2000000',age=20)
+
+
+
+    #删除
+    # UserInfo.objects.filter(id=1).delete()
+    # UserInfo.objects.all().delete()
+
+
+    #获取数据
+    #data = [ 对象，对象，对象]   QuerySet类型
+    # data = UserInfo.objects.all()
+    # for item in data:
+    #     print(item.name,item.age,item.password)
+
+
+    #更新数据
+    UserInfo.objects.all().update(password='9999999999')
+
 
     return HttpResponse('success!!!')
+

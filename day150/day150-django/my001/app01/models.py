@@ -10,6 +10,6 @@ class Department(models.Model):
 
 
 #新建数据
-Department.objects.create(title='研发部')
-
-UserInfo.objects.create(name='mkk',password='2003815',age=21)
+# Department.objects.create(title='研发部')
+#
+# UserInfo.objects.create(name='mkk',password='2003815',age=21)
