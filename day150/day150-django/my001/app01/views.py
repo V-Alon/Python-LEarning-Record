@@ -39,3 +39,12 @@ def news(request):
 def something(request):
 
     return HttpResponse("返回内容")
+
+from app01.models import Department,UserInfo
+def orm(request):
+    #测试orm
+    Department.objects.create(title='研发部')
+    Department.objects.create(title='优化部门')
+    Department.objects.create(title='运维部')
+
+    return HttpResponse('success!!!')

@@ -28,4 +28,6 @@ urlpatterns = [
 
        #新闻中心
        path('news/',views.news),
+
+       path('orm/',views.orm)
 ]
