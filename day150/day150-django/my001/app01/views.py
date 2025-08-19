@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,redirect
+
 
 # Create your views here.
 def index(request):
@@ -40,7 +41,6 @@ def something(request):
 
     return HttpResponse("返回内容")
 
-from app01.models import Department,UserInfo
 def orm(request):
     #测试orm
     # Department.objects.create(title='研发部')
@@ -72,3 +72,35 @@ def orm(request):
 
     return HttpResponse('success!!!')
 
+from app01.models import Department,UserInfo
+def info_list(request):
+    #获取数据库中的使用用户信息
+    data_list=UserInfo.objects.all()
+
+
+    return render(request,"info_list.html",{'data_list':data_list})
+
+
+def info_add(request):
+    if request.method=="GET":
+        return render(request,"info_add.html")
+
+    #获取用户提交的数据
+    name=request.POST.get('name')
+    password=request.POST.get('password')
+    age=request.POST.get('age')
+
+    #添加到数据库
+    UserInfo.objects.create(name=name,password=password,age=age)
+
+    #自动跳转
+    # return redirect("http://127.0.0.1:8000/info/list/")
+    return redirect("/info/list/")
+
+
+
+
+def info_delete(request):
+    nid = request.GET.get('nid')
+    UserInfo.objects.filter(id=nid).delete()
+    return redirect("/info/list/")
