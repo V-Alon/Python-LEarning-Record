@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day154/day154.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day155/app01/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python-LEarning-Record.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-LEarning-Record.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -829,6 +830,7 @@
       <workItem from="1755522163297" duration="825000" />
       <workItem from="1755567869525" duration="2793000" />
       <workItem from="1755605813651" duration="71000" />
+      <workItem from="1755658600369" duration="1537000" />
     </task>
     <servers />
   </component>
