@@ -1,5 +1,3 @@
-
-
 from django.db import models
 
 # Create your models here.
@@ -28,7 +26,14 @@ class UserInfo(models.Model):
     # --生成数据列 depart_id
     # 3. 部门被删除
     # --1.级联删除
-    # depart = models.ForeignKey(to=Department, to_field="id", on_delete=models.CASCADE)
+    depart = models.ForeignKey(to=Department, to_field="id", on_delete=models.CASCADE)
     # --2.设置成空的
     #    depart = models.ForeignKey(to=Department,to_field="id",null=True,blank=True,on_delete=models.SET_NULL)
-    depart = models.ForeignKey(to=Department,to_field="id",null=True,blank=True,on_delete=models.SET_NULL)
+    #
+    #django中的约束
+    gender_choice = (
+        (1,'男'),
+        (2,'女')
+    )
+    gender = models.SmallIntegerField(verbose_name="性别",choices=gender_choice)
+
