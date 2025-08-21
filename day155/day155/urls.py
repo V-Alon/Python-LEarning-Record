@@ -21,9 +21,15 @@ from app01 import views
 
 urlpatterns = [
        # path('admin/', admin.site.urls),
-
+    #部门管理
     path('depart/list/', views.depart_list),
     path('depart/add/', views.depart_add),
     path('depart/delete/', views.depart_delete),
     path('depart/<int:nid>/edit/', views.depart_edit),
+
+
+
+    #员工管理
+    path('user/list/', views.user_list),
+
 ]

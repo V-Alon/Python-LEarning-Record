@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from app01 import models
 # Create your views here.
+# --部门--
 def depart_list(request):
     """部门列表"""
     #去数据库中获取信息列表
@@ -9,10 +10,6 @@ def depart_list(request):
 
 
     return render(request,'depart_list.html',{'queryset':queryset})
-
-
-
-
 
 def depart_add(request):
     """添加部门"""
@@ -27,9 +24,6 @@ def depart_add(request):
     #重定向回部门列表
     return redirect('/depart/list')
 
-
-
-
 def depart_delete(request):
     """删除功能"""
     #获取ID
@@ -39,8 +33,6 @@ def depart_delete(request):
     models.Department.objects.filter(id=nid).delete()
     #跳转回部门列表
     return redirect('/depart/list')
-
-
 
 def depart_edit(request,nid):
     """修改部门"""
@@ -55,3 +47,9 @@ def depart_edit(request,nid):
     models.Department.objects.filter(id=nid).update(title=title)
     #跳转回部门列表
     return redirect('/depart/list')
+
+# --员工--
+def user_list(request):
+    """员工列表"""
+
+    return render(request,'user_list.html')
