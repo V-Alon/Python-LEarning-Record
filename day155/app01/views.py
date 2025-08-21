@@ -5,11 +5,9 @@ from app01 import models
 def depart_list(request):
     """部门列表"""
     #去数据库中获取信息列表
-    queryset = models.Department.objects.all()
+    depart_queryset = models.Department.objects.all()
 
-
-
-    return render(request,'depart_list.html',{'queryset':queryset})
+    return render(request,'depart_list.html',{'depart_queryset':depart_queryset})
 
 def depart_add(request):
     """添加部门"""
@@ -51,5 +49,6 @@ def depart_edit(request,nid):
 # --员工--
 def user_list(request):
     """员工列表"""
-
-    return render(request,'user_list.html')
+    # 去数据库中获取信息列表
+    user_queryset = models.UserInfo .objects.all()
+    return render(request,'user_list.html',{'user_queryset':user_queryset})

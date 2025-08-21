@@ -28,10 +28,10 @@
 				</tr>
 				</thead>
 				<tbody>
-				{% for obj in queryset %}
+				{% for depart_obj in depart_queryset %}
 					<tr>
-						<th>{{ obj.id }}</th>
-						<td>{{ obj.title }}</td>
+						<th>{{ depart_obj.id }}</th>
+						<td>{{ depart_obj.title }}</td>
 						<th>
 							<a href="/depart/{{ obj.id }}/edit/" class="btn btn-primary btn-xs">编辑</a>
 							<a href="/depart/delete/?nid={{ obj.id }}" class="btn btn-danger btn-xs" >删除</a>
