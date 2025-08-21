@@ -39,10 +39,9 @@
 						<th>{{ user_obj.password }}</th>
 						<th>{{ user_obj.age }}</th>
 						<th>{{ user_obj.account }}</th>
-						<th>{{ user_obj.create_time }}</th>
-						<th>{{ user_obj.gender }}</th>
-						<th>{{ user_obj.depart_id }}</th>
-
+						<th>{{ user_obj.create_time|date:"Y-m-d" }}</th>
+						<th>{{ user_obj.get_gender_display }}</th>
+						<th>{{ user_obj.depart.title }}</th>
 						<th>
 							<a href="#" class="btn btn-primary btn-xs">编辑</a>
 							<a href="#" class="btn btn-danger btn-xs">删除</a>
