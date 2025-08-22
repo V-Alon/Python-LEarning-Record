@@ -78,3 +78,46 @@ def user_add(request):
 
     #返回到用户列表页面
     return redirect('/user/list')
+
+#########################-----  ModelForm   ----#####################################
+
+from django import forms
+class UserModelForm(forms.ModelForm):
+    name = forms.CharField(min_length=3,label="姓名")
+
+
+
+
+
+    class Meta:
+        model = models.UserInfo
+        fields = ['name','password','age','account','create_time','gender','depart']
+
+
+    def __init__(self,*args,**kwargs):
+        super().__init__(*args,**kwargs)
+        #循环找到所有的插件，添加了class = "form-control"
+        for name,field in self.fields.items():
+            #如果不想要全部都是一个样式，判断一下
+            # if name =="password":
+            #     continue
+            field.widget.attrs={'class':'form-control'}
+
+
+
+def user_add_model_form(request):
+    """添加用户基于ModelForm"""
+    if request.method == "GET":
+        form = UserModelForm()
+        return render(request,'user_add_model_form.html',{'form':form})
+    #用户通过post提价数据
+    #数据校验！！！
+    form = UserModelForm(data=request.POST)
+    if form.is_valid():
+        #如果数据合法，保存到数据库
+        # models.UserInfo.objects.create(**form.cleaned_data)
+        form.save()
+        return redirect('/user/list')
+
+        #如果校验失败，在页面显示错误信息
+    return render(request,'user_add_model_form.html',{'form':form})

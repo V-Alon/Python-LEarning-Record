@@ -5,6 +5,8 @@ class Department(models.Model):
     """部门表"""
     # id = models.BigAutoField(primary_key=True,verbose_name="ID")
     title = models.CharField(max_length=32,verbose_name="标题")
+    def __str__(self):
+        return self.title
 
 class UserInfo(models.Model):
     """员工表"""
@@ -26,7 +28,7 @@ class UserInfo(models.Model):
     # --生成数据列 depart_id
     # 3. 部门被删除
     # --1.级联删除
-    depart = models.ForeignKey(to=Department, to_field="id", on_delete=models.CASCADE)
+    depart = models.ForeignKey(to=Department, to_field="id", on_delete=models.CASCADE,verbose_name="部门")
     # --2.设置成空的
     #    depart = models.ForeignKey(to=Department,to_field="id",null=True,blank=True,on_delete=models.SET_NULL)
     #
