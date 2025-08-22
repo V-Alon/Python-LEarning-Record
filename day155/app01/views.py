@@ -52,3 +52,29 @@ def user_list(request):
     # 去数据库中获取信息列表
     user_queryset = models.UserInfo .objects.all()
     return render(request,'user_list.html',{'user_queryset':user_queryset})
+
+def user_add(request):
+    """添加用户"""
+
+    if request.method == "GET":
+        content = {
+            'gender_choices':models.UserInfo.gender_choice,
+            'depart_choices':models.Department.objects.all(),
+        }
+
+        return render(request,'user_add.html',content)
+    #POST获取用户输入的数据
+    username = request.POST.get('username')
+    password  =request.POST.get('password')
+    age = request.POST.get('age')
+    account = request.POST.get('account')
+    create_time = request.POST.get('create_time')
+    gender = request.POST.get('gender')
+    depart_id = request.POST.get('depart')
+
+    #添加到数据库中
+    models.UserInfo.objects.create(name=username,password=password,age=age,account=account,
+                                   create_time=create_time,gender=gender,depart_id=depart_id)
+
+    #返回到用户列表页面
+    return redirect('/user/list')
