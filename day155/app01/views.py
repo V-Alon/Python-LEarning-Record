@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
 from app01 import models
+from django import forms
 # Create your views here.
 # --部门--
 def depart_list(request):
@@ -80,8 +81,6 @@ def user_add(request):
     return redirect('/user/list')
 
 #########################-----  ModelForm   ----#####################################
-
-from django import forms
 class UserModelForm(forms.ModelForm):
     name = forms.CharField(min_length=3,label="姓名")
 
@@ -102,8 +101,7 @@ class UserModelForm(forms.ModelForm):
             # if name =="password":
             #     continue
             field.widget.attrs={'class':'form-control'}
-
-
+#########################-----  ModelForm   ----#####################################
 
 def user_add_model_form(request):
     """添加用户基于ModelForm"""
@@ -121,3 +119,31 @@ def user_add_model_form(request):
 
         #如果校验失败，在页面显示错误信息
     return render(request,'user_add_model_form.html',{'form':form})
+
+def user_edit_model_form(request,nid):
+    """编辑用户"""
+    row_object = models.UserInfo.objects.filter(id=nid).first()
+    if request.method == "GET":
+    #根据ID去数据库获取信息（对象）
+
+
+        form = UserModelForm(instance=row_object)
+
+        return render(request,'user_edit.html',{'form':form})
+    else:
+
+        form = UserModelForm(data=request.POST,instance=row_object)
+        if form.is_valid():
+            #默认保存的是用户输入的所有数据
+            # form.instance.字段名 = 值
+            # 比如数据库的修改时间
+            # 如果需要用户输入以外再增加值
+            form.save()
+            return redirect('/user/list')
+
+        return render(request,'user_edit.html',{'form':form})
+
+
+def user_delete_model_form(request,nid):
+    models.UserInfo.objects.filter(id=nid).delete()
+    return redirect('/user/list')
