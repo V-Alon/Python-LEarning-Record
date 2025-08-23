@@ -60,5 +60,3 @@ class PrettyNumber(models.Model):
         (1,'已占用')
     )
     status = models.SmallIntegerField(verbose_name="状态",choices=status_choices,default=0)
-    def __str__(self):
-        return self.title

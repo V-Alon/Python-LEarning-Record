@@ -40,5 +40,6 @@ urlpatterns = [
     #靓号管理
     path('pretty_mobile/list/', views.pretty_mobile_list),
     path('pretty_mobile/add/', views.pretty_mobile_add),
-
+    path('pretty_mobile/<int:nid>/edit/', views.pretty_mobile_edit),
+    path('pretty_mobile/<int:nid>/delete/', views.pretty_mobile_delete),
 ]
