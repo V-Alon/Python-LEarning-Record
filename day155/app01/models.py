@@ -41,3 +41,24 @@ class UserInfo(models.Model):
 
     gender = models.SmallIntegerField(verbose_name="性别",choices=gender_choice)
 
+
+class PrettyNumber(models.Model):
+    """靓号表"""
+    mobile = models.CharField(verbose_name="靓号",max_length=11)
+    #想要允许为空，可以设置，    null=True,blank = True
+    price = models.IntegerField(verbose_name="价格")
+    level_choices = (
+        (1,'D'),
+        (2,'C'),
+        (3,'B'),
+        (4,'A'),
+        (5,'S')
+    )
+    level = models.SmallIntegerField(verbose_name="级别",choices=level_choices)
+    status_choices = (
+        (0,'未占用'),
+        (1,'已占用')
+    )
+    status = models.SmallIntegerField(verbose_name="状态",choices=status_choices,default=0)
+    def __str__(self):
+        return self.title

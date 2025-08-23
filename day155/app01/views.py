@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from app01 import models
 from django import forms
 # Create your views here.
-# --部门--
+# -----------------部门---------------------
 def depart_list(request):
     """部门列表"""
     #去数据库中获取信息列表
@@ -47,7 +47,7 @@ def depart_edit(request,nid):
     #跳转回部门列表
     return redirect('/depart/list')
 
-# --员工--
+# -------------------员工-----------------
 def user_list(request):
     """员工列表"""
     # 去数据库中获取信息列表
@@ -83,10 +83,6 @@ def user_add(request):
 #########################-----  ModelForm   ----#####################################
 class UserModelForm(forms.ModelForm):
     name = forms.CharField(min_length=3,label="姓名")
-
-
-
-
 
     class Meta:
         model = models.UserInfo
@@ -147,3 +143,20 @@ def user_edit_model_form(request,nid):
 def user_delete_model_form(request,nid):
     models.UserInfo.objects.filter(id=nid).delete()
     return redirect('/user/list')
+
+# -------------------靓号-----------------
+
+
+
+class DepartModelForm_PN(forms.Form):
+    pass
+def pretty_mobile_list(request):
+    """靓号列表"""
+    pretty_mobile_queryset = models.PrettyNumber.objects.all().order_by('-level')
+
+
+    return render(request,'pretty_mobile_list.html',{'pretty_mobile_queryset':pretty_mobile_queryset})
+
+
+def pretty_mobile_add(request):
+    pass
