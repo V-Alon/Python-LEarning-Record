@@ -2,16 +2,29 @@
 
 {% block content %}
 	<div class="container">
-		<div style="margin-bottom: 10px;">
-{#			<a href="/user/add/" class="btn btn-success">#}
-{#				<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>#}
-{#				新建靓号#}
-{#			</a>#}
+		<div style="margin-bottom: 10px;" class="clearfix">
+			{#			<a href="/user/add/" class="btn btn-success">#}
+			{#				<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>#}
+			{#				新建靓号#}
+			{#			</a>#}
 
 			<a href="/pretty_mobile/add/" class="btn btn-success">
 				<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
 				新建靓号
 			</a>
+			<div style="float: right;width: 300px;" class="clearfix">
+				<form method="get">
+					<div class="input-group">
+
+						<input type="text" name="q" class="form-control" placeholder="Search for..." value="{{ search_data }}">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="submit">
+								<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							</button>
+						</span>
+					</div>
+				</form>
+			</div>
 		</div>
 
 		<div class="panel panel-default">
@@ -41,8 +54,10 @@
 						<th>{{ pretty_mobile_obj.get_level_display }}</th>
 						<th>{{ pretty_mobile_obj.get_status_display }}</th>
 						<th>
-							<a href="/pretty_mobile/{{ pretty_mobile_obj.id }}/edit/" class="btn btn-primary btn-xs">编辑</a>
-							<a href="/pretty_mobile/{{ pretty_mobile_obj.id }}/delete/" class="btn btn-danger btn-xs">删除</a>
+							<a href="/pretty_mobile/{{ pretty_mobile_obj.id }}/edit/"
+							   class="btn btn-primary btn-xs">编辑</a>
+							<a href="/pretty_mobile/{{ pretty_mobile_obj.id }}/delete/"
+							   class="btn btn-danger btn-xs">删除</a>
 						</th>
 					</tr>
 				{% endfor %}
@@ -50,5 +65,14 @@
 				</tbody>
 			</table>
 		</div>
+		<ul class="pagination" >
+
+	        <li><a href="#">1</a></li>
+	        <li><a href="#">2</a></li>
+	        <li><a href="#">3</a></li>
+	        <li><a href="#">4</a></li>
+	        <li><a href="#">5</a></li>
+
+        </ul>
 	</div>
 {% endblock %}

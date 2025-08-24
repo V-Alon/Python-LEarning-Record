@@ -1,5 +1,4 @@
 from os.path import exists
-
 from django.core.validators import RegexValidator
 from django.shortcuts import render,redirect
 from app01 import models
@@ -148,16 +147,37 @@ def user_delete_model_form(request,nid):
     return redirect('/user/list')
 
 
-
-
 # -------------------靓号-----------------
 def pretty_mobile_list(request):
     """靓号列表"""
+    """ # q = models.PrettyNumber.objects.filter(**data_dict)
+    # data_dict = {mobile="13988888888",id="1"}
+    # **     解包
+    # q = models.PrettyNumber.objects.filter(mobile="13988888888",id="1")
 
-    pretty_mobile_queryset = models.PrettyNumber.objects.all().order_by('-level')
+    # models.PrettyNumber.objects.filter(id = 1)       #等于
+    # models.PrettyNumber.objects.filter(id_gt = 1)    #大于
+    # models.PrettyNumber.objects.filter(id_gte = 1)   #大于等于
+    # models.PrettyNumber.objects.filter(id_lt = 1)    #小于
+    # models.PrettyNumber.objects.filter(id_lte = 1)   #小于等于"""
+    data_dict = {}
+    search_data = request.GET.get('q',"")
+    if search_data:
+        data_dict["mobile__contains"]=search_data
+    #<QuerySet [<PrettyNumber: PrettyNumber object (1)>, <PrettyNumber: PrettyNumber object (2)>]>
+    #根据需要访问的页码 计算起始位置  显示不同的界面
+    page = int(request.GET.get('page',1))
+    page_size =10
+    start = (page-1)*page_size
+    end = page*page_size
 
-    return render(request,'pretty_mobile_list.html',{'pretty_mobile_queryset':pretty_mobile_queryset})
 
+
+
+
+    pretty_mobile_queryset = models.PrettyNumber.objects.filter(**data_dict).order_by('id')[start:end]
+
+    return render(request,'pretty_mobile_list.html',{'pretty_mobile_queryset':pretty_mobile_queryset,'search_data':search_data})
 
 
 class PrettyModelForm(forms.ModelForm):
@@ -190,7 +210,7 @@ class PrettyModelForm(forms.ModelForm):
     # 最后return 清洗后的值，供后续流程使用
     def clean_mobile(self):
 
-        self.instance.pk
+
 
         txt_mobile = self.cleaned_data['mobile']
 
@@ -203,6 +223,8 @@ class PrettyModelForm(forms.ModelForm):
         #     raise forms.ValidationError("格式错误")
         # # 验证通过
         # return txt_mobile
+
+
 def pretty_mobile_add(request):
     """添加账号基于ModelForm"""
     if request.method == "GET":
@@ -233,7 +255,6 @@ def pretty_mobile_edit(request,nid):
         if form.is_valid():
             form.save()
             return redirect('/pretty_mobile/list')
-
 
 
 def pretty_mobile_delete(request,nid):

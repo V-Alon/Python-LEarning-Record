@@ -8,6 +8,7 @@ class Department(models.Model):
     def __str__(self):
         return self.title
 
+    objects = models.Manager()
 class UserInfo(models.Model):
     """员工表"""
     name = models.CharField(verbose_name="姓名",max_length=16)
@@ -40,7 +41,7 @@ class UserInfo(models.Model):
 
 
     gender = models.SmallIntegerField(verbose_name="性别",choices=gender_choice)
-
+    objects = models.Manager()
 
 class PrettyNumber(models.Model):
     """靓号表"""
@@ -60,3 +61,4 @@ class PrettyNumber(models.Model):
         (1,'已占用')
     )
     status = models.SmallIntegerField(verbose_name="状态",choices=status_choices,default=0)
+    objects = models.Manager()
