@@ -1,9 +1,13 @@
 from os.path import exists
-from django.core.validators import RegexValidator
-from django.shortcuts import render,redirect
-from app01 import models
+
 from django import forms
-from django.utils.safestring import mark_safe
+from django.core.validators import RegexValidator
+from django.shortcuts import render, redirect
+
+from app01 import models
+from app01.utils.bootstrap import BootStrapModelForm
+
+
 # Create your views here.
 # -----------------部门---------------------
 def depart_list(request):
@@ -84,22 +88,13 @@ def user_add(request):
     return redirect('/user/list')
 
 #########################-----  ModelForm   ----#####################################
-class UserModelForm(forms.ModelForm):
-    name = forms.CharField(min_length=3,label="姓名")
+class UserModelForm(BootStrapModelForm):
+    name = forms.CharField(min_length=3,label="姓名",widget=forms.TextInput(attrs={'class':'form-control'}))
 
     class Meta:
         model = models.UserInfo
         fields = ['name','password','age','account','create_time','gender','depart']
 
-
-    def __init__(self,*args,**kwargs):
-        super().__init__(*args,**kwargs)
-        #循环找到所有的插件，添加了class = "form-control"
-        for name,field in self.fields.items():
-            #如果不想要全部都是一个样式，判断一下
-            # if name =="password":
-            #     continue
-            field.widget.attrs={'class':'form-control'}
 #########################-----  ModelForm   ----#####################################
 
 def user_add_model_form(request):
@@ -166,94 +161,26 @@ def pretty_mobile_list(request):
     if search_data:
         data_dict["mobile__contains"]=search_data
     #<QuerySet [<PrettyNumber: PrettyNumber object (1)>, <PrettyNumber: PrettyNumber object (2)>]>
-    #根据需要访问的页码 计算起始位置  显示不同的界面
-    page = int(request.GET.get('page',1))
-    page_size =10
-    start = (page-1)*page_size
-    end = page*page_size
+
+    from app01.utils.pagination import Pagination
+
+    pretty_mobile_queryset = models.PrettyNumber.objects.filter(**data_dict).order_by('id')
+
+    page_object = Pagination(request, pretty_mobile_queryset)
 
 
+    context = {
+        'search_data': search_data,
 
-    pretty_mobile_queryset = models.PrettyNumber.objects.filter(**data_dict).order_by('id')[start:end]
+        'pretty_mobile_queryset':page_object.page_queryset,#分完页的数据
 
+        'page_string':page_object.html()#生成的页码
+    }
 
-    #数据总条数
-    total_count = models.PrettyNumber.objects.filter(**data_dict).order_by('id').count()
-
-
-    total_page_count,div = divmod(total_count,page_size)
-    if div :
-        total_page_count += 1
-    step = 5
-    if total_page_count <= 2 * step + 1:
-        start_page = 1
-        end_page = total_page_count+1
-    else:
-        if page <= step:
-            start_page = 1
-            end_page = 2 * step + 1
-        else:
-            if (page + step) > total_page_count:
-                start_page = total_page_count - 2 * step + 1
-                end_page = total_page_count+1
-            else:
-                start_page = page - step
-                end_page = page + step + 1
+    return render(request,'pretty_mobile_list.html',context)
 
 
-
-
-    # 页码
-    # <li><a href="?page=1">1</a></li>
-    page_str_list=[]
-
-
-    #上一页
-    if page > 1:
-        prev = '<li><a href="?page={}">上一页</a></li>'.format(page-1)
-    else:
-        prev = '<li class="disabled"><a href="?page={}">上一页</a></li>'.format(1)
-
-    page_str_list.append(prev)
-
-
-
-    #页面
-    for i in range(start_page,end_page):
-        if i == page :
-            ele = '<li class="active"><a href="?page={}">{}</a></li>'.format(i,i)
-        else:
-            ele = '<li><a  href="?page={}">{}</a></li>'.format(i, i)
-        page_str_list.append(ele)
-
-
-
-    # 下一页按钮
-    if page < total_page_count:
-        next_page = '<li><a href="?page={}">下一页</a></li>'.format(page + 1)
-    else:
-        next_page = '<li class="disabled"><a>下一页</a></li>'  # 禁用样式可选
-
-    page_str_list.append(next_page)
-
-
-
-
-
-    search_string="""<li>
-		<form style="float: left; margin-left: -1px;"  method="get">
-				<input type="text" name="page" class="form-control" placeholder="页码"
-				       style="position: relative;float: left;display: inline-block;width: 80px;border-radius: 0">
-					<button style="border-radius: 0" class="btn btn-default" type="submit">跳转</button>
-		</form>
-	</li>"""
-    page_str_list.append(search_string)
-
-    page_string = mark_safe(''.join(page_str_list))
-    return render(request,'pretty_mobile_list.html',{'pretty_mobile_queryset':pretty_mobile_queryset,'search_data':search_data,'page_string':page_string})
-
-
-class PrettyModelForm(forms.ModelForm):
+class PrettyModelForm(BootStrapModelForm):
 
     # 验证:方式1
     mobile = forms.CharField(
@@ -269,11 +196,6 @@ class PrettyModelForm(forms.ModelForm):
         # 屏蔽某一个字段
         # exclude = ['mobile']
 
-
-    def __init__(self,*args,**kwargs):
-        super().__init__(*args,**kwargs)
-        for name,field in self.fields.items():
-            field.widget.attrs={'class':'form-control'}
 
     # 验证:方式2
     # 钩子方法
