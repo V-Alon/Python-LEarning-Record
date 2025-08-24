@@ -3,6 +3,7 @@ from django.core.validators import RegexValidator
 from django.shortcuts import render,redirect
 from app01 import models
 from django import forms
+from django.utils.safestring import mark_safe
 # Create your views here.
 # -----------------部门---------------------
 def depart_list(request):
@@ -173,11 +174,83 @@ def pretty_mobile_list(request):
 
 
 
-
-
     pretty_mobile_queryset = models.PrettyNumber.objects.filter(**data_dict).order_by('id')[start:end]
 
-    return render(request,'pretty_mobile_list.html',{'pretty_mobile_queryset':pretty_mobile_queryset,'search_data':search_data})
+
+    #数据总条数
+    total_count = models.PrettyNumber.objects.filter(**data_dict).order_by('id').count()
+
+
+    total_page_count,div = divmod(total_count,page_size)
+    if div :
+        total_page_count += 1
+    step = 5
+    if total_page_count <= 2 * step + 1:
+        start_page = 1
+        end_page = total_page_count+1
+    else:
+        if page <= step:
+            start_page = 1
+            end_page = 2 * step + 1
+        else:
+            if (page + step) > total_page_count:
+                start_page = total_page_count - 2 * step + 1
+                end_page = total_page_count+1
+            else:
+                start_page = page - step
+                end_page = page + step + 1
+
+
+
+
+    # 页码
+    # <li><a href="?page=1">1</a></li>
+    page_str_list=[]
+
+
+    #上一页
+    if page > 1:
+        prev = '<li><a href="?page={}">上一页</a></li>'.format(page-1)
+    else:
+        prev = '<li class="disabled"><a href="?page={}">上一页</a></li>'.format(1)
+
+    page_str_list.append(prev)
+
+
+
+    #页面
+    for i in range(start_page,end_page):
+        if i == page :
+            ele = '<li class="active"><a href="?page={}">{}</a></li>'.format(i,i)
+        else:
+            ele = '<li><a  href="?page={}">{}</a></li>'.format(i, i)
+        page_str_list.append(ele)
+
+
+
+    # 下一页按钮
+    if page < total_page_count:
+        next_page = '<li><a href="?page={}">下一页</a></li>'.format(page + 1)
+    else:
+        next_page = '<li class="disabled"><a>下一页</a></li>'  # 禁用样式可选
+
+    page_str_list.append(next_page)
+
+
+
+
+
+    search_string="""<li>
+		<form style="float: left; margin-left: -1px;"  method="get">
+				<input type="text" name="page" class="form-control" placeholder="页码"
+				       style="position: relative;float: left;display: inline-block;width: 80px;border-radius: 0">
+					<button style="border-radius: 0" class="btn btn-default" type="submit">跳转</button>
+		</form>
+	</li>"""
+    page_str_list.append(search_string)
+
+    page_string = mark_safe(''.join(page_str_list))
+    return render(request,'pretty_mobile_list.html',{'pretty_mobile_queryset':pretty_mobile_queryset,'search_data':search_data,'page_string':page_string})
 
 
 class PrettyModelForm(forms.ModelForm):
