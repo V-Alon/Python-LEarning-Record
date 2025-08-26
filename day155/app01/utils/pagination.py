@@ -46,7 +46,7 @@ class Pagination:
 
     def html(self):
         """返回可直接渲染的 ul > li 字符串"""
-        if self.total_page <= 1:
+        if self.total_page <= 0:
             return ''
 
         # 计算页码范围
@@ -82,16 +82,15 @@ class Pagination:
 
         # 跳转输入框
         jump_box = (
-            '<li>'
-            '<form style="display:inline-block;margin-left:10px;" method="get">'
-            f'<input type="hidden" name="q" value="{self.base_query}">'
-            '<input type="number" name="page" min="1" '
-            f'max="{self.total_page}" style="width:60px;" '
+            '<li style="display:inline-block;margin-left:10px;">'
+            '<form style="display:inline-flex;align-items:center;" method="get">'
+            '<input type="number" name="page" min="1" max="{}" '
+            'style="width:60px;height:30px;margin-right:5px;" '
             'class="form-control input-sm" required>'
             '<button class="btn btn-default btn-sm" type="submit">跳转</button>'
             '</form>'
             '</li>'
-        )
+        ).format(self.total_page)
         page_links.append(jump_box)
 
         return mark_safe(''.join(page_links))

@@ -2,10 +2,10 @@ from django import forms
 
 
 class BootStrapModelForm(forms.ModelForm):
-    def __init__(self, user, *args, **kwargs):
+    def __init__(self,  *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.user = user
+
         for name, field in self.fields.items():
             if field.widget.attrs:
                 field.widget.attrs["class"] = "form-control"

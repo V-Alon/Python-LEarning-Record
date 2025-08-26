@@ -17,29 +17,37 @@ Including another URLconf
 # from django.contrib import admin
 from django.urls import path
 
-from app01 import views
+from app01.views import depart, user, pretty, admin
 
 urlpatterns = [
        # path('admin/', admin.site.urls),
     #部门管理
-    path('depart/list/', views.depart_list),
-    path('depart/add/', views.depart_add),
-    path('depart/delete/', views.depart_delete),
-    path('depart/<int:nid>/edit/', views.depart_edit),
+    path('depart/list/', depart.depart_list),
+    path('depart/add/', depart.depart_add),
+    path('depart/delete/', depart.depart_delete),
+    path('depart/<int:nid>/edit/', depart.depart_edit),
 
 
 
     #员工管理
-    path('user/list/', views.user_list),
-    path('user/add/', views.user_add),
-    path('user/add/model/form/', views.user_add_model_form),
-    path('user/<int:nid>/edit/', views.user_edit_model_form),
-    path('user/<int:nid>/delete/', views.user_delete_model_form),
+    path('user/list/', user.user_list),
+    path('user/add/', user.user_add),
+    path('user/add/model/form/', user.user_add_model_form),
+    path('user/<int:nid>/edit/', user.user_edit_model_form),
+    path('user/<int:nid>/delete/', user.user_delete_model_form),
 
 
     #靓号管理
-    path('pretty_mobile/list/', views.pretty_mobile_list),
-    path('pretty_mobile/add/', views.pretty_mobile_add),
-    path('pretty_mobile/<int:nid>/edit/', views.pretty_mobile_edit),
-    path('pretty_mobile/<int:nid>/delete/', views.pretty_mobile_delete),
+    path('pretty_mobile/list/', pretty.pretty_mobile_list),
+    path('pretty_mobile/add/', pretty.pretty_mobile_add),
+    path('pretty_mobile/<int:nid>/edit/', pretty.pretty_mobile_edit),
+    path('pretty_mobile/<int:nid>/delete/', pretty.pretty_mobile_delete),
+
+
+    #管理员
+    path('admin/list/',admin.admin_list),
+    path('admin/add/',admin.admin_add),
+
+
+
 ]

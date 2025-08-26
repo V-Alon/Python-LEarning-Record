@@ -1,6 +1,17 @@
 from django.db import models
 
 # Create your models here.
+
+class Admin(models.Model):
+    objects = models.Manager()
+    username = models.CharField(max_length=32,verbose_name="管理员账号")
+    password = models.CharField(verbose_name="密码", max_length=64)
+
+
+
+
+
+
 class Department(models.Model):
     """部门表"""
     # id = models.BigAutoField(primary_key=True,verbose_name="ID")
@@ -62,3 +73,6 @@ class PrettyNumber(models.Model):
     )
     status = models.SmallIntegerField(verbose_name="状态",choices=status_choices,default=0)
     objects = models.Manager()
+
+
+
