@@ -32,7 +32,7 @@ class AdminModeForm(BootStrapModelForm):
         #可以在PasswordInput后夹砂管加上render_value=True
         #密码校验错误后原来输入的可以保留
     def clean_password(self):
-        
+
 
 
 
