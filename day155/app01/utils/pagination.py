@@ -1,91 +1,104 @@
-"""
-自定义的分页组件
-"""
+# app01/utils/pagination.py
 from django.utils.safestring import mark_safe
+from urllib.parse import urlencode
 
 
-class Pagination(object):
-    def __init__(self,request,pretty_mobile_queryset,page_size=10,step = 5,page_param="page"):
-        page = int(request.GET.get(page_param,"1"))
-        if "".isdecimal():
-            page = int(page)
-        else:
-            page = 1
-        self.page=page
+class Pagination:
+    """
+    request      : Django 的 request 对象
+    queryset     : 要分页的数据集（未切片）
+    page_size    : 每页条数，默认 10
+    step         : 当前页左右各显示多少页码，默认 5
+    page_param   : url 中页码的参数名，默认 "page"
+    """
+
+    def __init__(self, request, queryset,
+                 page_size=10, step=5, page_param='page'):
+        self.page_param = page_param
         self.page_size = page_size
-
-        self.start = (page - 1) * page_size
-        self.end = page * page_size
-
-        self.page_queryset = pretty_mobile_queryset[self.start:self.end]
-
-        # 数据总条数
-        total_count = pretty_mobile_queryset.count()
-
-        total_page_count, div = divmod(total_count, page_size)
-        if div:
-            total_page_count += 1
-        self.total_page_count = total_page_count
         self.step = step
+        self.queryset = queryset
 
+        # 拿到当前页码
+        try:
+            self.page = int(request.GET.get(page_param, 1))
+            if self.page < 1:
+                self.page = 1
+        except ValueError:
+            self.page = 1
+
+        # 计算总记录数 / 总页数
+        total_count = self.queryset.count()
+        total_page, remainder = divmod(total_count, self.page_size)
+        if remainder:
+            total_page += 1
+        self.total_page = total_page or 1  # 至少 1 页
+
+        # 切片
+        start = (self.page - 1) * self.page_size
+        end = start + self.page_size
+        self.page_queryset = self.queryset[start:end]
+
+        # 保存其它 get 参数，便于翻页后仍然保留搜索条件
+        query_dict = request.GET.copy()
+        query_dict.pop(page_param, None)  # 去掉 page 参数
+        self.base_query = query_dict.urlencode()
 
     def html(self):
+        """返回可直接渲染的 ul > li 字符串"""
+        if self.total_page <= 1:
+            return ''
 
-        # 计算出 当前显示的前五页后五页
+        # 计算页码范围
+        left = max(self.page - self.step, 1)
+        right = min(self.page + self.step, self.total_page)
+        if self.total_page <= 2 * self.step + 1:
+            left, right = 1, self.total_page
 
-        if self.total_page_count <= 2 * self.step + 1:
-            start_page = 1
-            end_page = self.total_page_count + 1
-        else:
-            if self.page <= self.step:
-                start_page = 1
-                end_page = 2 * self.step + 1
-            else:
-                if (self.page + self.step) > self.total_page_count:
-                    start_page = self.total_page_count - 2 * self.step + 1
-                    end_page = self.total_page_count + 1
-                else:
-                    start_page = self.page - self.step
-                    end_page = self.page + self.step + 1
-
-        # 页码
-        # <li><a href="?page=1">1</a></li>
-        page_str_list = []
+        page_links = []
 
         # 上一页
         if self.page > 1:
-            prev = '<li><a href="?page={}">上一页</a></li>'.format(self.page - 1)
+            page_links.append(
+                f'<li><a href="?{self._href(self.page - 1)}">上一页</a></li>'
+            )
         else:
-            prev = '<li class="disabled"><a href="?page={}">上一页</a></li>'.format(1)
+            page_links.append('<li class="disabled"><span>上一页</span></li>')
 
-        page_str_list.append(prev)
+        # 数字页码
+        for i in range(left, right + 1):
+            active = ' class="active"' if i == self.page else ''
+            page_links.append(
+                f'<li{active}><a href="?{self._href(i)}">{i}</a></li>'
+            )
 
-        # 页面
-        for i in range(start_page, end_page):
-            if i == self.page:
-                ele = '<li class="active"><a href="?page={}">{}</a></li>'.format(i, i)
-            else:
-                ele = '<li><a  href="?page={}">{}</a></li>'.format(i, i)
-            page_str_list.append(ele)
-
-        # 下一页按钮
-        if self.page < self.total_page_count:
-            next_page = '<li><a href="?page={}">下一页</a></li>'.format(self.page + 1)
+        # 下一页
+        if self.page < self.total_page:
+            page_links.append(
+                f'<li><a href="?{self._href(self.page + 1)}">下一页</a></li>'
+            )
         else:
-            next_page = '<li class="disabled"><a>下一页</a></li>'  # 禁用样式可选
+            page_links.append('<li class="disabled"><span>下一页</span></li>')
 
-        page_str_list.append(next_page)
+        # 跳转输入框
+        jump_box = (
+            '<li>'
+            '<form style="display:inline-block;margin-left:10px;" method="get">'
+            f'<input type="hidden" name="q" value="{self.base_query}">'
+            '<input type="number" name="page" min="1" '
+            f'max="{self.total_page}" style="width:60px;" '
+            'class="form-control input-sm" required>'
+            '<button class="btn btn-default btn-sm" type="submit">跳转</button>'
+            '</form>'
+            '</li>'
+        )
+        page_links.append(jump_box)
 
-        search_string = """<li>
-        		<form style="float: left; margin-left: -1px;"  method="get">
-        				<input type="text" name="page" class="form-control" placeholder="页码"
-        				       style="position: relative;float: left;display: inline-block;width: 80px;border-radius: 0">
-        					<button style="border-radius: 0" class="btn btn-default" type="submit">跳转</button>
-        		</form>
-        	</li>"""
-        page_str_list.append(search_string)
+        return mark_safe(''.join(page_links))
 
-        page_string = mark_safe(''.join(page_str_list))
-
-
-        return page_string
+    def _href(self, page):
+        """生成带 page 以及其它 get 参数的 querystring"""
+        base = f'{self.page_param}={page}'
+        if self.base_query:
+            base += '&' + self.base_query
+        return base

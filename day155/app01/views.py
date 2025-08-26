@@ -100,11 +100,11 @@ class UserModelForm(BootStrapModelForm):
 def user_add_model_form(request):
     """添加用户基于ModelForm"""
     if request.method == "GET":
-        form = UserModelForm()
+        form = UserModelForm(user=request.user)
         return render(request,'user_add_model_form.html',{'form':form})
     #用户通过post提价数据
     #数据校验！！！
-    form = UserModelForm(data=request.POST)
+    form = UserModelForm(data=request.POST,user=request.user)
     if form.is_valid():
         #如果数据合法，保存到数据库
         # models.UserInfo.objects.create(**form.cleaned_data)
@@ -121,12 +121,12 @@ def user_edit_model_form(request,nid):
     #根据ID去数据库获取信息（对象）
 
 
-        form = UserModelForm(instance=row_object)
+        form = UserModelForm(instance=row_object,user=request.user)
 
         return render(request,'user_edit.html',{'form':form})
     else:
 
-        form = UserModelForm(data=request.POST,instance=row_object)
+        form = UserModelForm(data=request.POST,instance=row_object,user=request.user)
         if form.is_valid():
             #默认保存的是用户输入的所有数据
             # form.instance.字段名 = 值
@@ -204,29 +204,26 @@ class PrettyModelForm(BootStrapModelForm):
     # 校验失败就抛 forms.ValidationError
     # 最后return 清洗后的值，供后续流程使用
     def clean_mobile(self):
-
-
-
         txt_mobile = self.cleaned_data['mobile']
 
-        models.PrettyNumber.objects.filter(mobile=txt_mobile).exists()
-        if exists:
-            raise forms.ValidationError('手机号已经存在')
+        # 排除当前正在编辑的这条记录
+        qs = models.PrettyNumber.objects.filter(mobile=txt_mobile)
+        if self.instance.pk:  # 编辑时 instance.pk 有值
+            qs = qs.exclude(pk=self.instance.pk)
 
-        # if len(txt_mobile) != 11:
-        #     # 验证不通过，抛出forms.ValidationError
-        #     raise forms.ValidationError("格式错误")
-        # # 验证通过
-        # return txt_mobile
+        if qs.exists():
+            raise forms.ValidationError('手机号已存在')
+
+        return txt_mobile
 
 
 def pretty_mobile_add(request):
     """添加账号基于ModelForm"""
     if request.method == "GET":
-        form = PrettyModelForm()
+        form = PrettyModelForm(user=request.user)
         return render(request,'pretty_mobile_add.html',{'form':form})
 
-    form = PrettyModelForm(data=request.POST)
+    form = PrettyModelForm(data=request.POST,user=request.user)
     if form.is_valid():
         form.save()
         return redirect('/pretty_mobile/list')
@@ -240,16 +237,17 @@ def pretty_mobile_edit(request,nid):
     if request.method == "GET":
         # 根据ID去数据库获取信息（对象）
 
-        form = PrettyModelForm(instance=row_object)
+        form = PrettyModelForm(instance=row_object,user=request.user)
 
         return render(request, 'pretty_mobile_edit.html', {'form': form})
     else:
 
-        form = PrettyModelForm(data=request.POST, instance=row_object)
+        form = PrettyModelForm(data=request.POST, instance=row_object,user=request.user)
 
         if form.is_valid():
             form.save()
             return redirect('/pretty_mobile/list')
+    return render(request, 'pretty_mobile_edit.html', {'form': form})
 
 
 def pretty_mobile_delete(request,nid):
