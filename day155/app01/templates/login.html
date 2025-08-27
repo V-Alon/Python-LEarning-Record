@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="{% static 'plugins/bootstrap-3.4.1-dist/css/bootstrap.min.css' %}">
+	<style>
+        .account {
+            width: 500px;
+            height: 350px;
+
+            margin: 150px auto;
+            border: 1px solid #d6bdf1;
+            border-radius: 10px;
+            padding: 20px 50px;
+
+            box-shadow: 10px 10px 14px #888888;
+        }
+
+        .account h1 {
+            text-align: center;
+            color: #4e1d80;
+        }
+	</style>
+</head>
+<body>
+<div class="account">
+	<h1>用户登录</h1>
+	<form method="post" novalidate>
+		{% csrf_token %}
+		<div class="form-group">
+			<label>用户名</label>
+			{{ form.username }}
+			<span style="color: red">{{ form.username.errors.0 }}</span>
+		</div>
+		<div class="form-group">
+			<label>密码</label>
+			{{ form.password }}
+			<span style="color: red">{{ form.password.errors.0 }}</span>
+
+		</div>
+
+
+		<button class="btn btn-primary" type="submit">登 录</button>
+	</form>
+</div>
+</body>
+</html>
