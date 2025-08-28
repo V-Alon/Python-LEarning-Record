@@ -5,6 +5,14 @@ from app01.utils.pagination import Pagination
 
 def admin_list(request):
     """管理员列表"""
+
+    #检查用户是否登录
+    #用户发出请求，获取cookie中的字符串
+    # request.session["info"]
+    info = request.session.get("info")
+    if not info:
+        return redirect("/login/")
+
     queryset = models.Admin.objects.all()
 
     page_object = Pagination(request, queryset)

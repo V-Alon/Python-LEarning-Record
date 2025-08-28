@@ -8,7 +8,7 @@
 	<style>
         .account {
             width: 500px;
-            height: 350px;
+            height: 380px;
 
             margin: 150px auto;
             border: 1px solid #d6bdf1;
@@ -38,10 +38,19 @@
 			<label>密码</label>
 			{{ form.password }}
 			<span style="color: red">{{ form.password.errors.0 }}</span>
-
 		</div>
-
-
+		<div class="form-group">
+			<label for="id_code">图片验证码</label>
+			<div class="row">
+				<div class="col-xs-7">
+					{{ form.code }}
+					<span style="color: red">{{ form.password.errors.0 }}</span>
+				</div>
+				<div class="col-xs-5">
+					<img id="image_code" src="/image/code/" alt="验证码" width="150">
+				</div>
+			</div>
+		</div>
 		<button class="btn btn-primary" type="submit">登 录</button>
 	</form>
 </div>
