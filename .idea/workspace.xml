@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day155/app01/templates/task_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day155/app01/views/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day155/app01/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/day155/app01/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day155/app01/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/day155/app01/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day155/app01/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/day155/app01/views/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day155/app01/views/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/day155/app01/views/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day155/day155/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day155/day155/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day155/day155/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/day155/day155/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +332,7 @@
     &quot;database.data.extractors.current.export.id&quot;: &quot;XML-Groovy.xml.groovy&quot;,
     &quot;database.data.extractors.current.id&quot;: &quot;XML-Groovy.xml.groovy&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub-works/Python-LEarning-Record&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub-works/Python-LEarning-Record/day164&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -850,6 +849,8 @@
       <workItem from="1756287932075" duration="1006000" />
       <workItem from="1756347647121" duration="64000" />
       <workItem from="1756389984893" duration="4000" />
+      <workItem from="1756453050789" duration="723000" />
+      <workItem from="1756454107856" duration="645000" />
     </task>
     <servers />
   </component>

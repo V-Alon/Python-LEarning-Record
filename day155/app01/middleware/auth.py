@@ -9,7 +9,7 @@ class AuthMiddleware(MiddlewareMixin):
     """中间件"""
     def process_request(self, request):
         #  0排除不需要登录的
-        if request.path_info in ['/login/','/image/code/']:
+        if request.path_info in ['/login/','/image/code/','/task/ajax/']:
             return None
 
 
