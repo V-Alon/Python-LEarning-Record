@@ -60,5 +60,6 @@ urlpatterns = [
     # 任务管理
     path('task/list/', task.task_list),
     path('task/ajax/', task.task_ajax),
+    path('task/add/', task.task_add),
 
 ]

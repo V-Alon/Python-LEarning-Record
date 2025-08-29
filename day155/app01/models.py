@@ -1,3 +1,5 @@
+from ssl import cert_time_to_seconds
+
 from django.db import models
 
 # Create your models here.
@@ -7,9 +9,8 @@ class Admin(models.Model):
     username = models.CharField(max_length=32,verbose_name="管理员账号")
     password = models.CharField(verbose_name="密码", max_length=64)
 
-
-
-
+    def __str__(self):
+        return self.username
 
 
 class Department(models.Model):
@@ -20,6 +21,8 @@ class Department(models.Model):
         return self.title
 
     objects = models.Manager()
+
+
 class UserInfo(models.Model):
     """员工表"""
     name = models.CharField(verbose_name="姓名",max_length=16)
@@ -54,6 +57,7 @@ class UserInfo(models.Model):
     gender = models.SmallIntegerField(verbose_name="性别",choices=gender_choice)
     objects = models.Manager()
 
+
 class PrettyNumber(models.Model):
     """靓号表"""
     mobile = models.CharField(verbose_name="靓号",max_length=11)
@@ -74,5 +78,17 @@ class PrettyNumber(models.Model):
     status = models.SmallIntegerField(verbose_name="状态",choices=status_choices,default=0)
     objects = models.Manager()
 
+
+class Task(models.Model):
+    """任务"""
+    level_choices = (
+        (1,"S"),
+        (2,"A"),
+        (3,"B"),
+    )
+    level = models.SmallIntegerField(verbose_name="级别",choices=level_choices)
+    title = models.CharField(verbose_name="标题",max_length=64)
+    detail = models.TextField(verbose_name="详细信息")
+    user = models.ForeignKey(verbose_name="负责人",to="Admin",to_field="id",on_delete=models.CASCADE)
 
 

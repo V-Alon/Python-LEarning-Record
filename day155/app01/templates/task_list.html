@@ -2,16 +2,41 @@
 
 {% block content %}
 	<div class="container">
-		<h1>任务管理</h1>
+		<h1>Ajax学习</h1>
+		<div class="panel panel-default">
+			<div class="panel-heading">表单</div>
+			<div class="panel-body">
+				<form id="formAdd">
+					{% for field in form %}
+					<div class="form-group" style="position: relative;">
+						<label>{{ field.label }}</label>
+						{{ field }}
+						<span  class="error_msg" style="color:red;position: absolute"></span>
+					</div>
+					{% endfor %}
+					<button id="btnAdd" type="button" class="btn btn-primary">保存</button>
+				</form>
+			</div>
+		</div>
 
+
+		<hr>
 		<h3>TEST1</h3>
-		<input id="btn1" type="button" class="btn btn-primary" value="点击"/>
+		<input id="btn1" type="button" class="btn btn-primary" value="点击1"/>
 
 		<h3>TEST2</h3>
-		<input id="txtUser" type="text" placeholder="uesrname"/>
-		<input id="txtAge" type="text" placeholder="age"/>
-		<input id="btn2" type="button" class="btn btn-primary" value="点击"/>
+			<input id="txtUser" type="text" placeholder="uesrname"/>
+			<input id="txtAge" type="text" placeholder="age"/>
+			<input id="btn2" type="button" class="btn btn-primary" value="点击2"/>
 
+		<h3>TEST3</h3>
+		<form id="form3">
+			<input id="txtUser" name="user" placeholder="名字"/>
+			<input id="txtAge" name="age" placeholder="年龄"/>
+			<input id="txtEmail" name="email" placeholder="邮箱"/>
+			<input id="txtMore" name="more" placeholder="简介"/>
+			<input id="btn3" type="button" class="btn btn-primary" value="点击3"/>
+		</form>
 	</div>
 
 {% endblock %}
@@ -22,7 +47,12 @@
         $(function () {
             //页面加载完成后自动执行
             bindBtn1Event();
+
             bindBtn2Event();
+
+            bindBtn3Event();
+
+            bindBtnAddEvent();
         })
 
         function bindBtn1Event() {
@@ -57,6 +87,45 @@
                     success: function (res) {
                         console.log('用户名:', res.data[0][1]);
                         console.log('年龄 :', res.data[1][1]);
+                    }
+                });
+            });
+        }
+
+        function bindBtn3Event() {
+            $('#btn3').click(function () {
+                $.ajax({
+                    url: '/task/ajax/',
+                    type: 'post',
+                    data: $('#form3').serialize(),
+                    dataType: 'JSON',
+                    success: function (res) {
+                        console.log('用户名:', res.data[0][1]);
+                        console.log('年龄 :', res.data[1][1]);
+                    }
+                });
+            });
+        }
+
+        function bindBtnAddEvent() {
+            $('#btnAdd').click(function () {
+
+                $(".error_msg").empty()
+
+                $.ajax({
+                    url: '/task/add/',
+                    type: 'post',
+                    data: $('#formAdd').serialize(),
+                    dataType: 'JSON',
+                    success: function (res) {
+                        if (res.status ){
+	                        alert("添加成功");
+                        }else{
+	                        res.error()
+	                        $.each(res.error, function (name, data) {
+	                            $('#id_' + name).next().text(data[0]);
+	                        })
+                        }
                     }
                 });
             });
