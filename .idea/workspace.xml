@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/day167/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +329,7 @@
     "database.data.extractors.current.export.id": "XML-Groovy.xml.groovy",
     "database.data.extractors.current.id": "XML-Groovy.xml.groovy",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record/day165",
+    "last_opened_file_path": "D:/GitHub-works/Python-LEarning-Record",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -341,8 +344,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub-works\Python-LEarning-Record\day165" />
       <recent name="D:\GitHub-works\Python-LEarning-Record" />
+      <recent name="D:\GitHub-works\Python-LEarning-Record\day165" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day162" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day159" />
       <recent name="D:\GitHub-works\Python-LEarning-Record\day158" />
@@ -846,6 +849,7 @@
       <workItem from="1756453050789" duration="723000" />
       <workItem from="1756454107856" duration="645000" />
       <workItem from="1756517934747" duration="3249000" />
+      <workItem from="1756739497777" duration="42000" />
     </task>
     <servers />
   </component>
