@@ -57,6 +57,11 @@
 
 				</tbody>
 			</table>
+
+			<!-- ★ 分页条 -->
+			<ul class="pagination">
+				{{ pager.html|safe }}
+			</ul>
 		</div>
 
 
@@ -160,6 +165,8 @@
                     success: function (res) {
                         if (res.status) {
                             alert("添加成功");
+                            {#使用js实现页面的刷新#}
+                            location.reload();
                         } else {
                             res.error()
                             $.each(res.error, function (name, data) {
