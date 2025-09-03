@@ -20,9 +20,17 @@ class TaskModelFrom(BootStrapModelForm):
 
 
 def task_list(request):
-    """任务管理"""
+    """任务列表"""
+    queryset = models.Task.objects.all().order_by('-id')
+
+
+
     form = TaskModelFrom()
-    return render(request,'task_list.html',{'form':form})
+    context = {
+        'queryset': queryset,
+        'form': form,
+    }
+    return render(request,'task_list.html',context)
 
 
 @csrf_exempt
