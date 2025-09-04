@@ -92,3 +92,15 @@ class Task(models.Model):
     user = models.ForeignKey(verbose_name="负责人",to="Admin",to_field="id",on_delete=models.CASCADE)
 
 
+class Order(models.Model):
+    """工单"""
+    oid = models.CharField(verbose_name="订单号",max_length=64)
+    title = models.CharField(verbose_name="名称",max_length=32)
+    price = models.CharField(verbose_name="价格",max_length=32)
+    status_choices = (
+        (0,"未支付"),
+        (1,"已支付"),
+    )
+
+    status = models.CharField(verbose_name="状态",max_length=32,choices=status_choices)
+    admin = models.ForeignKey(verbose_name="管理员",to="Admin",on_delete=models.CASCADE)
