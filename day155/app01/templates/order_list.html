@@ -58,13 +58,24 @@
 
         function bindBtnSaveEvent() {
             $("#btnSave").click(function () {
+                //点击之前清除所有的错误信息
+	            $(".error_msg").empty();
+
+	            //向后台发送请求
                 $.ajax({
-	                url: '/order/add',
+	                url: '/order/add/',
 	                type: 'post',
 	                data: $("#formAdd").serialize(),
 	                dataType: 'JSON',
 	                success:function (res) {
-		                console.log(res);
+		                if(res.status) {
+                            alert("创建成功");
+                        }else{
+                            //错误信息显示在对话框中
+			                $.each(res.error, function (name, errorList){
+                                $("#id_" + name).siblings(".error_msg").text(errorList[0].message);
+			                })
+                        }
                     }
                 })
             });
