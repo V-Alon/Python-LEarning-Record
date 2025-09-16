@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/day180/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day155/app01/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/day155/app01/templates/order_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day155/app01/views/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/day155/app01/views/order.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3ca53c-0242-4468-8e30-e01c504f7933" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -866,6 +861,7 @@
       <workItem from="1757778442406" duration="213000" />
       <workItem from="1757859207350" duration="18000" />
       <workItem from="1757923254322" duration="877000" />
+      <workItem from="1757932202583" duration="3000" />
     </task>
     <servers />
   </component>
