@@ -8,6 +8,50 @@
 			       data-target="#myModal">
 		</div>
 
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+				订单列表
+			</div>
+
+			<!-- Table -->
+			<table class="table table-bordered">
+				<thead>
+				<tr>
+					<th>ID</th>
+					<th>订单号</th>
+					<th>名称</th>
+					<th>价格</th>
+					<th>状态</th>
+					<th>管理员</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				{% for admin_obj in queryset %}
+					<tr>
+						<th>{{ admin_obj.id }}</th>
+						<th>{{ admin_obj.oid }}</th>
+						<th>{{ admin_obj.title }}</th>
+						<th>{{ admin_obj.price }}</th>
+						<th>{{ admin_obj.get_status_display }}</th>
+						<th>{{ admin_obj.admin.username }}</th>
+						<th>
+							<a href="#" class="btn btn-primary btn-xs">编辑</a>
+							<input class="btn btn-danger btn-xs btn-delete" type="button" value="删除">
+						</th>
+					</tr>
+				{% endfor %}
+
+				</tbody>
+			</table>
+		</div>
+
+		<ul class="pagination">
+			{{ page_string|safe }}
+		</ul>
+
 	</div>
 	<!-- 对话框 -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -38,6 +82,26 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- 删除框 -->
+	<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="alert alert-danger alert-dismissible fade in" role="alert">
+				<h4>是否要删除</h4>
+				<p></p>
+				<p>
+					<button type="button" class="btn btn-danger">确认</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
 {% endblock %}
 
 
@@ -48,6 +112,8 @@
             bindBtnAddEvent();
 
             bindBtnSaveEvent();
+
+            bindBtnDeleteEvent();
         })
 
         function bindBtnAddEvent() {
@@ -59,25 +125,35 @@
         function bindBtnSaveEvent() {
             $("#btnSave").click(function () {
                 //点击之前清除所有的错误信息
-	            $(".error_msg").empty();
+                $(".error_msg").empty();
 
-	            //向后台发送请求
+                //向后台发送请求
                 $.ajax({
-	                url: '/order/add/',
-	                type: 'post',
-	                data: $("#formAdd").serialize(),
-	                dataType: 'JSON',
-	                success:function (res) {
-		                if(res.status) {
+                    url: '/order/add/',
+                    type: 'post',
+                    data: $("#formAdd").serialize(),
+                    dataType: 'JSON',
+                    success: function (res) {
+                        if (res.status) {
                             alert("创建成功");
-                        }else{
+                            //清空表单$("#formAdd")是jQuery对象
+                            $("#formAdd")[0].reset();
+                        } else {
                             //错误信息显示在对话框中
-			                $.each(res.error, function (name, errorList){
+                            $.each(res.error, function (name, errorList) {
                                 $("#id_" + name).siblings(".error_msg").text(errorList[0].message);
-			                })
+                            })
                         }
                     }
                 })
+            });
+        }
+
+
+        function bindBtnDeleteEvent() {
+            $(".btn-delete").click(function () {
+                $("#deleteModal").modal('show');
+
             });
         }
 	</script>

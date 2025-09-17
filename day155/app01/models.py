@@ -98,8 +98,8 @@ class Order(models.Model):
     title = models.CharField(verbose_name="名称",max_length=32)
     price = models.CharField(verbose_name="价格",max_length=32)
     status_choices = (
-        (0,"未支付"),
-        (1,"已支付"),
+        ("0","未支付"),
+        ("1","已支付"),
     )
 
     status = models.CharField(verbose_name="状态",max_length=32,choices=status_choices)
