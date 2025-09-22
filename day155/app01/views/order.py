@@ -60,4 +60,5 @@ def order_delete(request):
         return JsonResponse({'status': False, 'error': "数据不存在"})
 
     models.Order.objects.filter(id=uid).delete()
+    
     return JsonResponse({'status': True})
