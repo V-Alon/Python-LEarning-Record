@@ -38,7 +38,8 @@
 						<th>{{ admin_obj.get_status_display }}</th>
 						<th>{{ admin_obj.admin.username }}</th>
 						<th>
-							<a href="#" class="btn btn-primary btn-xs">编辑</a>
+							<input uid="{{ admin_obj.id }}" type="button" class="btn btn-primary btn-xs btn-edit"
+							       value="编辑">
 							<input uid="{{ admin_obj.id }}" class="btn btn-danger btn-xs btn-delete" type="button"
 							       value="删除">
 						</th>
@@ -118,10 +119,14 @@
             bindBtnDeleteEvent();
 
             bindBtnConfirmDelete();
+
+            bindBtnEditEvent();
         })
 
         function bindBtnAddEvent() {
             $("#btnAdd").click(function () {
+                $("#formAdd")[0].reset();
+                $("#myModalLabel").text('新建');
                 $("#myModal").modal('show')
             });
         }
@@ -152,7 +157,6 @@
                 })
             });
         }
-
 
         function bindBtnDeleteEvent() {
             $(".btn-delete").click(function () {
@@ -193,5 +197,42 @@
 
             });
         }
+
+        function bindBtnEditEvent() {
+            $(".btn-edit").click(function () {
+
+                $("#formAdd")[0].reset();
+
+                var uid = $(this).attr("uid");
+                //发送Ajax请求  /order/detail/?uid=？
+                $.ajax({
+                    url: '/order/detail/',
+                    type: 'get',
+                    data: {
+                        uid: uid
+                    },
+                    dataType: 'JSON',
+                    success: function (res) {
+                        if (res.status) {
+                            console.log(res);
+
+                            //将数据赋值到对话框
+	                        $.each(res.data.data, function (name, value) {
+                                $("#id_" + name).val(value);
+                            });
+
+                            $("#myModalLabel").text('编辑');
+                            $("#myModal").modal('show');
+                        } else {
+                            alert(res.error);
+                        }
+                    }
+                });
+
+                //在对话框中看到
+            });
+        }
+
+
 	</script>
 {% endblock %}
