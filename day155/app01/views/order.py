@@ -44,3 +44,20 @@ def order_add(request):
         return JsonResponse({'status': True})
 
     return JsonResponse({'status': False, 'error': form.errors.get_json_data()})
+
+
+
+
+
+def order_delete(request):
+    """删除订单"""
+    uid = request.GET.get('uid')
+    if not uid:
+        return JsonResponse({'status': False, 'error': "缺少订单ID"})
+
+    exists = models.Order.objects.filter(id=uid).exists()
+    if not exists:
+        return JsonResponse({'status': False, 'error': "数据不存在"})
+
+    models.Order.objects.filter(id=uid).delete()
+    return JsonResponse({'status': True})
