@@ -84,3 +84,10 @@ def order_detail(request):
         "data": row_dict
     }
     return JsonResponse({"status": True, "data": result})
+
+@csrf_exempt
+def order_edit(request):
+    uid = request.GET.get('uid')
+    row_project =  models.Order.objects.filter(id=uid).first()
+    if not row_project:
+        return JsonResponse({'status':False,'summary':'error!!!'})

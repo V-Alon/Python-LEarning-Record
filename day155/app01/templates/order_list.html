@@ -111,6 +111,10 @@
 {% block script %}
 	<script type="text/javascript">
         var DELETE_ID;
+
+        var EDIT_ID;
+
+
         $(function () {
             bindBtnAddEvent();
 
@@ -125,6 +129,7 @@
 
         function bindBtnAddEvent() {
             $("#btnAdd").click(function () {
+                EDIT_ID = undefined;
                 $("#formAdd")[0].reset();
                 $("#myModalLabel").text('新建');
                 $("#myModal").modal('show')
@@ -136,8 +141,40 @@
                 //点击之前清除所有的错误信息
                 $(".error_msg").empty();
 
-                //向后台发送请求
-                $.ajax({
+                if (EDIT_ID) {
+                    doEdit();
+                }else{
+                    doAdd();
+                }
+
+            });
+        }
+
+
+        function doEdit() {
+            $.ajax({
+                    url: '/order/edit/'+'?id=' + EDIT_ID,
+                    type: 'post',
+                    data: $("#formAdd").serialize(),
+                    dataType: 'JSON',
+                    success: function (res) {
+                        if (res.status) {
+                            alert("创建成功");
+                            //清空表单$("#formAdd")是jQuery对象
+                            $("#formAdd")[0].reset();
+                        } else {
+                            //错误信息显示在对话框中
+                            $.each(res.error, function (name, errorList) {
+                                $("#id_" + name).siblings(".error_msg").text(errorList[0].message);
+                            })
+                        }
+                    }
+                })
+        }
+
+
+        function doAdd(){
+             $.ajax({
                     url: '/order/add/',
                     type: 'post',
                     data: $("#formAdd").serialize(),
@@ -155,7 +192,6 @@
                         }
                     }
                 })
-            });
         }
 
         function bindBtnDeleteEvent() {
@@ -204,6 +240,7 @@
                 $("#formAdd")[0].reset();
 
                 var uid = $(this).attr("uid");
+                EDIT_ID = uid
                 //发送Ajax请求  /order/detail/?uid=？
                 $.ajax({
                     url: '/order/detail/',
