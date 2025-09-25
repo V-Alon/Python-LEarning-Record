@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/day59/novel" />
       <excludeFolder url="file://$MODULE_DIR$/day60/videos" />
       <excludeFolder url="file://$MODULE_DIR$/day155/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/day188/API_test01/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
